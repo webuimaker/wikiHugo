@@ -1,0 +1,211 @@
+sidebar:
+  - sectionMain: Docker Containers
+    url: "/display/containers/Docker+Containers"
+    icon: "yesIcon"
+    childrenContent: 
+    - name: Docker 101    
+      url: "/display/containers/Docker+101"
+      icon: "yesIcon"
+      sectionList:
+      - name: Basic Docker Operations 
+        url: "/display/containers/Basic+Docker+Operations"
+        child:
+        - name: Docker Image Repositoriess
+          url: "/display/containers/Docker+Image+Repositories" 
+        - name: Working With Dockerfiles
+          url: "/display/containers/Working+With+Dockerfiles"
+        - name: Running Docker Containers
+          url: "/display/containers/Running+Docker+Containers"
+        - name: Working With Docker Hub
+          url: "/display/containers/Working+With+Docker+Hub"
+        - name: Docker Container Management
+          url: "/display/containers/Docker+Container+Management"
+        - name: Storing Data Within Containers
+          url: "/display/containers/Storing+Data+Within+Containers"
+        - name: Docker Compliance
+          url: "/display/containers/Docker+Compliance"
+
+      - name: Docker Administration 
+        url: "/display/containers/Docker+Administration"
+        child:
+        - name: Docker Configuration
+          url: "/display/containers/Docker+Configuration" 
+        - name: Collecting Docker Metrics
+          url: "/display/containers/Collecting+Docker+Metrics"
+        - name: Starting and Restarting Docker Containers Automatically
+          url: "/display/containers/Starting+and+Restarting+Docker+Containers+Automatically"
+        - name: Managing Container Resources
+          url: "/display/containers/Managing+Container+Resources"
+        - name: Controlling Docker With systemd
+          url: "/display/containers/Controlling+Docker+With+systemd"
+        - name: Docker CLI Commands
+          url: "/display/containers/Docker+CLI+Commands"
+        - name: Docker Logging
+          url: "/display/containers/Docker+Logging"
+        - name: Troubleshooting Docker Engine
+          url: "/display/containers/Troubleshooting+Docker+Engine"
+        - name: Docker Orchestration - Tools and Options
+          url: "/display/containers/Docker+Orchestration+-+Tools+and+Options"
+
+      - name: Docker Security Resources 
+        url: "/display/containers/Docker+Security+Resources"
+        child:
+        - name: Docker Repository Security and Certificates
+          url: "/display/containers/Docker+Repository+Security+and+Certificates" 
+        - name: Docker Trusted Image Registry  
+          url: "/display/containers/Docker+Trusted+Image+Registry"
+        - name: Docker AppArmor Security Profiles
+          url: "/display/containers/Docker+AppArmor+Security+Profiles"
+        - name: Isolating Docker Containers
+          url:  "/display/containers/Isolating+Docker+Containers"
+        - name: Docker CIS Benchmark
+          url: "/display/containers/Docker+CIS+Benchmark"
+          
+      - name: Docker OS Interaction 
+        url: "/display/containers/Docker+OS+Interaction"
+        child:
+        - name: Docker on Windows
+          url: "/display/containers/Docker+on+Windows"
+        - name: Docker on Ubuntu
+          url: "/display/containers/Docker+on+Ubuntu"
+        - name: Docker on Mac
+          url: "/display/containers/Docker+on+Mac"
+        - name: Docker on Alpine
+          url: "/display/containers/Docker+on+Alpine"
+        - name: Docker on Debian
+          url: "/display/containers/Docker+on+Debian"
+          
+      - name: Docker With Other Tools
+        url: "/display/containers/Docker+With+Other+Tools"
+        child:
+        - name: Using Docker with NGINX
+          url: "/display/containers/Using+Docker+with+NGINX"
+        - name: Using Docker with Jenkins
+          url:  "/display/containers/Using+Docker+with+Jenkins"  
+        - name: Using Docker with ElasticSearch 
+          url:  "/display/containers/Using+Docker+with+ElasticSearch"
+        - name: Using Docker with MongoDB 
+          url:   "/display/containers/Using+Docker+with+MongoDB"
+        - name: Using Docker with PosgreSQL
+          url:  "/display/containers/Using+Docker+with+PosgreSQL" 
+        - name: Using Docker with Python 
+          url:  "/display/containers/Using+Docker+with+Python"
+        - name: Docker vs. Vagrant
+          url:  "/display/containers/Docker+vs.+Vagrant"
+          
+      - name: Docker API
+        url: "/display/containers/Docker+API"      
+      - name: Docker Compose
+        url: "/display/containers/Docker+Compose"
+
+
+  - sectionMain: Kubernetes Guide
+    url: "/display/containers/Kubernetes+Guide"
+    icon: "yesIcon"
+    childrenContent: 
+    - name: Kubernetes 101 
+      url: "/display/containers/Kubernetes+101" 
+      icon: "yesIcon"
+      sectionList:
+      - name: Kubernetes Architecture
+        url: "/display/containers/Kubernetes+Architecture"
+        child:
+        - name: Kubernetes Ecosystem
+          url:  "/display/containers/Kubernetes+Ecosystem"
+          subChild:          
+          - name: Kubernetes Prometheus 
+            url:  "/display/containers/Kubernetes+Prometheus"      
+          - name: Kubernetes Jenkins 
+            url:   "/display/containers/Kubernetes+Jenkins"        
+          - name: Kubernetes Kafka  
+            url:  "/display/containers/Kubernetes+Kafka"     
+          - name: Kubernetes Calico
+            url:   "/display/containers/Kubernetes+Calico"         
+          - name: Kubernetes Elasticsearch   
+            url:  "/display/containers/Kubernetes+Elasticsearch"       
+          - name: Kubernetes on Ubuntu  
+            url:  "/display/containers/Kubernetes+on+Ubuntu"     
+          - name: Kubernetes Nginx 
+            url:  "/display/containers/Kubernetes+Nginx"        
+          - name: Kubernetes on VMware 
+            url:   "/display/containers/Kubernetes+on+VMware"         
+          - name: Kubernetes Mongodb
+            url:  "/display/containers/Kubernetes+Mongodb" 
+
+      - name: Kubernetes Advantages and Use Cases
+        url: "/display/containers/Kubernetes+Advantages+and+Use+Cases" 
+
+      - name: Kubernetes Operations
+        url: "/display/containers/Kubernetes+Operations"
+        child:
+        - name: Installing Kubernetes 
+          url:   "/display/containers/Installing+Kubernetes"
+        - name: Kubernetes Configuration
+          url:   "/display/containers/Kubernetes+Configuration" 
+        - name: Kubernetes Monitoring
+          url:   "/display/containers/Kubernetes+Monitoring" 
+        - name: Kubernetes Debugging and Troubleshooting 
+          url:   "/display/containers/Kubernetes+Debugging+and+Troubleshooting"
+        - name: Kubernetes Load Balancing
+          url:   "/display/containers/Kubernetes+Load+Balancing" 
+        - name: Kubernetes Security 
+          url:   "/display/containers/Kubernetes+Security"
+        - name: Kubernetes Networking 
+          url:   "/display/containers/Kubernetes+Networking"
+        - name: Kubernetes Storage Management
+          url:   "/display/containers/Kubernetes+Storage+Management" 
+        - name: Kubernetes in Production 
+          url:    "/display/containers/Kubernetes+in+Production"
+        - name: Working with Kubernetes Ingress 
+          url:   "/display/containers/Working+with+Kubernetes+Ingress"
+        - name: Kubernetes Security Best Practices
+          url:   "/display/containers/Kubernetes+Security+Best+Practices" 
+        - name: Managing Kubernetes with Kops and Kubeadm 
+          url:    "/display/containers/Managing+Kubernetes+with+Kops+and+Kubeadm"
+        - name: Kubernetes Secrets
+          url:   "/display/containers/Kubernetes+Secrets" 
+        - name: Kubernetes Autoscaling 
+          url:   "/display/containers/Kubernetes+Autoscaling"
+        - name: Kubernetes ConfigMap 
+          url:   "/display/containers/Kubernetes+ConfigMap"
+        - name: Kubernetes Namespace 
+          url:   "/display/containers/Kubernetes+Namespace"
+        - name: Kubernetes Authentication 
+          url:   "/display/containers/Kubernetes+Authentication"
+        - name: Kubernetes Vault 
+          url:   "/display/containers/Kubernetes+Vault"
+        - name: CIS Kubernetes Benchmark 
+          url:   "/display/containers/CIS+Kubernetes+Benchmark"
+
+      - name: Kubernetes Cluster
+        url: "/display/containers/Kubernetes+Cluster" 
+        child:
+        - name: Kubernetes Cluster Policies
+          url:    "/display/containers/Kubernetes+Cluster+Policies" 
+        - name: Kubernetes Federation 
+          url:    "/display/containers/Kubernetes+Federation" 
+        - name: Kubernetes High Availability Clusters  
+          url:     "/display/containers/Kubernetes+High+Availability+Clusters"
+        - name: Kubernetes Logging
+          url:    "/display/containers/Kubernetes+Logging" 
+        - name: Kubernetes Proxies 
+          url:    "/display/containers/Kubernetes+Proxies"
+        - name: Kubernetes Serverless 
+          url:     "/display/containers/Kubernetes+Serverless"
+        - name: Working with Kubernetes Dashboard 
+          url:  "/display/containers/Working+with+Kubernetes+Dashboard"
+
+      - name: Kubernetes as a Service    
+        url:  "/display/containers/Kubernetes+as+a+Service"  
+      - name: Managed Kubernetes
+        url:  "/display/containers/Managed+Kubernetes"  
+      - name: Kubernetes Distributions
+        url:  "/display/containers/Kubernetes+Distributions"  
+      - name: Enterprise Kubernetes 
+        url:  "/display/containers/Enterprise+Kubernetes" 
+
+
+
+
+
+

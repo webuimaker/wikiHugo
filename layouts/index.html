@@ -1,0 +1,154 @@
+{{ partial "head.html" . }}
+{{ partial "top-bar.html" . }}
+
+
+<div class="container-fluid" id="main">
+    <div class="row row-offcanvas row-offcanvas-left">		
+		{{ partial "sidebar.html" . }}
+		
+        <!--/col-->
+
+        <div class="col main pt-4 mt-3">
+            <div class="row">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-9 mainleft">
+							<div class="topbanner">
+								<h1>Container Technology Wiki</h1>
+								<h2>The developer and DevOps resource center for container technology, architecture, security and orchestration</h2>
+							</div>
+							
+							<div class="maincontent">
+								<h1>About this Site</h1>
+								<p>This website brings together thousands of online resources about container technology. Containers are nothing new: as early as 1982 Unix administrators could launch isolated processes, similar to today's containers, using the chroot command. The first modern container was probably <a href="#">Linux-VServer</a> released in 2001. Containers matured considerably in the 12 years that followed, until the rise of Docker which finally took containers to the mainstream. Today cloud computing, deployment, DevOps and agile development are almost synonymous with containers. So much has been written on this complex subject, and few have attempted to organize this corpus into a meaningful format.</p>
+								<p>At <a href="#">Aqua Security</a> , a pioneer in container security, we took upon ourselves to fill this gap and collect the most important writings about container technology - from conceptual articles and best practices to vendor information and how to guides - to help the growing community make sense of the space. The end result will include over 200 sub-topics around <a href="#">containers</a>, <a href="#">container platforms</a>, container orchestration and more. With a special focus on <a href="#">Docker</a> and <a href="#">Kubernetes Guide</a>  which are becoming ubiquitous in modern container setups.</p>
+							</div>
+							
+							<div class="maintopics">
+								<h1>Key Topics</h1>
+								<div class="row twocols">
+									<div class="col-md-6 bdrcol">
+										<h3>Container Basics</h3>
+										<div class="clearfix"></div>
+										<p>What are containers and what are they used for?</p>
+										<ul>
+											<li><a href="#">Container Architecture</a> - containers, images, containers vs. VMs and traditional deployment models</li>
+											<li><a href="#">Advantages of Containers</a> - immutability, resource utilization, performance, and more</li>
+											<li><a href="#">Container Challenges</a>  - dealing with storage, networking, security, monitoring, and more</li>
+											<li><a href="#">Containers and IT Infrastructure</a>   - how containers play together with public and private clouds, virtualization, etc.</li>
+										</ul>
+									</div>
+									
+									<div class="col-md-6 bdrcol">
+										<h3 class="icon2">Container Platforms</h3>
+										<div class="clearfix"></div>
+										<p>What do containers run on?</p>
+										<ul>
+											<li><a href="#">On the cloud</a> - AWS, Azure, Google Cloud Platform</li>
+											<li>On container-specific OSs - ContainerLinux (CoreOS), OSv, RedHat Atomic, and more</li>
+											<li>On VMs - VirtualBox, VMware, XenServer</li>
+											<li>How containers interact with host systems - disk management, networking, memory management, OS kernel</li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="row twocols">
+									<div class="col-md-6 bdrcol">
+										<h3 class="icon3">Docker Containers (and Other Container Engines)</h3>
+										<div class="clearfix"></div>
+										<p>What is Docker?</p>
+										<ul>
+											<li><a href="#">Basic Docker Operations</a> - running containers, dockerfiles, images, repositories</li>
+											<li>Docker Services - docker-compose.yml, Docker networking, load-balancing, persistence</li>
+											<li><a href="#">Docker Administration</a> - configuration, managing resources, systemd, CLI</li>
+											<li><a href="#">Docker Swarm</a> - setting up a Swarm, creating cluster, deploying apps, scaling and iterating</li>
+											<li><a href="#">Docker Security Resources</a> - fundamentals, repo security, trusted images, isolating Docker containers</li>
+											<li><a href="#">Docker Networking</a></li>
+											<li><a href="#">Docker Images</a></li>
+											<li><a href="#">Other container engines</a>  - CoreOS rkt, Intel Clear Containers, <a href="#">Turbo.net</a> , and more</li>
+										</ul>
+									</div>
+									
+									<div class="col-md-6 bdrcol">
+										<h3 class="icon4">Kubernetes Guide (and Other Orchestrators)</h3>
+										<div class="clearfix"></div>
+										<p>What is Kubernetes?</p>
+										<ul>
+											<li><a href="#">Kubernetes architecture</a> - nodes, pods, registry, CRI, workloads, services, and more</li>
+											<li>Kubernetes as a Service - Google Container Engine, Azure Container Service, and more</li>
+											<li>Kubernetes on the Cloud - running K8 on GCE, AWS EC2, Azure, IBM Bluemix, and more</li>
+											<li><a href="#">Kubernetes Operations</a> managing app data, configuration, monitoring, load balancing, and more</li>
+											<li><a href="#">Kubernetes Cluster</a> - cluster admin, daemons, networking, logging architecture, proxies, and more</li>
+											<li><a href="#">Other container orchestrators</a> - OpenShift, Mesos, Mesosphere DC/OS</li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="row twocols">
+									<div class="col-md-6 bdrcol">
+										<h3 class="icon5">Containers Ops</h3>
+										<div class="clearfix"></div>
+										<p>Common considerations in container operations: security, capacity, mixed workloads, deployment, monitoring, automation, and more.</p>
+									</div>
+									
+									<div class="col-md-6 bdrcol">
+										<h3 class="icon6">Container Security</h3>
+										<div class="clearfix"></div>
+										<p>Container security best practices, threats, and mitigation methods - vuln scanning, secrets managements, network segmentation, least privileges, and more.</p>
+									</div>
+								</div>
+								
+								<div class="row twocols">
+									<div class="col-md-12 bdrcol">
+										<h3 class="icon7">Container Community and Events</h3>
+										<div class="clearfix"></div>
+										<p>Container conferences, websites, standards and organizations including the OCI, RunC and CNCF.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-3 mainright">
+							<div class="subscribeform">
+								<h6>Get updates on container technology</h6>
+								<div class="formsection mt-2">
+									<label>Your email *</label>
+									<div><input type="email" class="form-control"></div>
+									<div class="buttonbtm mt-3"><button class="btn btn-theme" type="submit">Subscribe</button></div>
+								</div>
+							</div>
+							<div class="bannerone"><img src="images/O'Reilly_Book-wiki-250--banner.jpg" alt=""></div>
+							<div class="bannerone"><img src="images/Securosis Report wiki ad 250_250.jpg" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<footer class="footer">
+				<p>Copyright &copy; Aqua Security, 2018 - 2020</p>
+			</footer>
+        </div>
+        <!--/main col-->
+    </div>
+
+</div>
+<!--/.container-->
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	<!-- Off Canvas -->
+	<script>
+		$(document).ready(function() {
+    
+  $('[data-toggle=offcanvas]').click(function() {
+    $('.row-offcanvas').toggleClass('active');
+  });
+  
+});
+	</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "AQUA - Container Security"
+description = "The developer and DevOps resource center for container technology, architecture, security and orchestration."
+
