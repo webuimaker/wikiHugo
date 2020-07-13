@@ -1,0 +1,27 @@
+<div id="main-header">        
+   
+
+    <div id="breadcrumbs" class="entry-meta" style="font-style:normal;font-size:16px;">
+        <!-- <a href="/">Home</a>
+        {{ range (split .URL "/") }}
+            {{ if gt (len . ) 0 }}
+                / <a href="/{{ . }}">{{ humanize (replace . "posts" "blog") }}</a>
+            {{ end }}
+        {{ end }} -->
+
+        {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "/" }}
+
+        {{$url}}
+        <ol class="breadcrumbs">
+            <li><a href="/">home vfv</a></li>
+            {{ range $index, $element := split $url "/" }}
+              {{ if ne $element "" }}
+                <li><a href="{{ . | absURL }}">{{ . }}</a></li>
+              {{ end }}
+            {{ end }}
+          </ol>
+        </div>
+
+        {{ partial "breadcrumb.html" . }}
+        
+</div>

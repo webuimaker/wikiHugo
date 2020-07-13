@@ -1,0 +1,38 @@
+<section class="breadcrumb-outter">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12 pl-0">		
+			<div id="breadcrumbs">
+				<!--<a href="/">Home</a>
+				{{ range (split .RelPermalink "/") }}
+					{{ if gt (len . ) 0 }}
+						/ <a href="/{{ . }}">{{ humanize (replace . "posts" "blog") }}</a>
+					{{ end }}
+				{{ end }}
+				-->
+			</div>
+			
+			
+		<nav class="breadcrumb-container">
+			
+			 
+			{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+			{{ $.Scratch.Add "path" .Site.BaseURL }}
+			<ol class="breadcrumb">	
+				<li class="breadcrumb-item"><a href="/">home---</a></li>
+				  {{ range $index, $element := split $url "/" }}
+					{{ $.Scratch.Add "path" $element }}
+					  {{ if ne $element "" }}
+					  <li class="breadcrumb-item"><a href='{{ $.Scratch.Get "path" | absURL }}'>{{ . }}</a></li>
+					  {{ $.Scratch.Add "path" "/" }}
+					  {{ end }}
+				  {{ end }}
+				</ol> 
+
+			</nav>
+			
+		</div>
+	</div>
+</div>
+</section>
+

@@ -1,0 +1,25 @@
+{{ partial "head.html" . }}
+{{ partial "top-bar.html" . }}
+<div class="container-fluid" id="main">
+  <div class="row row-offcanvas row-offcanvas-left">		
+    {{ partial "sidebar.html" . }}  
+
+    <!--/col-->
+    <div class="col main pt-4 mt-3">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            {{ block "main" . }}{{ end }}
+            {{ partial "main-right.html"}}
+          </div>
+        </div>
+      </div>
+      {{ partial "copyright.html"}}
+    </div>
+
+
+    {{ partial "scripts.html" . }}
+
+   
+
+
