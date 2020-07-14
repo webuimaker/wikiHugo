@@ -3,5 +3,4 @@ languageCode = "en-us"
 title = "Container Technology Wiki"
 description = "The developer and DevOps resource center for container technology, architecture, security and orchestration."
 
-# disableKinds = ["404"]
 
