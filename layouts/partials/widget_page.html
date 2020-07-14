@@ -61,16 +61,23 @@
     {{end}}
   </ul>
 </section>
-
 <section class="promotionbottom">
   <p>Below we have compiled publicly available sources from around the world that present views on {{ .Title}}.</p>
-<div class="promotionbox" style="background-image: url({{.Params.promoLogo | absURL }}); background-color:{{.Params.promoBackground}};">
-    <h2>{{.Params.promoHeading}} </h2>
-    <h6>{{.Params.promoSubHeading}}</h6>
-<div class="buttonbtm mt-4 mb-3">
-  <a href="{{.Params.promoBtnUrl}}" class="btn btn-theme" style="background: {{.Params.promoBtnBg}}">{{.Params.promoBtnText}} </a></div>
-  </div>
 </section>
+
+<div class="inner-outter">
+
+  <section class="promotionbottom" style="order:1">  
+    <div class="promotionbox" style="background-image: url({{.Params.promoLogo | absURL }}); background-color:{{.Params.promoBackground}};">
+        <h2>{{.Params.promoHeading}}</h2>
+        <h6>{{.Params.promoSubHeading}}</h6>
+        <div class="buttonbtm mt-4 mb-3">
+          <a href="{{.Params.promoBtnUrl}}" class="btn btn-theme" style="background: {{.Params.promoBtnBg}}">{{.Params.promoBtnText}} </a>
+        </div>
+    </div>
+  </section>
+
+
 
 
 
@@ -163,9 +170,10 @@
 
   
 
-  <section id="{{$hash_id}}" class="home-section {{printf "wg-%s" (replace $widget "_" "-")}} {{if $bg.text_color_light}}dark{{end}} {{if $bg.image}} bg-image{{if ($bg.image_parallax | default true) }} parallax{{end}}{{end}} {{with $css_classes}}{{.}}{{end}}" {{with $style}}style="{{. | safeCSS}}"{{end}} {{print $extra_attributes | safeHTMLAttr}}>
+  <section id="{{$hash_id}}" style="order:{{.Params.weight}}" class="home-section  {{printf "wg-%s" (replace $widget "_" "-")}} {{if $bg.text_color_light}}dark{{end}} {{if $bg.image}} bg-image{{if ($bg.image_parallax | default true) }} parallax{{end}}{{end}} {{with $css_classes}}{{.}}{{end}}" {{with $style}}style="{{. | safeCSS}}"{{end}} {{print $extra_attributes | safeHTMLAttr}}>
     {{if $use_container}}<div class="container">{{end}}
       {{ partial $widget_path $widget_args }}
     {{if $use_container}}</div>{{end}}
   </section>
 {{ end }}
+</div>

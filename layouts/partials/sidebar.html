@@ -1,6 +1,6 @@
 <div class="col-md-3 col-lg-2 sidebar-offcanvas bg-light p-0" id="sidebar" role="navigation">
     <div class="sticky-top">
-        <h3><a href="#">Container Technology Wiki</a></h3>
+        <h3><a href="/">Container Technology Wiki</a></h3>
         {{ range  .Site.Data.menu.sidebar}}
             <h4><a href="{{.url}}"><span>{{if .icon }}  {{else }}{{end}}{{.sectionMain}}</span></a></h4>
             {{if .childrenContent }}

@@ -12,11 +12,15 @@
         {{ range $idx, $key := sort $page.Params.item ".date_start" "desc" }}    
             <div class="listingsection">
                 <div class="row align-items-center">
-                    <div class="col-md-4"><a href="{{.linkUrl}}" {{if .openNewWindow }} target="_blank" {{end}}>{{- with .image -}}<img src="{{. | absURL }}" alt="">{{- end -}}</a></div> 
+                    <div class="col-md-4">
+                        <a href="{{.linkUrl}}" {{if ne .openNewWindow  false }} target="_blank" {{end}}>
+                            {{- with .image -}}<img src="{{. | absURL }}" alt="">{{- end -}}
+                        </a>
+                    </div> 
                     <div class="col-md-8 info">
-                        <h3><a href="{{.linkUrl}}" {{if .openNewWindow }} target="_blank" {{end}}>{{.title | markdownify | emojify}}</a></h3>
+                        <h3><a href="{{.linkUrl}}" {{if ne .openNewWindow false }} target="_blank" {{end}}>{{.title | markdownify | emojify}}</a></h3>
                         {{- with .summary -}}<p>{{. | markdownify | emojify}}</p> {{- end -}}
-                        <p class="mt-4"><a href="{{.linkUrl}}" {{if ne .openNewWindow false  }} target="_blank" {{end}}> {{.linkText}}</a></p>
+                        <p class="mt-4"><a href="{{.linkUrl}}" {{if ne .openNewWindow  false }} target="_blank" {{end}}> {{.linkText}}</a></p>
                     </div>
                 </div>
             </div>
@@ -31,7 +35,7 @@
                     <div class="row">
                         <div class="col-md-2">{{- with .image -}}<img src="{{. | absURL }}" alt="">{{- end -}}</div>
                         <div class="col-md-10">
-                            <p><a href="#">{{.title | markdownify | emojify}}</a></p>
+                            <p><a href="{{.linkUrl}}" {{if ne .openNewWindow  false }} target="_blank" {{end}}>{{.title | markdownify | emojify}}</a></p>
                             {{- with .summary -}}<p>{{. | markdownify | emojify}}</p> {{- end -}}
                         </div>
                     </div>
