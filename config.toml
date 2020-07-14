@@ -1,6 +1,13 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Container Technology Wiki"
+
+
+[params]
+logo = "images/logo.png"
+mail = "info@companyname.com"
+mobile = "1234565523"
+# Meta data
 description = "The developer and DevOps resource center for container technology, architecture, security and orchestration."
 
 
