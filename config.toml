@@ -3,6 +3,19 @@ languageCode = "en-us"
 title = "Container Technology Wiki"
 
 
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "trac" # manni perldoc  monokai  igor xcode vim autumn  vs rrt borland native colorful  default murphy trac tango fruity bw emacs pastie friendly 
+    tabWidth = 4
+
+
 [params]
 logo = "images/logo.png"
 mail = "info@companyname.com"

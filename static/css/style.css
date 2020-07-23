@@ -193,6 +193,9 @@ background-position:10px 10px;}
 
 
 .sticky-top .nav li.nav-item a{font-size:14px;}
+.sticky-top .nav li.nav-item a.active{
+  font-weight: 600;
+}
 
 .sticky-top {
     position: -webkit-sticky;
@@ -600,4 +603,126 @@ a.home:hover {
   color: #151515;
   margin-top: 0px;
   margin-bottom: 25px;
+}
+
+
+
+/**************** 16th July 2020 ****************/
+.fullwidth{max-width:100% !important; flex:none; padding-left:60px;}
+.titlebanner{background:#dff0f4; padding:30px 20px 20px 50px;}
+.titlebanner h1{color:#1180c4; font-size:48px; line-height:1.1;}
+.titlebanner h2{color:#1180c4; max-width:500px; font-weight:300; font-size:20px; margin:1.5em 0 1em;}
+.conf-micro{background:#fafafa; margin:1em 0 2em 0; padding:1em 1em 1.25em; border-left:4px solid #1180c3 !important;}
+.conf-micro h3{color:#464547; margin:0 0 1em; font-size:20px;}
+.contentlisting{width:100%; float:left;}
+.contentlisting ul{margin:0; padding:10px 0px 0px 22px;}
+.contentlisting li{background-color:rgba(17, 128, 197, 0.7); padding:0.25em 1em; margin:0 1em 1em 0; border-radius:4px; float:left;}
+.contentlisting li a{color:#fff; font-weight:400;}
+.contentlisting li:hover{background-color:rgba(17, 128, 197, 1);}
+.maincontent h2{color:#003379; font-size:20px; border-bottom:1px solid #E1E1E1; padding:10px 0 0.5em; margin:1.5em 0 1em;}
+.seemoresection{margin:1.5em 0 3em; font-weight:600;}
+.seemoresection a{background:#f1df36; padding:0.25em 0.5em; border-radius:4px; color:#464547 !important;}
+.seemoresection a:hover{background:#ffeb38;}
+
+.read-more{
+  background:#f1df36; padding:0.25em 0.5em; border-radius:4px; color:#464547 !important;
+  font-weight: 600;
+}
+.read-more:hover{
+  background:#ffeb38;
+}
+
+
+.maincontent h6{color:#000; font-size:12px; line-height:1.6; font-weight:700;}
+.maincontent h6 a{color:#0052CC;}
+.maincontent h6 a:hover{color:#0fa0ce;} 
+.maincontent ul.maincontentlist{margin:10px 0 0 0; list-style-type:disc;}
+.maincontent ul.maincontentlist li{color:#464547 !important; padding-bottom:5px;}
+.maincontent ul.maincontentlist li a{color:#0052CC; font-weight:800; font-size:16px;}
+.maincontent blockquote{border-left:1px solid #dfe1e6; margin-left:19px; padding:10px 20px;}
+.maincontent blockquote p{color:#7a869a !important;}
+.tablewrap .table{max-width:550px;}
+.tablewrap .table tr th{background:#f4f5f7; padding:.40rem; color:#172B4D;}
+.tablewrap .table td{padding:.40rem; color:#464547 !important;}
+.tablewrap .table td:first-child{font-weight:bold;}
+.lightbluebox{margin:2em 1%; border:1px solid #1180c3; background:#effcff; padding:1em 2em 1em;}
+.lightbluebox h3{font-size:30px; color:#1180c3 !important; margin-bottom:0;}
+.boxcontent{width:100%; float:left; margin-bottom:0; margin-top:1em; border-top:1px solid #c3e3f3; padding-top:0.5em;}
+.boxcontent:nth-of-type(1){margin-top:0; border-top:0; margin-bottom:0;}
+.boxcontent:nth-of-type(1) h5{font-size:1em; margin-bottom:10px;}
+.boxcontent:nth-of-type(1) h6{font-size:1em; color:#707070; margin-bottom:0;}
+.boxcontent:nth-of-type(1) p{margin-top:0; font-size:0.8em; color:#464547;}
+.boxcontent:nth-of-type(1) h5 span{font-size:0.8em; font-weight:normal;}
+.boxcontent h5{margin-bottom:0;}
+.boxcontent p{margin-top:0;}
+.boxcontent .seemoresection a:hover{background:#ffeb38;}
+.maincontent p code{background:#effcff; border:1px solid #08b1d5; border-radius:4px; padding:.2rem .5rem;}
+.commandbox{width:100%; float:left; border:1px solid #dfe1e5; margin:10px 0;}
+.panelheader{padding:10px; border-bottom:1px solid #ddd; background:#f7f7f7; color:#464547 !important; font-weight:bold;}
+.panelcontent{padding:10px;}
+.panelcontent pre{margin-bottom:0;}
+.maincontent .desclist{list-style-type:disc; padding-left:1em;}
+.wiki-list .wikiheading{font-weight:600; color:#3572b0 !important; font-size:16px;}
+.wiki-list ul{margin:0px; padding:0; max-width:700px;}
+.wiki-list li{padding:0 0 0 0.75em; float:left;}
+.wiki-list li::after {content: "|"; padding: 0 0 0 0.75em; color: #ccc !important;}
+.wiki-list li a{color:#3572b0; font-weight:400;}
+.wiki-list li a:hover{color:#000;}
+
+.asideright{padding-top:35px;}
+.rightbluebox{padding:0.5em 1em; border-left:3px solid #1180c3; margin-bottom:2em; font-size:14px; line-height:1.3; background-color:#effcff;}
+.tutorialby{margin-bottom:0.5em; background:url(../images/authoricon.svg) no-repeat; padding-left:22px;}
+.rightbluebox ul{margin:0px 0 0 10px; padding:0;}
+.rightbluebox ul li{background:url(../images/circle.svg) no-repeat 0 7px; background-size:8px; padding-left:14px; font-size:13px; line-height:1.4; margin-bottom:5px; color:#464547;}
+.asideright h3{color:#000; margin:0 0 1em; font-size:20px;}
+.rightbluebox h3{margin:0 0 1em; color:#0052CC; font-size:18px;}
+.rightbluebox p{color:#464547;}
+.rightbluebox p a{background:#f1df36; padding:0.25em 0.5em; border-radius:4px; color:#464547; font-size:0.8em; font-weight:600;}
+
+.videobox{padding:0.5em 1em; border-left:3px solid #f69421; margin-bottom:2em; font-size:14px; line-height:1.3; background-color:#f7f7f7;}
+.videoheading{font-size:14px; letter-spacing:.2px; text-transform:uppercase;}
+.youtubesection{width:100%; float:left; margin:8px 0 15px;}
+.videobox h3{color:#f69421; font-size:18px; line-height:1.3;}
+.videobox p{color:#000; font-size:14px; line-height:1.3;}
+
+.dockerbasic{margin:10px; padding:10px 20px 30px 10px; border-bottom:1px solid #eee;}
+.dockerbasic:hover{background:#fafafa; cursor:pointer;}
+.dockerbasic .rightdocker h2{margin:0; border-bottom:0; color:#1f52cc; padding:0;}
+.dockerbasic .rightdocker p{margin-top:0; font-weight:500; color:#464547; line-height:1.3;}
+
+.basic ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  margin-top: 10px;
+}
+.basic-conatiner{
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.highlight{
+  border: 1px solid #08b1d5;
+  border-radius: 3px;
+  margin: 10px 0;
+  background-color: #effcff;
+  padding: 10px 10px 0px;
+}
+
+.highlight pre{
+  background-color: transparent !important;
+}
+
+.table-short-code table{
+  width: 100%;
+}
+.table-short-code table td , .table-short-code table th
+{
+  border: 1px solid #c1c7d0;
+    padding: 7px 10px;
+    vertical-align: top;
+    text-align: left;
+}
+.table-short-code table th
+{
+  background-color: #f4f5f7;
 }

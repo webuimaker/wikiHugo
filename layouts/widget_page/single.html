@@ -1,9 +1,16 @@
 {{/* Generate homepage. */}}
 
-{{ define "main" }}   
-    <div class="col-md-9 mainleft inner-main">   
+{{ define "main" }}  
+    {{if eq .Params.rightSide true }} 
+        <div class="col-md-9 mainleft inner-main"> 
+    {{else}}
+        <div class="col-md-12 fullwidth mainleft inner-main"> 
         
-        {{ partial "widget_page.html" . }}
-    </div> 
+    {{end}}
+            {{ partial "widget_page.html" . }}
+        </div> 
+    {{if eq .Params.rightSide true}}
+        {{ partial "main-right.html"}}
+    {{end}}
 
 {{ end }}

@@ -1,6 +1,9 @@
 <div class="col-md-3 col-lg-2 sidebar-offcanvas bg-light p-0" id="sidebar" role="navigation">
     <div class="sticky-top">
-        <h3><a href="/">Container Technology Wiki</a></h3>
+        {{$tit := .Title}}
+        <h3><a href="/">Container Technology Wiki     </a> </h3>
+
+        
         {{ range  .Site.Data.menu.sidebar}}
             <h4><a href="{{.url}}"><span>{{if .icon }}  {{else }}{{end}}{{.sectionMain}}</span></a></h4>
             {{if .childrenContent }}
@@ -10,8 +13,8 @@
                         {{range .sectionList}}   
                             {{if .child}} 
                                 <li class="nav-item">
-                                    <span href="{{.url}}" data-toggle="collapse" data-target="#{{replaceRE "(\\s)" "-" .name | lower}}" class="arrow collapsed">&nbsp;</span> 
-                                    <a class="nav-link" href="docker101.html">{{.name}}</a>
+                                    <span href="#{{replaceRE "(\\s)" "-" .name | lower}}" data-toggle="collapse" data-target="#{{replaceRE "(\\s)" "-" .name | lower}}" class="arrow collapsed">&nbsp;</span> 
+                                    <a class="nav-link {{if eq .name $tit }} active{{end}}" href="{{.url}}">{{.name}}  </a>
 
                                     <ul class="list-unstyled flex-column collapse" id="{{replaceRE "(\\s)" "-" .name | lower}}" aria-expanded="false">
                                         {{range .child }}

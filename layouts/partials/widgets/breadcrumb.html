@@ -1,0 +1,16 @@
+<div id="breadcrumb-section">
+    <ol class="abreadcrumbs">	
+    {{range $index, $element := .Params.breadcrumbs }}      
+      {{ if .url  }}
+      <li>
+        <a href="{{.url}}">{{.text}}  </a>
+      </li>  
+         
+      {{else}}
+      <li>
+        <span>{{.text}} </span>
+      </li>
+      {{end}} 
+    {{end}}
+    </ol>
+  </div>

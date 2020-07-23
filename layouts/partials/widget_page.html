@@ -1,35 +1,16 @@
 {{/* Notify JS that this is a widget page */}}
 <span class="js-widget-page d-none"></span>
-
-
+{{if eq .Params.rightSide true }} 
 <div id="main-header">        
   <div id="title-heading" class="pagetitle with-breadcrumbs">
-    <div id="breadcrumb-section">
-      <ol class="abreadcrumbs">	
-      {{range $index, $element := .Params.breadcrumbs }}
-      {{ $len := (len $element) }}
-        {{ if eq  $index  $len }}
-          <li>
-            <span>{{.text}}</span>
-          </li> 
-        {{else}}
-          <li>
-            <a href="{{.url}}">{{.text}}</a>
-          </li>  
-        {{end}}            
-      {{end}}
-      </ol>
-    </div>
-    <h1 id="title-text" class="with-breadcrumbs">
+    {{ partial "widgets/breadcrumb.html" .}}
+    
+    <h1 id="title-text" class="with-breadcrumbs mb-4">
       {{ .Title}}
     </h1>
+    <p>{{ .Params.titleDescription | safeHTML }} </p>
   </div>
 </div>
-<div class="maincontent">
-  <p>{{ .Content | safeHTML }}</p>
-</div>
-
-
 
 <section class="tableofcontent">
   <span class="toc-header">Table of Contents:</span>
@@ -63,19 +44,37 @@
 </section>
 <section class="promotionbottom">
   <p>Below we have compiled publicly available sources from around the world that present views on {{ .Title}}.</p>
+
 </section>
+{{else}}
+  {{ partial "widgets/breadcrumb.html" .}}
+  {{ partial "widgets/titlebanner.html" .}}
+  {{ partial "widgets/toc-adv.html" .}}
+  
+{{end}}
+
+
+
+<div class="maincontent">
+  <p>{{ .Content | safeHTML }}</p>
+
+
+
+
 
 <div class="inner-outter">
 
-  <section class="promotionbottom" style="order:1">  
-    <div class="promotionbox" style="background-image: url({{.Params.promoLogo | absURL }}); background-color:{{.Params.promoBackground}};">
-        <h2>{{.Params.promoHeading}}</h2>
-        <h6>{{.Params.promoSubHeading}}</h6>
-        <div class="buttonbtm mt-4 mb-3">
-          <a href="{{.Params.promoBtnUrl}}" class="btn btn-theme" style="background: {{.Params.promoBtnBg}}">{{.Params.promoBtnText}} </a>
-        </div>
-    </div>
-  </section>
+  {{if .Params.promotion.enable}}
+    <section class="promotionbottom" style="order:1">  
+      <div class="promotionbox" style="background-image: url({{.Params.promotion.promoLogo | absURL }}); background-color:{{.Params.promotion.promoBackground}};">
+          <h2>{{.Params.promotion.promoHeading}}</h2>
+          <h6>{{.Params.promotion.promoSubHeading}}</h6>
+          <div class="buttonbtm mt-4 mb-3">
+            <a href="{{.Params.promotion.promoBtnUrl}}" class="btn btn-theme" style="background: {{.Params.promotion.promoBtnBg}}">{{.Params.promotion.promoBtnText}} </a>
+          </div>
+      </div>
+    </section>
+  {{end}}
 
 
 
@@ -176,4 +175,5 @@
     {{if $use_container}}</div>{{end}}
   </section>
 {{ end }}
+</div>
 </div>

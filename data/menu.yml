@@ -1,6 +1,6 @@
 sidebar:
   - sectionMain: Docker Containers
-    url: "/display/containers/Docker+Containers"
+    url: "/display/containers/docker+containers"
     icon: "yesIcon"
     childrenContent: 
     - name: Docker 101    
@@ -8,7 +8,7 @@ sidebar:
       icon: "yesIcon"
       sectionList:
       - name: Basic Docker Operations 
-        url: "/display/containers/Basic+Docker+Operations"
+        url: "/display/containers/basic+docker+operations"
         child:
         - name: Docker Image Repositoriess
           url: "/display/containers/Docker+Image+Repositories" 
