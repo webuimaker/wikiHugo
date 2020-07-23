@@ -23,6 +23,28 @@
         {{end}}
     {{end}}
 
+    {{ if $page.Params.twoColumnitem }}
+        <div class="row dockerbasic-row">
+            {{ range $idx, $key := sort $page.Params.twoColumnitem ".date_start" "desc" }}    
+                <div class="col-lg-6 dockerbasic-out">
+                    <div class="dockerbasic">
+                        <div class="row">
+                            <div class="col-md-2 iconleft">
+                                <a href="{{.linkUrl}}" {{if .openNewWindow }} target="_blank" {{end}}>{{- with .image -}}<img src="{{. | absURL }}" alt="">{{- end -}}</a>
+                            </div>
+                            <div class="col-md-10 rightdocker">
+                                <h2>
+                                    <a href="{{.linkUrl}}" {{if .openNewWindow }} target="_blank" {{end}}>{{.title | markdownify | emojify}}</a>
+                                </h2>
+                                {{- with .summary -}}<p>{{. | markdownify | emojify}}</p> {{- end -}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{end}}
+        </div>
+    {{end}}
+
     
     {{ if $page.Params.smallItem }}
         <div class="linksbtm">

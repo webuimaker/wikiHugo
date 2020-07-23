@@ -2,7 +2,7 @@
 /* CSS Document */
 *,
 *::before,
-*::after { box-sizing: border-box;}
+*::after { box-sizing: border-box; transition: all 0.2s ease 0s;}
 html{width:100%; min-height:100%; height:100%;}
 body{font-family: 'Roboto', sans-serif; height:100%; color:#666666;}
 h1,
@@ -685,10 +685,45 @@ a.home:hover {
 .videobox h3{color:#f69421; font-size:18px; line-height:1.3;}
 .videobox p{color:#000; font-size:14px; line-height:1.3;}
 
-.dockerbasic{margin:10px; padding:10px 20px 30px 10px; border-bottom:1px solid #eee;}
+.dockerbasic-row{
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+.dockerbasic-out{
+  border-top:1px solid #eee;
+  margin-top: 15px;
+}
+.dockerbasic-out:nth-child(odd){ 
+  padding-right: 0px;
+}
+
+.dockerbasic-out:nth-child(even){ 
+  padding-left: 0px;
+}
+.dockerbasic-out:nth-child(even) .dockerbasic{ 
+  margin-left: 0px;
+}
+.dockerbasic-out:nth-child(odd) .dockerbasic{  
+  margin-right: 0px;
+  border-right: 1px solid #eee;
+}
+
+.dockerbasic{margin:10px; padding:10px 20px 30px 10px;}
 .dockerbasic:hover{background:#fafafa; cursor:pointer;}
 .dockerbasic .rightdocker h2{margin:0; border-bottom:0; color:#1f52cc; padding:0;}
 .dockerbasic .rightdocker p{margin-top:0; font-weight:500; color:#464547; line-height:1.3;}
+.dockerbasic a{
+  color: #0052CC;
+}
+.dockerbasic a:hover{
+  color: #0fa0ce;
+}
+
+.dockerbasic img{
+  max-width: 74px;
+}
+
 
 .basic ul {
   padding-left: 20px;

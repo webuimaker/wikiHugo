@@ -4,7 +4,7 @@ sidebar:
     icon: "yesIcon"
     childrenContent: 
     - name: Docker 101    
-      url: "/display/containers/Docker+101"
+      url: "/display/containers/docker+101"
       icon: "yesIcon"
       sectionList:
       - name: Basic Docker Operations 

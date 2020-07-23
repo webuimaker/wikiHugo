@@ -1,0 +1,99 @@
+{{ $ := .root }}
+{{ $page := .page }}
+<section class="perspectsection mt-5" id="{{ replaceRE "(\\s)" "-" $page.Title | lower }}">
+    <h1> {{ with $page.Title }}{{ . | markdownify }} {{ end }}</h1>
+    <div class="row">
+        <div class="col-12">
+            {{ with $page.Content }}{{ . }}{{ end }}
+        </div>
+
+    </div>
+
+    {{ if $page.Params.twoColumnitem }}
+        <div class="row dockerbasic-row">
+            <div class="col-lg-6 dockerbasic-out">
+                <div class="dockerbasic">
+                    <div class="row">
+                        <div class="col-md-2 iconleft"><img src="/images/docker2.png" alt=""></div>
+                        <div class="col-md-10 rightdocker">
+                            <h2>100 Best Docker Tutorials</h2>
+                            <p>Mega compilation of tutorials from industry leaders like Docker Inc., Digital Ocean, Katacoda, VMware and more.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6  dockerbasic-out">
+                <div class="dockerbasic">
+                    <div class="row">
+                        <div class="col-md-2 iconleft"><img src="/images/docker2.png" alt=""></div>
+                        <div class="col-md-10 rightdocker">
+                            <h2>100 Best Docker Tutorials</h2>
+                            <p>Mega compilation of tutorials from industry leaders like Docker Inc., Digital Ocean, Katacoda, VMware and more.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6  dockerbasic-out">
+                <div class="dockerbasic">
+                    <div class="row">
+                        <div class="col-md-2 iconleft"><img src="/images/docker2.png" alt=""></div>
+                        <div class="col-md-10 rightdocker">
+                            <h2>100 Best Docker Tutorials</h2>
+                            <p>Mega compilation of tutorials from industry leaders like Docker Inc., Digital Ocean, Katacoda, VMware and more.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6  dockerbasic-out">
+                <div class="dockerbasic">
+                    <div class="row">
+                        <div class="col-md-2 iconleft"><img src="/images/docker2.png" alt=""></div>
+                        <div class="col-md-10 rightdocker">
+                            <h2>100 Best Docker Tutorials</h2>
+                            <p>Mega compilation of tutorials from industry leaders like Docker Inc., Digital Ocean, Katacoda, VMware and more.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ range $idx, $key := sort $page.Params.twoColumnitem ".date_start" "desc" }}    
+            <div class="listingsection">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <a href="{{.linkUrl}}" {{if ne .openNewWindow  false }} target="_blank" {{end}}>
+                            {{- with .image -}}<img src="{{. | absURL }}" alt="">{{- end -}}
+                        </a>
+                    </div> 
+                    <div class="col-md-8 info">
+                        <h3><a href="{{.linkUrl}}" {{if ne .openNewWindow false }} target="_blank" {{end}}>{{.title | markdownify | emojify}}</a></h3>
+                        {{- with .summary -}}<p>{{. | markdownify | emojify}}</p> {{- end -}}
+                        <p class="mt-4"><a href="{{.linkUrl}}" {{if ne .openNewWindow  false }} target="_blank" {{end}}> {{.linkText}}</a></p>
+                    </div>
+                </div>
+            </div>
+        {{end}}
+    {{end}}
+
+    
+    {{ if $page.Params.smallItem }}
+        <div class="linksbtm">
+            {{ range $idx, $key := sort $page.Params.smallItem ".date_start" "desc" }}    
+                <div class="toclinks">
+                    <div class="row">
+                        <div class="col-md-2">{{- with .image -}}<img src="{{. | absURL }}" alt="">{{- end -}}</div>
+                        <div class="col-md-10">
+                            <p><a href="{{.linkUrl}}" {{if ne .openNewWindow  false }} target="_blank" {{end}}>{{.title | markdownify | emojify}}</a></p>
+                            {{- with .summary -}}<p>{{. | markdownify | emojify}}</p> {{- end -}}
+                        </div>
+                    </div>
+                </div>
+
+            {{end}}
+        </div>
+    {{end}}
+
+
+    
+</section>
