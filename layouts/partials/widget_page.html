@@ -3,7 +3,8 @@
 {{if eq .Params.rightSide true }} 
 <div id="main-header">        
   <div id="title-heading" class="pagetitle with-breadcrumbs">
-    {{ partial "widgets/breadcrumb.html" .}}
+
+    <!-- {{ partial "widgets/breadcrumb.html" .}} -->
     
     <h1 id="title-text" class="with-breadcrumbs mb-4">
       {{ .Title}}
@@ -47,7 +48,7 @@
 
 </section>
 {{else}}
-  {{ partial "widgets/breadcrumb.html" .}}
+  <!-- {{ partial "widgets/breadcrumb.html" .}} -->
   {{ partial "widgets/titlebanner.html" .}}
   {{ partial "widgets/toc-adv.html" .}}
   

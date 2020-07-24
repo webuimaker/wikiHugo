@@ -1,6 +1,10 @@
 {{/* Generate homepage. */}}
 
 {{ define "main" }}  
+<div class="col-md-12 fullwidth mb-4">
+    {{ partial "widgets/breadcrumb.html" .}}
+</div>
+
     {{if eq .Params.rightSide true }} 
         <div class="col-md-9 mainleft inner-main"> 
     {{else}}

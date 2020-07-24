@@ -2,17 +2,20 @@
 {{ $page := .page }}
 
 <section class="perspectsection mt-5" id="{{ replaceRE "(\\s)" "-" $page.Title | lower }}">
-    <h1> {{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
-   
+    <h1> {{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>   
     {{ if $page.Params.itemLink }}
-    <ul>
-    {{ range $idx, $key :=  $page.Params.itemLink  }} 
-        <li><a href="{{.linkUrl}}" {{if .openNewWindow }} target="_blank" {{end}}>{{.linkText}}</a></li>
-
+        <ul>
+            {{ range $idx, $key :=  $page.Params.itemLink  }} 
+                <li><a href="{{.linkUrl}}" {{if .openNewWindow }} target="_blank" {{end}}>{{.linkText}}</a></li>
+            {{end}}
+        </ul>
     {{end}}
-    </ul>
-{{end}}
+
     
-      
-    </ul>
+    <div class="row">
+        <div class="col-12">
+            {{ with $page.Content }}{{ . }}{{ end }}
+        </div>
+
+    </div>
 </section>

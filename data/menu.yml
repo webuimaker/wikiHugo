@@ -10,8 +10,8 @@ sidebar:
       - name: Basic Docker Operations 
         url: "/display/containers/basic+docker+operations"
         child:
-        - name: Docker Image Repositoriess
-          url: "/display/containers/Docker+Image+Repositories" 
+        - name: Docker Image Repositories
+          url: "/display/containers/docker+image+repositories" 
         - name: Working With Dockerfiles
           url: "/display/containers/Working+With+Dockerfiles"
         - name: Running Docker Containers
@@ -116,7 +116,7 @@ sidebar:
           - name: Kubernetes Prometheus 
             url:  "/display/containers/Kubernetes+Prometheus"      
           - name: Kubernetes Jenkins 
-            url:   "/display/containers/Kubernetes+Jenkins"        
+            url:   "/display/containers/kubernetes+jenkins"        
           - name: Kubernetes Kafka  
             url:  "/display/containers/Kubernetes+Kafka"     
           - name: Kubernetes Calico

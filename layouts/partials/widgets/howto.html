@@ -2,12 +2,7 @@
 {{ $page := .page }}
 <section class="perspectsection mt-5" id="{{ replaceRE "(\\s)" "-" $page.Title | lower }}">
     <h1> {{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
-    <div class="row">
-        <div class="col-12">
-            {{ with $page.Content }}{{ . }}{{ end }}
-        </div>
-
-    </div>
+    
     {{ if $page.Params.item }}
         {{ range $idx, $key := sort $page.Params.item ".date_start" "desc" }}    
             <div class="listingsection">
@@ -40,4 +35,11 @@
             {{end}}
         </div>
     {{end}}
+
+    <div class="row">
+        <div class="col-12">
+            {{ with $page.Content }}{{ . }}{{ end }}
+        </div>
+
+    </div>
 </section>
