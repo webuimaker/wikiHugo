@@ -15,7 +15,7 @@ sidebar:
         - name: Working With Dockerfiles
           url: "/display/containers/working+with+dockerfiles"
         - name: Running Docker Containers
-          url: "/display/containers/Running+Docker+Containers"
+          url: "/display/containers/running+docker+containers"
         - name: Working With Docker Hub
           url: "/display/containers/Working+With+Docker+Hub"
         - name: Docker Container Management
