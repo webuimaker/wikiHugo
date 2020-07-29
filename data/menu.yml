@@ -13,7 +13,7 @@ sidebar:
         - name: Docker Image Repositories
           url: "/display/containers/docker+image+repositories" 
         - name: Working With Dockerfiles
-          url: "/display/containers/Working+With+Dockerfiles"
+          url: "/display/containers/working+with+dockerfiles"
         - name: Running Docker Containers
           url: "/display/containers/Running+Docker+Containers"
         - name: Working With Docker Hub
