@@ -12,7 +12,7 @@
     <p>{{ .Params.titleDescription | safeHTML }} </p>
   </div>
 </div>
-
+{{if .Params.promotion.enable}}
 <section class="tableofcontent">
   <span class="toc-header">Table of Contents:</span>
   {{/* Get widget page */}}
@@ -43,10 +43,13 @@
     {{end}}
   </ul>
 </section>
+{{end}}
+{{if .Params.promotion.enable}}
 <section class="promotionbottom">
   <p>Below we have compiled publicly available sources from around the world that present views on {{ .Title}}.</p>
 
 </section>
+{{end}}
 {{else}}
   <!-- {{ partial "widgets/breadcrumb.html" .}} -->
   {{ partial "widgets/titlebanner.html" .}}

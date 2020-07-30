@@ -26,10 +26,10 @@ sidebar:
           url: "/display/containers/docker+compliance"
 
       - name: Docker Administration 
-        url: "/display/containers/Docker+Administration"
+        url: "/display/containers/docker+administration"
         child:
         - name: Docker Configuration
-          url: "/display/containers/Docker+Configuration" 
+          url: "/display/containers/docker+configuration" 
         - name: Collecting Docker Metrics
           url: "/display/containers/Collecting+Docker+Metrics"
         - name: Starting and Restarting Docker Containers Automatically

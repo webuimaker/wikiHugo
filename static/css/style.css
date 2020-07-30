@@ -674,6 +674,13 @@ a.home:hover {
 }
 
 
+
+.maincontent ul {
+  margin: 15px 0 0;
+  padding: 0;
+}
+
+
 .asideright{padding-top:35px;}
 .rightbluebox{padding:0.5em 1em; border-left:3px solid #1180c3; margin-bottom:2em; font-size:14px; line-height:1.3; background-color:#effcff;}
 .tutorialby{margin-bottom:0.5em; background:url(../images/authoricon.svg) no-repeat; padding-left:22px;}
