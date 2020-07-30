@@ -37,7 +37,7 @@ sidebar:
         - name: Managing Container Resources
           url: "/display/containers/managing+container+resources"
         - name: Controlling Docker With systemd
-          url: "/display/containers/Controlling+Docker+With+systemd"
+          url: "/display/containers/controlling+docker+with+systemd"
         - name: Docker CLI Commands
           url: "/display/containers/Docker+CLI+Commands"
         - name: Docker Logging
