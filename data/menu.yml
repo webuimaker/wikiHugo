@@ -31,11 +31,11 @@ sidebar:
         - name: Docker Configuration
           url: "/display/containers/docker+configuration" 
         - name: Collecting Docker Metrics
-          url: "/display/containers/Collecting+Docker+Metrics"
+          url: "/display/containers/collecting+docker+metrics"
         - name: Starting and Restarting Docker Containers Automatically
-          url: "/display/containers/Starting+and+Restarting+Docker+Containers+Automatically"
+          url: "/display/containers/starting+and+restarting+docker+containers+automatically"
         - name: Managing Container Resources
-          url: "/display/containers/Managing+Container+Resources"
+          url: "/display/containers/managing+container+resources"
         - name: Controlling Docker With systemd
           url: "/display/containers/Controlling+Docker+With+systemd"
         - name: Docker CLI Commands
