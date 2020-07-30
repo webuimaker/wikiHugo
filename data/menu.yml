@@ -21,9 +21,9 @@ sidebar:
         - name: Docker Container Management
           url: "/display/containers/docker+container+management"
         - name: Storing Data Within Containers
-          url: "/display/containers/Storing+Data+Within+Containers"
+          url: "/display/containers/storing+data+within+containers"
         - name: Docker Compliance
-          url: "/display/containers/Docker+Compliance"
+          url: "/display/containers/docker+compliance"
 
       - name: Docker Administration 
         url: "/display/containers/Docker+Administration"
