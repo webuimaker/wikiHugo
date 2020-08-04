@@ -62,18 +62,18 @@ sidebar:
           url: "/display/containers/docker+cis+benchmark"
           
       - name: Docker OS Interaction 
-        url: "/display/containers/Docker+OS+Interaction"
+        url: "/display/containers/docker+os+interaction"
         child:
         - name: Docker on Windows
-          url: "/display/containers/Docker+on+Windows"
+          url: "/display/containers/docker+on+windows"
         - name: Docker on Ubuntu
-          url: "/display/containers/Docker+on+Ubuntu"
+          url: "/display/containers/docker+on+ubuntu"
         - name: Docker on Mac
-          url: "/display/containers/Docker+on+Mac"
+          url: "/display/containers/docker+on+mac"
         - name: Docker on Alpine
-          url: "/display/containers/Docker+on+Alpine"
+          url: "/display/containers/docker+on+aAlpine"
         - name: Docker on Debian
-          url: "/display/containers/Docker+on+Debian"
+          url: "/display/containers/docker+on+debian"
           
       - name: Docker With Other Tools
         url: "/display/containers/Docker+With+Other+Tools"
