@@ -48,18 +48,18 @@ sidebar:
           url: "/display/containers/docker+orchestration+-+tools+and+options"
 
       - name: Docker Security Resources 
-        url: "/display/containers/Docker+Security+Resources"
+        url: "/display/containers/docker+security+resources"
         child:
         - name: Docker Repository Security and Certificates
-          url: "/display/containers/Docker+Repository+Security+and+Certificates" 
+          url: "/display/containers/docker+repository+security+and+certificates" 
         - name: Docker Trusted Image Registry  
-          url: "/display/containers/Docker+Trusted+Image+Registry"
+          url: "/display/containers/docker+trusted+image+registry"
         - name: Docker AppArmor Security Profiles
-          url: "/display/containers/Docker+AppArmor+Security+Profiles"
+          url: "/display/containers/docker+apparmor+security+profiles"
         - name: Isolating Docker Containers
-          url:  "/display/containers/Isolating+Docker+Containers"
+          url:  "/display/containers/iosolating+docker+containers"
         - name: Docker CIS Benchmark
-          url: "/display/containers/Docker+CIS+Benchmark"
+          url: "/display/containers/docker+cis+benchmark"
           
       - name: Docker OS Interaction 
         url: "/display/containers/Docker+OS+Interaction"
