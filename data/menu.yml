@@ -39,13 +39,13 @@ sidebar:
         - name: Controlling Docker With systemd
           url: "/display/containers/controlling+docker+with+systemd"
         - name: Docker CLI Commands
-          url: "/display/containers/Docker+CLI+Commands"
+          url: "/display/containers/docker+cli+commands"
         - name: Docker Logging
-          url: "/display/containers/Docker+Logging"
+          url: "/display/containers/docker+logging"
         - name: Troubleshooting Docker Engine
-          url: "/display/containers/Troubleshooting+Docker+Engine"
+          url: "/display/containers/troubleshooting+docker+engine"
         - name: Docker Orchestration - Tools and Options
-          url: "/display/containers/Docker+Orchestration+-+Tools+and+Options"
+          url: "/display/containers/docker+orchestration+-+tools+and+options"
 
       - name: Docker Security Resources 
         url: "/display/containers/Docker+Security+Resources"
