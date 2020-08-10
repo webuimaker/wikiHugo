@@ -39,7 +39,8 @@
   <ul>
     
      {{ range $index, $st := where ( $headless_bundle.Resources.ByType "page" ) ".Params.active" "!=" false }}
-      <li><a href="#{{ replaceRE "(\\s)" "-" .Title | lower }}">{{.Title}}</a></li>
+      <li><a href="#{{ replaceRE "(\\s)" "-" .Title | lower }}">{{.Title}}</a></li> 
+
     {{end}}
   </ul>
 </section>

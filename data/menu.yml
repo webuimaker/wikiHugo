@@ -71,7 +71,7 @@ sidebar:
         - name: Docker on Mac
           url: "/display/containers/docker+on+mac"
         - name: Docker on Alpine
-          url: "/display/containers/docker+on+aAlpine"
+          url: "/display/containers/docker+on+alpine"
         - name: Docker on Debian
           url: "/display/containers/docker+on+debian"
           
