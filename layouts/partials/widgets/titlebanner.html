@@ -1,4 +1,8 @@
 <section class="titlebanner">
-    <h1 id="{{replaceRE "(\\s)" "-" .Title | lower}}">{{.Title}}</h1>
+    {{if .Params.bannerTitle }}     
+        <h1 id="{{replaceRE "(\\s)" "-" .Params.bannerTitle | lower}}"> {{.Params.bannerTitle}}</h1>
+    {{else}}   
+        <h1 id="{{replaceRE "(\\s)" "-" .Title | lower}}">{{.Title}}</h1>
+    {{end}}
     <h2>{{.Params.titleDescription | safeHTML }}</h2>    
 </section>

@@ -132,6 +132,33 @@ sidebar:
           - name: Kubernetes Mongodb
             url:  "/display/containers/Kubernetes+Mongodb" 
 
+        - name: Kubernetes Nodes
+          url:  "/display/containers/Kubernetes+Nodes"
+        - name: Kubernetes Pods
+          url:  "/display/containers/Kubernetes+Pods"
+        - name: Kubernetes Controllers and Control Plane
+          url:  "/display/containers/Kubernetes+Controllers+and+Control+Plane"
+        - name: Kubernetes DaemonSets
+          url:  "/display/containers/Kubernetes+DaemonSets"
+        - name: Container Runtime Interface
+          url:  "/display/containers/Container+Runtime+Interface"
+        - name: Working with Containers in Kubernetes
+          url:  "/display/containers/Working+with+Containers+in+Kubernetes"
+        - name: Working with Images in Kubernetes
+          url:  "/display/containers/Working+with+Images+in+Kubernetes"
+        - name: Workloads in Kubernetes
+          url:  "/display/containers/Workloads+in+Kubernetes"
+        - name: Kubernetes Services
+          url:  "/display/containers/Kubernetes+Services"
+        - name: Kubernetes Jobs
+          url:  "/display/containers/Kubernetes+Jobs"
+        - name: Kubernetes and Microservices
+          url:  "/display/containers/Kubernetes+and+Microservices"
+        - name: Kubernetes Operators
+          url:  "/display/containers/Kubernetes+Operators"
+        - name: Kubernetes Persistent Volumes
+          url:  "/display/containers/Kubernetes+Persistent+Volumes"
+
       - name: Kubernetes Advantages and Use Cases
         url: "/display/containers/Kubernetes+Advantages+and+Use+Cases" 
 
