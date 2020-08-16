@@ -48,7 +48,18 @@
     
     {{ if $page.Params.smallItem }}
         <div class="linksbtm">
-            {{ range $idx, $key := sort $page.Params.smallItem ".date_start" "desc" }}    
+            {{ range $idx, $key := sort $page.Params.smallItem ".date_start" "desc" }}   
+                {{if .subSection }} 
+                <div class="toclinks">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>{{.title | markdownify | emojify}}</h2>
+                        </div>
+                    </div>
+                </div>
+
+                {{else}}
+                     
                 <div class="toclinks">
                     <div class="row">
                         <div class="col-md-2">{{- with .image -}}<img src="{{. | absURL }}" alt="">{{- end -}}</div>
@@ -58,11 +69,12 @@
                         </div>
                     </div>
                 </div>
+                {{end}}
 
             {{end}}
         </div>
     {{end}}
 
-
+    
     
 </section>

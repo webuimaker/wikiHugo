@@ -176,7 +176,7 @@ sidebar:
         - name: Kubernetes Load Balancing
           url:   "/display/containers/Kubernetes+Load+Balancing" 
         - name: Kubernetes Security 
-          url:   "/display/containers/Kubernetes+Security"
+          url:   "https://www.aquasec.com/solutions/kubernetes-container-security/"
         - name: Kubernetes Networking 
           url:   "/display/containers/Kubernetes+Networking"
         - name: Kubernetes Storage Management

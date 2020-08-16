@@ -544,7 +544,7 @@ margin-right:8px;}
 .toclinks p a{color:#08b1d5; font-weight:400;}
 .perspectsection ul{margin:15px 0 0; padding:0;}
 .perspectsection li{margin:0 0 0.5em 0;}
-.perspectsection li a{color:#3572b0 !important; font-weight:600;}
+.perspectsection li a{color:#3572b0 !important; /*font-weight:600;*/}
 .perspectsection li a:hover{color:#464547 !important;}
 .linksbtm .toclinks img{
   max-width: 64px;
@@ -637,6 +637,9 @@ a.home:hover {
 .maincontent h6 a{color:#0052CC;}
 .maincontent h6 a:hover{color:#0fa0ce;} 
 .maincontent ul.maincontentlist{margin:10px 0 0 0; list-style-type:disc;}
+.maincontent ul  ul{
+  margin-left: 15px;
+}
 .maincontent ul.maincontentlist li{color:#464547 !important; padding-bottom:5px;}
 .maincontent ul.maincontentlist li a{color:#0052CC; font-weight:800; font-size:16px;}
 .maincontent blockquote{border-left:1px solid #dfe1e6; margin-left:19px; padding:10px 20px;}
