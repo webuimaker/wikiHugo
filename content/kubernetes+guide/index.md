@@ -30,7 +30,7 @@ tocBasicAdv:
   - name: "KUBERNETES THE COMPLETE GUIDE"
     url: "#kubernetes-the-complete-guide"
   - name: "1. WHAT IS KUBERNETES?"
-    url: "#KubernetesGuide-1.WHATISKUBERNETES?"
+    url: "#1.-what-is-kubernetes?"
   - name: "2. HOW DOES KUBERNETES COMPARE TO DOCKER SWARM?"
     url: "#KubernetesGuide-2.HOWDOESKUBERNETESCOMPARETODOCKERSWARM?"
   - name: "3. BASIC OPERATIONS"
