@@ -3,11 +3,8 @@
 <div class="basic-conatiner mt-4">
     {{if $page.Params.titleColor}}
         <h1 id="{{replaceRE "(\\s)" "-" $page.Title | lower}}"><span style="color:{{ $page.Params.titleColor }};">{{ $page.Title | markdownify }}</span></h1>
-
     {{else}}
-
-        <h1 id="{{if $page.Params.sectionHeadingID}}{{replaceRE "(\\s)" "-" $page.Params.sectionHeadingID | lower}}{{else}}   
-        {{replaceRE "(\\s)" "-" $page.Title | lower}}{{end}}"> {{ with $page.Title }}{{ . | markdownify }} {{ end }}</h1>
+        <h1 id="{{if $page.Params.sectionHeadingID}}{{replaceRE "(\\s)" "-" $page.Params.sectionHeadingID | lower}}{{else}}{{replaceRE "(\\s)" "-" $page.Title | lower}}{{end}}"> {{ with $page.Title }}{{ . | markdownify }} {{ end }}</h1>
     {{end}}
     <div class="basic">
         {{ $page.Content | safeHTML }}

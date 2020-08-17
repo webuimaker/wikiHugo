@@ -762,6 +762,32 @@ a.home:hover {
   background-color: transparent !important;
 }
 
+.box{
+  border: 1px solid #08b1d5;
+  border-radius: 3px;
+  margin: 10px 0;
+  background-color: #effcff;
+  padding: 10px 10px 20px;
+}
+
+.box p{
+  margin: 0px;
+}
+
+
+.box a{
+  background:#f1df36; padding:0.25em 0.5em; border-radius:4px; color:#464547 !important;
+  font-weight: 600;
+  margin: 15px auto 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.box a:hover{
+  background:#ffeb38;
+}
+
+
 .table-short-code table{
   width: 100%;
 }
@@ -775,4 +801,34 @@ a.home:hover {
 .table-short-code table th
 {
   background-color: #f4f5f7;
+}
+.further-links a{
+  color: #3572b0 !important;
+}
+.further-links ul li>a{
+  font-weight: 600;
+  
+}
+
+.further-links ul li>ul>li>a{
+  font-weight: normal;
+}
+
+.further-links ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.further-links ul li>ul>li{
+  display: inline;
+  list-style: none;
+}
+
+.further-links ul li>ul>li::after {
+  content: "|";
+  padding: 0 0 0 0.75em;
+  color: #ccc !important;
+}
+.further-links ul li>ul>li{
+  padding: 0 0 0 0.75em;
 }

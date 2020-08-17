@@ -5,9 +5,8 @@ headless: true  # This file represents a page section.
 active: true  # Activate this widget? true/false
 weight: 3  # Order that this section will appear.
 title: "3.BASIC OPERATIONS"
-titleColor: 
+titleColor: ""
 subtitle: ""
-sectionHeadingID: "docker-basic-docker-operations"
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format: "Jan 2006"
