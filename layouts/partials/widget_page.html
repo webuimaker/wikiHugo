@@ -171,7 +171,7 @@
 
   
 
-  <section id="{{$hash_id}}" style="order:{{.Params.weight}}" class="home-section  {{printf "wg-%s" (replace $widget "_" "-")}} {{if $bg.text_color_light}}dark{{end}} {{if $bg.image}} bg-image{{if ($bg.image_parallax | default true) }} parallax{{end}}{{end}} {{with $css_classes}}{{.}}{{end}}" {{with $style}}style="{{. | safeCSS}}"{{end}} {{print $extra_attributes | safeHTMLAttr}}>
+  <section id="{{$hash_id}}" style="{{ if .Params.advanced.css_style }} {{.Params.advanced.css_style}} {{else}}  order:{{.Params.weight}} {{end}}" class="home-section  {{printf "wg-%s" (replace $widget "_" "-")}} {{if $bg.text_color_light}}dark{{end}} {{if $bg.image}} bg-image{{if ($bg.image_parallax | default true) }} parallax{{end}}{{end}} {{with $css_classes}}{{.}}{{end}}" {{with $style}}style="{{. | safeCSS}}"{{end}} {{print $extra_attributes | safeHTMLAttr}}>
     {{if $use_container}}<div class="container">{{end}}
       {{ partial $widget_path $widget_args }}
     {{if $use_container}}</div>{{end}}

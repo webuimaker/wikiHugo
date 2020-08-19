@@ -218,7 +218,7 @@ sidebar:
         - name: Kubernetes Proxies 
           url:    "/display/containers/Kubernetes+Proxies"
         - name: Kubernetes Serverless 
-          url:     "/display/containers/Kubernetes+Serverless"
+          url:     "https://blog.aquasec.com/knative-serverless-for-kubernetes"
         - name: Working with Kubernetes Dashboard 
           url:  "/display/containers/Working+with+Kubernetes+Dashboard"
 
