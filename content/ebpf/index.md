@@ -1,12 +1,8 @@
 ---
 # Homepage
-title: "eBPF
-"
-description: "eBPF – extended Berkeley Packet Filter – is a Linux-native in-kernel virtual machine that enables secure, low-overhead tracing for application performance and event observability and analysis. eBPF delivers a lot more than network packet information, it can offer the deep visibility for cloud-native and container environments, from host and network data to container processes, resource utilization, and more.
-
-"
-titleDescription: "eBPF – extended Berkeley Packet Filter – is a Linux-native in-kernel <a href='/display/containers/Containers+vs+Virtual+Machines'>virtual machine</a> that enables secure, low-overhead tracing for application performance and event observability and analysis. eBPF delivers a lot more than network packet information, it can offer the deep visibility for <a href='/display/containers/Cloud-Native+Applications'>cloud-native</a> and container environments, from host and network data to container processes, resource utilization, and more.
-" 
+title: "eBPF"
+description: "eBPF – extended Berkeley Packet Filter – is a Linux-native in-kernel virtual machine that enables secure, low-overhead tracing for application performance and event observability and analysis. eBPF delivers a lot more than network packet information, it can offer the deep visibility for cloud-native and container environments, from host and network data to container processes, resource utilization, and more."
+titleDescription: "eBPF – extended Berkeley Packet Filter – is a Linux-native in-kernel <a href='/display/containers/Containers+vs+Virtual+Machines'>virtual machine</a> that enables secure, low-overhead tracing for application performance and event observability and analysis. eBPF delivers a lot more than network packet information, it can offer the deep visibility for <a href='/display/containers/Cloud-Native+Applications'>cloud-native</a> and container environments, from host and network data to container processes, resource utilization, and more." 
 
 type: "widget_page"
 url: "/display/containers/ebpf/" 
@@ -21,7 +17,6 @@ breadcrumbs:
  - text: Container Basics
    url: "/display/containers/container+basics"
  - text: eBPF
-
    url: ""
 promotion:
   enable: true

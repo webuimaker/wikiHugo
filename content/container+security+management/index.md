@@ -1,13 +1,8 @@
 ---
 # Homepage
-title: "Container Security Management
-
-"
-description: "Securing containers requires a different approach. Since containers run on a shared host and typically use multiple components to deliver a complete solution, there are many considerations that are required to secure container environment. This page gathers resources about managing security in containers including security considerations, security best practices and more.
-
-"
-titleDescription: "<a href='/display/containers/Container+Security'>Securing containers</a> requires a different approach. Since containers run on a shared host and typically use multiple components to deliver a complete solution, there are many considerations that are required to secure container environment. This page gathers resources about managing security in containers including security considerations, security best practices and more.
-" 
+title: "Container Security Management"
+description: "Securing containers requires a different approach. Since containers run on a shared host and typically use multiple components to deliver a complete solution, there are many considerations that are required to secure container environment. This page gathers resources about managing security in containers including security considerations, security best practices and more."
+titleDescription: "<a href='/display/containers/Container+Security'>Securing containers</a> requires a different approach. Since containers run on a shared host and typically use multiple components to deliver a complete solution, there are many considerations that are required to secure container environment. This page gathers resources about managing security in containers including security considerations, security best practices and more." 
 
 type: "widget_page"
 url: "/display/containers/container+security+management/" 
@@ -22,7 +17,6 @@ breadcrumbs:
  - text: Container Basics
    url: "/display/containers/container+basics"
  - text: Container Security Management
-
    url: ""
 promotion:
   enable: true

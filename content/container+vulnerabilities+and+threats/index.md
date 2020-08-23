@@ -1,14 +1,8 @@
 ---
 # Homepage
-title: "Container Vulnerabilities and Threats
-
-"
-description: "While containers are driving evolution in the management of network applications, which, although self-contained, are still vulnerable. This page gathers resources about container vulnerabilities like 'Dirty Cow' and 'Escape Vulnerability' including tips on how to secure containers from cyber threats.
-
-
-"
-titleDescription: "While <a href='/display/containers/Container+Basics'>containers</a> are driving evolution in the management of network applications, which, although self-contained, are still vulnerable. This page gathers resources about container vulnerabilities like 'Dirty Cow' and 'Escape Vulnerability' including tips on how to secure containers from cyber threats.
-" 
+title: "Container Vulnerabilities and Threats"
+description: "While containers are driving evolution in the management of network applications, which, although self-contained, are still vulnerable. This page gathers resources about container vulnerabilities like 'Dirty Cow' and 'Escape Vulnerability' including tips on how to secure containers from cyber threats."
+titleDescription: "While <a href='/display/containers/Container+Basics'>containers</a> are driving evolution in the management of network applications, which, although self-contained, are still vulnerable. This page gathers resources about container vulnerabilities like 'Dirty Cow' and 'Escape Vulnerability' including tips on how to secure containers from cyber threats." 
 
 type: "widget_page"
 url: "/display/containers/container+vulnerabilities+and+threats/" 
@@ -23,7 +17,6 @@ breadcrumbs:
  - text: Containers Security
    url: "/display/containers/Container+Security"
  - text: Container Vulnerabilities and Threats
-
    url: ""
 promotion:
   enable: true

@@ -4,7 +4,7 @@ widget: "howto"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless: true  # This file represents a page section.
 active: true  # Activate this widget? true/false
 weight: 1  # Order that this section will appear.
-title: "Perspectives on GitOps"
+title: "Perspectives on the Shift Left Principle and DevOps"
 subtitle: ""
 
 # Date format

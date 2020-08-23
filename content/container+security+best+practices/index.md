@@ -1,13 +1,8 @@
 ---
 # Homepage
-title: "Container Security Best Practices
-
-"
-description: "Software development groups realize that the only way they can make the development and tooling processes work at scale is by automating as much as possible to reduce the scope of manual process. This page gathers resources about how containers integrate in different aspects of automation like automated builds, automated tests and more.
-
-"
-titleDescription: "Software development groups realize that the only way they can make the development and tooling processes work at scale is by automating as much as possible to reduce the scope of manual process. This page gathers resources about how containers integrate in different aspects of automation like automated builds, automated tests and more.
-" 
+title: "Container Security Best Practices"
+description: "When containerization is implemented with good security practices, containers can offer better application security rather than a VM only solution. This page gathers resources about basic tips, Docker security best practices and Kubernetes security best practices."
+titleDescription: "When containerization is implemented with good <a  href='#'>security</a> practices, containers can offer better application security rather than a <a href='/display/containers/containers+vs+virtual+machines'>VM</a> only solution. This page gathers resources about basic tips, <a href='https://blog.aquasec.com/docker-security-best-practices' target='_blank'>Docker security</a> best practices and Kubernetes security best practices." 
 
 type: "widget_page"
 url: "/display/containers/container+security+best+practices/" 
@@ -22,7 +17,6 @@ breadcrumbs:
  - text: Containers Security
    url: "/display/containers/Container+Security"
  - text: Container Security Best Practices
-
    url: ""
 promotion:
   enable: true

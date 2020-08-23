@@ -352,7 +352,7 @@ sidebar:
     - name: Container Security Management 
       url: "/display/containers/Container+Security+Management"
     - name: Container Deployment 
-      url: "/display/containers/Container+Deployment "
+      url: "/display/containers/Container+Deployment"
     - name: Container Monitoring
       url: "/display/containers/Container+Monitoring"
     - name: Container Automation 
