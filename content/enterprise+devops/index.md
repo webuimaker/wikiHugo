@@ -1,11 +1,13 @@
 ---
 # Homepage
-title: "Containers and GitOps"
-description: "GitOps is a name for a set of Ops practices using Git and a way to do Continuous Delivery.  It works by using Git as a source of truth for declarative infrastructure and applications. This page gathers resources about the GitOps basics, tutorials and tools."
-titleDescription: "GitOps is a name for a set of Ops practices using Git and a way to do Continuous Delivery.  It works by using Git as a source of truth for declarative infrastructure and applications. This page gathers resources about the GitOps basics, tutorials and tools." 
+title: "Enterprise DevOps"
+description: "Large enterprises have bigger teams, more inherent operational complexity, and greater governance controls. Therefore, they need a different type of DevOps that caters to their sensibilities and not those of agile web startups. This page gathers resources about DevOps practices for large organizations.
+"
+titleDescription: "Large enterprises have bigger teams, more inherent operational complexity, and greater governance controls. Therefore, they need a different type of DevOps that caters to their sensibilities and not those of agile web startups. This page gathers resources about DevOps practices for large organizations.
+" 
 
 type: "widget_page"
-url: "/display/containers/containers+and+gitops/" 
+url: "/display/containers/enterprise+devops/" 
 
 rightSide: true 
 # permalink: "/display/containers/kubernetes+and+microservices"
@@ -17,10 +19,7 @@ breadcrumbs:
  - text: Container Basics
    url: "/display/containers/container+basics"
  - text: Enterprise DevOps
-   url: "/display/containers/enterprise+devops/"
- - text: Containers and GitOps
    url: ""
-
 promotion:
   enable: true
   promoLogo: "/images/orellylogo.svg"

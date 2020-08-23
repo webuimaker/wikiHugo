@@ -1,11 +1,8 @@
 ---
 # Homepage
-title: "Containers and Hybrid Clouds
-"
-description: "The growing number of hybrid cloud deployments is accelerating the demand for enterprise container infrastructure as companies seek a consistent application development environment. This page gathers resources about the combination of containers and hybrid clouds including benefits of this combination and tutorials on how to get started.
-"
-titleDescription: "The growing number of hybrid cloud deployments is accelerating the demand for enterprise container infrastructure as companies seek a consistent application development environment. This page gathers resources about the combination of containers and hybrid clouds including benefits of this combination and tutorials on how to get started.
-" 
+title: "Containers and Hybrid Clouds"
+description: "The growing number of hybrid cloud deployments is accelerating the demand for enterprise container infrastructure as companies seek a consistent application development environment. This page gathers resources about the combination of containers and hybrid clouds including benefits of this combination and tutorials on how to get started."
+titleDescription: "The growing number of hybrid cloud deployments is accelerating the demand for enterprise container infrastructure as companies seek a consistent application development environment. This page gathers resources about the combination of containers and hybrid clouds including benefits of this combination and tutorials on how to get started." 
 
 type: "widget_page"
 url: "/display/containers/containers+and+hybrid+clouds/" 
@@ -22,8 +19,8 @@ breadcrumbs:
  - text: Containers and IT Infrastructure
    url: "/display/containers/Containers+and+IT+Infrastructure"
  - text: Containers and Hybrid Clouds
-
    url: ""
+   
 promotion:
   enable: true
   promoLogo: "/images/orellylogo.svg"

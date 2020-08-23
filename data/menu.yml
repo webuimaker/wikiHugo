@@ -322,7 +322,7 @@ sidebar:
       - name:  Containers and Serverless Computing  
         url:  "/display/containers/Containers+and+Serverless+Computing"
       - name:  Containers and Hyperconvergence 
-        url:  "/display/containers/Containers+and+Hyperconvergence "
+        url:  "/display/containers/Containers+and+Hyperconvergence"
       - name:  Containers and Big Data 
         url:  "/display/containers/Containers+and+Big+Data"
 

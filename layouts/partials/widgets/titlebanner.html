@@ -1,8 +1,21 @@
-<section class="titlebanner">
-    {{if .Params.bannerTitle }}     
-        <h1 id="{{replaceRE "(\\s)" "-" .Params.bannerTitle | lower}}"> {{.Params.bannerTitle}}</h1>
-    {{else}}   
-        <h1 id="{{replaceRE "(\\s)" "-" .Title | lower}}">{{.Title}}</h1>
-    {{end}}
-    <h2>{{.Params.titleDescription | safeHTML }}</h2>    
-</section>
+{{if .Params.mainHeader  }}
+    <div id="main-header">        
+        <div id="title-heading" class="pagetitle with-breadcrumbs">
+            <!-- {{ partial "widgets/breadcrumb.html" .}} -->      
+            <h1 id="title-text" class="with-breadcrumbs mb-4">
+                {{ .Title }}
+            </h1>
+            <p>{{ .Params.titleDescription | safeHTML }} </p>
+        </div>
+    </div>
+{{else}}
+    <section class="titlebanner">
+        {{if .Params.bannerTitle }}     
+            <h1 id="{{replaceRE "(\\s)" "-" .Params.bannerTitle | lower}}"> {{.Params.bannerTitle}}</h1>
+        {{else}}   
+            <h1 id="{{replaceRE "(\\s)" "-" .Title | lower}}">{{.Title}}</h1>
+        {{end}}
+        <h2>{{.Params.titleDescription | safeHTML }}</h2>    
+    </section>
+
+{{end}}

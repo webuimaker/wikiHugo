@@ -1,13 +1,8 @@
 ---
 # Homepage
 title: "Containers and IT Infrastructure"
-description: "Information technology infrastructure is composed of physical and virtual resources that support the flow, storage, processing and analysis of data. This page gathers resources about the combination of containers and IT Infrastructure like hybrid clouds, private clouds, data center and more.
-
-"
-titleDescription: "Information technology infrastructure is composed of physical and virtual resources that support the flow, storage, processing and analysis of data. This page gathers resources about the combination of containers and IT Infrastructure like hybrid clouds, private clouds, data center and more.
-
-
-" 
+description: "Information technology infrastructure is composed of physical and virtual resources that support the flow, storage, processing and analysis of data. This page gathers resources about the combination of containers and IT Infrastructure like hybrid clouds, private clouds, data center and more."
+titleDescription: "Information technology infrastructure is composed of physical and virtual resources that support the flow, storage, processing and analysis of data. This page gathers resources about the combination of containers and IT Infrastructure like hybrid clouds, private clouds, data center and more." 
 
 type: "widget_page"
 url: "/display/containers/containers+and+it+infrastructure/" 
@@ -24,10 +19,28 @@ breadcrumbs:
  - text: Containers and IT Infrastructure
    url: ""
 
+# Promotion banner to display or not 
+promotion:
+  enable: false   # TRUE/False 
+  promotionbottom: false
+  promoLogo: "/images/orellylogo.svg"
+  promoBackground: "#e8f5f9"
+  promoHeading: "The Container Security book by Liz Rice"
+  promoSubHeading: "Fundamental Technology Concepts that Protect Containerized Applications"
+  promoBtnBg: "#"
+  promoBtnText: "Grab Your FREE Copy"
+  promoBtnUrl: "https://info.aquasec.com/container-security-book?utm_source=wiki"
+
+toc:
+ enable: false # TRUE/False for Table off Content 
+
+mainHeader: true 
+
 ---
 
 
 Containers and IT Infrastructure Topics on this Wiki
+
 - **[Containers and Hybrid Clouds](/display/containers/Containers+and+Hybrid+Clouds)**  — The growing number of hybrid cloud deployments is accelerating the demand for enterprise container infrastructure as companies seek a consistent application development environment. This page gathers resources about the combination of containers and hybrid clouds including benefits of this combination and tutorials on how to get started.
 
 - **[Containers and Private Clouds ](/display/containers/Containers+and+Private+Clouds)**  — Private cloud is a type of cloud computing that delivers similar advantages to public cloud, including scalability and self-service, but through a proprietary architecture. This page gathers resources about the combination of containers and private clouds and how they can serve as a container management environment.
