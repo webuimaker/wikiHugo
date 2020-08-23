@@ -231,6 +231,212 @@ sidebar:
       - name: Enterprise Kubernetes 
         url:  "/display/containers/Enterprise+Kubernetes" 
 
+  - sectionMain: Container Basics
+    url: "/display/containers/Container+Basics"
+    icon: "yesIcon"
+    sectionList:
+    - name: Container Architecture
+      url: "/display/containers/Container+Architecture"
+      child:
+      - name: What is a Container 
+        url:  "/display/containers/What+is+a+Container"
+      - name: What is a Container Image 
+        url:  "/display/containers/What+is+a+Container+Image" 
+      - name: What is a Container Image Repository 
+        url:  "/display/containers/What+is+a+Container+Image+Repository"     
+      - name: Container Image Registries 
+        url:  "/display/containers/Container+Image+Registries"         
+      - name: Containers and Agile Development 
+        url:  "/display/containers/Containers+and+Agile+Development"   
+      - name: Containers vs Virtual Machines 
+        url: "/display/containers/containers+vs+virtual+machines"
+        subChild:
+        - name: Containers vs Unikernels
+          url:  "/display/containers/Containers+vs+Unikernels" 
+      - name: Containers vs Traditional Application Model
+        url: "/display/containers/Containers+vs+traditional+tpplication+todel" 
+      - name: Containers and Microservices 
+        url: "/display/containers/Containers+and+Microservices"  
+      - name: Service Mesh 
+        url: "/display/containers/Service+Mesh"
+        subChild:
+        - name: AWS App Mesh
+          url:  "/display/containers/AWS+App+Mesh" 
+        - name: Azure Service Fabric
+          url:  "/display/containers/Azure+Service+Fabric"
+        - name: Istio
+          url:  "/display/containers/Istio"
+        - name: Kubernetes vs Service Fabric
+          url:  "/display/containers/Kubernetes+vs+Service+Fabric" 
+        - name: Linkerd vs Istio
+          url:  "/display/containers/Linkerd+vs+Istio" 
+      
+      - name: Refactoring a Monolith to Microservices
+        url:  "/display/containers/Refactoring+a+Monolith+to+Microservices" 
+
+        
+    - name: Advantages of Containers 
+      url: "/display/containers/Advantages+of+Containers"
+      child:
+      - name: Container Immutability   
+        url:  "/display/containers/Container+Immutability"
+      - name: Container Resource Utilization 
+        url:  "/display/containers/Container+Resource+Utilization"
+      - name: Container Portability    
+        url:  "/display/containers/Container+Portability"
+      - name: Container Performance  
+        url:  "/display/containers/Container+Performance"
+      - name: Container Scalability 
+        url:  "/display/containers/Container+Scalability"
+      - name: Container Operating Costs 
+        url:  "/display/containers/Container+Operating+Costs"
+      - name: Containers as a Service 
+        url:  "/display/containers/Containers+as+a+Service"
+
+        
+    - name: Container Challenges
+      url: "/display/containers/Container+Challenges"
+      child:
+      - name: Container Storage Best Practices    
+        url:  "/display/containers/Container+Storage+Best+Practices"
+      - name: Container Networking Best Practices  
+        url:  "/display/containers/Container+Networking+Best+Practices"
+      - name: Containers and OS Compatibility     
+        url:  "/display/containers/Containers+and+OS+Compatibility"
+
+
+        
+
+
+    - name: Containers and IT Infrastructure 
+      url: "/display/containers/Containers+and+IT+Infrastructure"
+      child:
+      - name:  Containers and Hybrid Clouds  
+        url:  "/display/containers/Containers+and+Hybrid+Clouds"
+      - name:  Containers and Private Clouds 
+        url:  "/display/containers/Containers+and+Private+Clouds"
+      - name:  Containers in The Data Center 
+        url:  "/display/containers/Containers+in+The+Data+Center"
+      - name:  Containers and Virtualization  
+        url:  "/display/containers/Containers+and+Virtualization"
+      - name:  Containers and Serverless Computing  
+        url:  "/display/containers/Containers+and+Serverless+Computing"
+      - name:  Containers and Hyperconvergence 
+        url:  "/display/containers/Containers+and+Hyperconvergence "
+      - name:  Containers and Big Data 
+        url:  "/display/containers/Containers+and+Big+Data"
+
+
+    - name: Enterprise DevOps 
+      url: "/display/containers/Enterprise+DevOps"
+      child:
+      - name: Containers and DevOps 
+        url:  "/display/containers/Containers+and+DevOps"
+      - name: Containers and GitOps 
+        url:  "/display/containers/Containers+and+GitOps"
+      - name: Devsecops Tools 
+        url:  "/display/containers/Devsecops+Tools"
+      - name: The Shift Left Principle and DevOps 
+        url:  "/display/containers/The+Shift+Left+Principle+and+DevOps"
+
+
+    - name: eBPF  
+      url: "/display/containers/eBPF"
+    - name: eBPF Linux   
+      url: "/display/containers/eBPF+Linux"
+
+  - sectionMain: Containers Ops
+    url: "/display/containers/Containers+Ops"
+    icon: "yesIcon"
+    sectionList:
+    - name: Container Security Management 
+      url: "/display/containers/Container+Security+Management"
+    - name: Container Deployment 
+      url: "/display/containers/Container+Deployment "
+    - name: Container Monitoring
+      url: "/display/containers/Container+Monitoring"
+    - name: Container Automation 
+      url: "/display/containers/Container+Automation"
+    - name: Container Multitenancy 
+      url: "/display/containers/Container+Multitenancy"
+    - name: Container Backup and Disaster Recovery 
+      url: "/display/containers/Container+Backup+and+Disaster+Recovery"
+    - name: Prometheus Monitoring 
+      url: "/display/containers/Prometheus+Monitoring"
+
+      
+  - sectionMain: Container Security
+    url:  "/display/containers/Container+Security"
+    icon: "yesIcon"
+    sectionList:
+    - name: Container Security Best Practices 
+      url: "/display/containers/Container+Security+Best+Practices"
+    - name: Containers for DevSecOps  
+      url: "/display/containers/Containers+for+DevSecOps"
+    - name: Container Vulnerabilities and Threats 
+      url: "/display/containers/Container+Vulnerabilities+and+Threats"
+    - name: Container Vulnerability Scanning 
+      url: "/display/containers/Container+Vulnerability+Scanning"
+    - name: Container Secrets Management 
+      url: "/display/containers/Container+Secrets+Management"
+    - name: Container Access Control 
+      url: "/display/containers/Container+Access+Control"
+    - name: Container Audits and Compliance 
+      url: "/display/containers/Container+Audits+and+Compliance"
+    - name: Application Whitelisting  
+      url: "/display/containers/Application+Whitelisting"
+    - name: Zero Trust Networks 
+      url: "/display/containers/Zero+Trust+Networks"
+    - name: Network Segmentation for Containers 
+      url: "/display/containers/Network+Segmentation+for+Containers"
+    - name: Container Isolation 
+      url: "/display/containers/Container+Isolation"
+    - name: Open Source Security Tools for Containers 
+      url: "/display/containers/Open+Source+Security+Tools+for+Containers"
+    - name: Open Source Vulnerability Scanner 
+      url: "/display/containers/Open+Source+Vulnerability+Scanner"
+    - name:  Open Source Security Tools   
+      url: "/display/containers/Open+Source+Security+Tools"
+    - name: Container Security Tools   
+      url: "/display/containers/Container+Security+Tools"
+
+
+  - sectionMain: Cloud Native Computing Foundation
+    url:   "/display/containers/Cloud+Native+Computing+Foundation"
+    icon: ""
+    sectionList:
+    - name: AWS EC2 Security  
+      url: "/display/containers/AWS+EC2+Security"
+    - name: Cloud-Native Applications 
+      url: "/display/containers/Cloud-Native+Applications"
+    - name: Cloud-Native Architecture 
+      url: "/display/containers/Cloud-Native+Architecture "
+    - name: Cloud Native AWS   
+      url: "/display/containers/Cloud+Native+AWS"
+    - name: Cloud Native Development 
+      url: "/display/containers/Cloud+Native+Development"
+    - name: Cloud Native Infrastructure 
+      url: "/display/containers/Cloud+Native+Infrastructure"
+    - name: Cloud Native Security 
+      url: "/display/containers/Cloud+Native+Security"
+    - name: Envoy Proxy 
+      url: "/display/containers/Envoy+Proxy"
+    - name: Harbor Kubernetes  
+      url: "/display/containers/Harbor+Kubernetes"
+    - name: Open Policy Agent 
+      url: "/display/containers/Open+Policy+Agent"
+    - name: Oracle Cloud Security  
+      url: "/display/containers/Oracle+Cloud+Security"
+    - name: SaaS Cloud Security  
+      url: "/display/containers/SaaS+Cloud+Security "
+    - name: Security Issues in Cloud Computing 
+      url: "/display/containers/Security+Issues+in+Cloud+Computing"
+    - name: SPIFFE 
+      url: "/display/containers/SPIFFE"
+    - name: VMware Tanzu  
+      url: "/display/containers/VMware+Tanzu"
+
+
 
 
 

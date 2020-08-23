@@ -1,7 +1,7 @@
 <div class="col-md-3 col-lg-2 sidebar-offcanvas bg-light p-0" id="sidebar" role="navigation">
     <div class="sticky-top">
         {{$tit := .Title}}
-        <h3><a href="/">Container Technology Wiki     </a> </h3>
+        <h3><a href="/">Container Technology Wiki</a> </h3>
 
         
         {{ range  .Site.Data.menu.sidebar}}
@@ -50,12 +50,12 @@
                     </ul>
                 {{end}}
             {{else}}
-                <ul class="nav flex-column pl-0">
+                <ul class="nav flex-column sidebar-nav pl-0">
                     {{range .sectionList}}   
                         {{if .child}} 
                             <li class="nav-item">
                                 <span href="{{.url}}" data-toggle="collapse" data-target="#{{replaceRE "(\\s)" "-" .name | lower}}" class="arrow collapsed">&nbsp;</span> 
-                                <a class="nav-link" href="docker101.html">{{.name }} -  noC-main</a>
+                                <a class="nav-link {{if eq .name $tit }}active{{end}}" href="{{.url | lower}}">{{.name }}</a>
 
                                 <ul class="list-unstyled flex-column collapse" id="{{replaceRE "(\\s)" "-" .name | lower}}" aria-expanded="false">
                                     {{range .child }}
@@ -64,17 +64,17 @@
                                         {{ if .subChild }} 
                                         <li class="nav-item no-icon">
                                             <span href="#{{replaceRE "(\\s)" "-" .name | lower}}" class="arrow collapsed" data-toggle="collapse" data-target="#{{replaceRE "(\\s)" "-" .name | lower}}">&nbsp;</span>
-                                            <a class="nav-link" href="{{.url}}">{{.name}}</a>
+                                            <a class="nav-link {{if eq .name $tit }} active{{end}}" href="{{.url | lower }}">{{.name}}</a>
                                        
                                             <ul class="list-unstyled flex-column collapse" id="{{replaceRE "(\\s)" "-" .name | lower}}" aria-expanded="false">
                                                 {{range .subChild}}
-                                                    <li class="nav-item"><span class="no-icon"><i class="fa fa-minus"></i></span><a class="nav-link" href="{{.url}}">{{.name}}</a></li>
+                                                    <li class="nav-item"><span class="no-icon"><i class="fa fa-minus"></i></span><a class="nav-link {{if eq .name $tit }} active {{end}}" href="{{.url | lower }}">{{.name}}</a></li>
                                                 {{end}}
                                             </ul>
                                         </li>
                                         
                                         {{else}}
-                                            <li class="nav-item"><span class="">&nbsp;</span><a class="nav-link" href="{{.url}}">{{.name}}</a></li>
+                                            <li class="nav-item"><span class="">&nbsp;</span><a class="nav-link {{if eq .name $tit }} active {{end}}" href="{{.url  | lower}}">{{.name}}</a></li>
                                         {{end}}
 
                                         
@@ -84,7 +84,7 @@
                             </li>  
                         {{else}}            
                             <li class="nav-item nochild">
-                                <span class="no-icon">&nbsp;</span> <a class="nav-link" href="{{.url | lower }}">{{.name}}</a>
+                                <span class="no-icon">&nbsp;</span> <a class="nav-link {{if eq .name $tit }} active {{end}}" href="{{.url | lower }}">{{.name}}</a>
                             </li>
                         {{end}}
                     {{end}}

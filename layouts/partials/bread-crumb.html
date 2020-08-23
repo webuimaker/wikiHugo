@@ -24,7 +24,7 @@
                 {{ range $elem_index, $breadcrumb := (split .URL "/") }}
                   {{ if gt (len . ) 0 }}
                     {{ if ne $elem_index (sub $length 2) }}
-                      <li class="breadcrumb-item"><a href="/{{ . }}">{{ humanize (replace . "posts" "blog") }}</a></li>
+                      <li class="breadcrumb-item"><a href="/{{ . }}">{{ humanize (replace . "posts" "blog") }} </a></li>
                     {{else}}
                      <li class="breadcrumb-item active" aria-current="page">{{ . }}</li>
                     {{ end }}
