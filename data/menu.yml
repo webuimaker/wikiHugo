@@ -436,9 +436,83 @@ sidebar:
     - name: VMware Tanzu  
       url: "/display/containers/VMware+Tanzu"
 
+  - sectionMain: Serverless Computing
+    url:   "/display/containers/Serverless+Computing"
+    icon: ""
+    sectionList:
+    - name: Serverless Architecture  
+      url: "/display/containers/Serverless+Architecture"
+    - name: AWS Lambda  
+      url: "/display/containers/AWS+Lambda"
+    - name: Azure Functions  
+      url: "/display/containers/Azure+Functions"
+    - name: Google Cloud Functions 
+      url: "/display/containers/Google+Cloud+Functions"
+    - name: Serverless Security 
+      url: "/display/containers/Serverless+Security"
+    - name: On-Premises Serverless Platforms
+      url: "/display/containers/On-Premises+Serverless+Platforms"
+    - name: Function as a Service - FaaS  
+      url: "/display/containers/Function+as+a+Service+-+FaaS"
+    - name: Knative
+      url: "/display/containers/Knative"
+    - name: Serverless vs Containers  
+      url: "/display/containers/Serverless+vs+Containers"
 
+      
 
+  - sectionMain: Container Platforms
+    url:   "/display/containers/Container+Platforms" 
+    icon: ""
+    sectionList:
+    - name: Containers and Cloud Computing
+      url: "/display/containers/Containers+and+Cloud+Computing"       
+      child:
+      - name:  Containers on AWS 
+        url: "/display/containers/Containers+on+AWS"        
+        subChild:
+        - name: Amazon Elastic Container Service
+          url:  "/display/containers/Amazon+Elastic+Container+Service"
+        - name: AWS Fargate
+          url:  "/display/containers/AWS+Fargate"
+        - name: Amazon EKS
+          url:  "/display/containers/Amazon+EKS"
 
+      - name:  Containers on Azure 
+        url: "/display/containers/Containers+on+Azure"        
+        subChild:
+        - name: Azure Container Service
+          url:  "/display/containers/Azure+Container+Service"
+        - name: Azure Container Instances - ACI
+          url:  "/display/containers/Azure+Container+Instances+-+ACI"
+        - name: Kubernetes on Azure
+          url:  "/display/containers/Kubernetes+on+Azure"
+      - name:  Containers on Google Cloud Platform
+        url:   "/display/containers/Containers+on+Google+Cloud+Platform"  
+        subChild:
+        - name: Google Container Engine
+          url:  "/display/containers/Google+Container+Engine"
+      - name:  IBM Cloud Container Service
+        url: 
+      - name:  Docker on OpenStack
+        url: 
+      - name:  OpenStack vs. Kubernetes
+        url: 
+      - name:  Container as a Service
+        url: 
+      - name:  Cloud Workload Protection
+        url: 
 
-
+    - name: Container Operating Systems
+      url: "/display/containers/Container+Operating+Systems"
+    - name: Red Hat Openshift
+      url: "/display/containers/Red+Hat+Openshift"
+    - name: Pivotal Container Service
+      url: "/display/containers/Pivotal+Container+Service" 
+    - name: Multi-Cloud Strategy
+      url: "/display/containers/Multi-Cloud+Strategy"
+    - name: Kubernetes vs Cloud Foundry
+      url:  "/display/containers/Kubernetes+vs+Cloud+Foundry" 
+    - name: CWPP
+      url: "/display/containers/CWPP" 
 
