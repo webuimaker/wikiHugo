@@ -15,6 +15,9 @@ title = "Container Technology Wiki"
     style = "trac" # manni perldoc  monokai  igor xcode vim autumn  vs rrt borland native colorful  default murphy trac tango fruity bw emacs pastie friendly 
     tabWidth = 4
 
+[markup.goldmark.renderer]
+unsafe= true
+
 
 [params]
 logo = "images/logo.png"

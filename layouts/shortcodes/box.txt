@@ -1,3 +1,0 @@
-<div class="box my-3">
-    {{ .Inner | safeHTML | print | markdownify }}
-</div>

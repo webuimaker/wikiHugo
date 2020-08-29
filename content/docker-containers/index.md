@@ -37,11 +37,11 @@ tocBasicAdv:
   - name: DOCKER VS. KUBERNETES...
     url: "#dockercontainers-dockervs-kubernetes"
   - name: DOCKER SECURITY...
-    url: "#DockerContainers-DOCKERSECURITY..."
+    url: "#dockercontainers-dockersecurity"
   - name: DOCKER SWARM...
-    url: "#DockerContainers-DOCKERSWARM..."
+    url: "#dockercontainers-dockerswarm"
   - name: DOCKER NETWORKING...
-    url: "#DockerContainers-DOCKERNETWORKING..."
+    url: "#dockercontainers-dockernetworking"
 ---
 
 
