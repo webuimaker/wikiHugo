@@ -2,15 +2,15 @@
 <span class="js-widget-page d-none"></span>
 {{if eq .Params.rightSide true }} 
   {{if .Params.promotion.enable}}
-  <div id="main-header">        
-    <div id="title-heading" class="pagetitle with-breadcrumbs">
-      <!-- {{ partial "widgets/breadcrumb.html" .}} -->      
-      <h1 id="title-text" class="with-breadcrumbs mb-4">
-        {{ .Title }}
-      </h1>
-      <p>{{ .Params.titleDescription | safeHTML }} </p>
+    <div id="main-header">        
+      <div id="title-heading" class="pagetitle with-breadcrumbs">
+        <!-- {{ partial "widgets/breadcrumb.html" .}} -->      
+        <h1 id="title-text" class="with-breadcrumbs mb-4">
+          {{ .Title }}
+        </h1>
+        <p>{{ .Params.titleDescription | safeHTML }} </p>
+      </div>
     </div>
-  </div>
     
       <section class="tableofcontent">
         <span class="toc-header">Table of Contents:</span>
@@ -50,7 +50,7 @@
 
     {{else}}
       {{ partial "widgets/titlebanner.html" .}}
-      {{ if  .Params.toc.enable }}
+      {{ if  .Params.tocBasicAdv.enable }}
         {{ partial "widgets/toc-adv.html" .}}
       {{end}}
 

@@ -25,6 +25,7 @@ promotion:
   promoBtnUrl: 
 bannerTitle: "KUBERNETES THE COMPLETE GUIDE"
 tocBasicAdv:
+  enable: true
   title: "Everything you need to know about Kubernetes - from basic to advanced:"
   tocList:
   - name: "KUBERNETES THE COMPLETE GUIDE"
