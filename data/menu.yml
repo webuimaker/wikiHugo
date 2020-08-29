@@ -523,11 +523,48 @@ sidebar:
       - name:   Openshift vs Docker 
         url: "/display/containers/Openshift+vs+Docker"
     - name: Pivotal Container Service
-      url: "/display/containers/Pivotal+Container+Service" 
+      url: "/display/containers/Pivotal+Container+Service"    
+      child:
+      - name:  Cloud Foundry Container Runtime 
+        url: "/display/containers/Cloud+Foundry+Container+Runtime"  
+      - name: Cloud Foundry vs AWS
+        url: "/display/containers/Cloud+Foundry+vs+AWS"
+      - name:   Cloud Foundry vs Docker
+        url: "/display/containers/Cloud+Foundry+vs+Docker"
+      - name:  Pivotal Cloud Foundry Containers
+        url: "/display/containers/Pivotal+Cloud+Foundry+Containers"
+      - name:  Pivotal Cloud Foundry Architecture
+        url: "/display/containers/Pivotal+Cloud+Foundry+Architecture"
+      - name:  VMware PKS 
+        url: "/display/containers/VMware+PKS"
     - name: Multi-Cloud Strategy
       url: "/display/containers/Multi-Cloud+Strategy"
     - name: Kubernetes vs Cloud Foundry
       url:  "/display/containers/Kubernetes+vs+Cloud+Foundry" 
     - name: CWPP
       url: "/display/containers/CWPP" 
+
+  - sectionMain: Other Container Engines
+    url:   "/display/containers/Container+Platforms" 
+    icon: ""
+    sectionList:
+    - name: Containerd
+      url: "/display/containers/Containers+and+Cloud+Computing"  
+    - name: CRI-O
+      url: "/display/containers/Containers+and+Cloud+Computing"
+    - name: RunC
+      url: "/display/containers/Containers+and+Cloud+Computing"  
+  - sectionMain: Kubernetes Alternatives
+    url:  "/display/containers/Kubernetes+Alternatives"
+    icon: ""
+    sectionList:
+    - name: Kubernetes Alternatives - Kubernetes vs Mesos vs Swarm
+      url:  "/display/containers/Kubernetes+Alternatives+-+Kubernetes+vs+Mesos+vs+Swarm"  
+  - sectionMain: Container Community and Events
+    url:   "/display/containers/Container+Community+and+Events"
+    icon: ""
+    sectionList:
+    - name: Wiki Site Map
+      url:  "/display/containers/Container+Technology+Wiki+Site+Map"  
+     
 
