@@ -493,20 +493,35 @@ sidebar:
         - name: Google Container Engine
           url:  "/display/containers/Google+Container+Engine"
       - name:  IBM Cloud Container Service
-        url: 
+        url: "/display/containers/IBM+Cloud+Container+Service"
       - name:  Docker on OpenStack
-        url: 
+        url:  "/display/containers/Docker+on+OpenStack"
       - name:  OpenStack vs. Kubernetes
-        url: 
+        url:  "/display/containers/OpenStack+vs.+Kubernetes"
       - name:  Container as a Service
-        url: 
+        url:  "/display/containers/Container+as+a+Service"
       - name:  Cloud Workload Protection
-        url: 
+        url:  "/display/containers/Cloud+Workload+Protection"
 
     - name: Container Operating Systems
       url: "/display/containers/Container+Operating+Systems"
     - name: Red Hat Openshift
-      url: "/display/containers/Red+Hat+Openshift"
+      url: "/display/containers/Red+Hat+Openshift"      
+      child:
+      - name: Azure Red Hat
+        url: "/display/containers/Azure+Red+Hat"    
+      - name: OpenShift Architecture 
+        url: "/display/containers/OpenShift+Architecture" 
+      - name:  Openshift on AWS 
+        url: "/display/containers/Openshift+on+AWS" 
+      - name: Openshift Security 
+        url: "/display/containers/Openshift+Security"
+      - name:   OpenShift vs. Kubernetes 
+        url: "/display/containers/OpenShift+vs.+Kubernetes"    
+      - name:   OpenShift vs Cloud Foundry 
+        url: "/display/containers/OpenShift+vs+Cloud+Foundry"     
+      - name:   Openshift vs Docker 
+        url: "/display/containers/Openshift+vs+Docker"
     - name: Pivotal Container Service
       url: "/display/containers/Pivotal+Container+Service" 
     - name: Multi-Cloud Strategy
