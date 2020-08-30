@@ -57,6 +57,7 @@
   {{end}}
 {{else}}
   <!-- {{ partial "widgets/breadcrumb.html" .}} -->
+  
   {{ partial "widgets/titlebanner.html" .}}
   {{ partial "widgets/toc-adv.html" .}}
   
@@ -67,9 +68,13 @@
 <div class="maincontent">
   <p>{{ .Content | safeHTML }}</p>
 <div class="inner-outter">
+ 
 
   {{if .Params.promotion.enable}}
-    <section class="promotionbottom" style="order:1">  
+    <section class="promotionbottom" style="order:1"> 
+      <section class="promotionbottom">
+        <p>Below we have compiled publicly available sources from around the world that present views on {{ .Title}}.</p>
+      </section> 
       <div class="promotionbox" style="background-image: url({{.Params.promotion.promoLogo | absURL }}); background-color:{{.Params.promotion.promoBackground}};">
           <h2>{{.Params.promotion.promoHeading}}</h2>
           <h6>{{.Params.promotion.promoSubHeading}}</h6>

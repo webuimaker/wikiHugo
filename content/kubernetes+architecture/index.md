@@ -25,7 +25,8 @@ promotion:
   promoSubHeading: "Fundamental Technology Concepts that Protect Containerized Applications"
   promoBtnBg: "#"
   promoBtnText: "Grab Your FREE Copy"
-  promoBtnUrl: "https://info.aquasec.com/container-security-book?utm_source=wiki"
+  promoBtnUrl: "https://info.aquasec.com/container-security-book?utm_source=wiki"  
+  promotionbottom: true
 ---
 
 

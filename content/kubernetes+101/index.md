@@ -25,6 +25,7 @@ promotion:
   promoBtnBg:
   promoBtnText: 
   promoBtnUrl: 
+  promotionbottom: 
 tocBasicAdv: 
   enable: false
   title: 
