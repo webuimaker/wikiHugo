@@ -30,13 +30,7 @@ smallItem:
    linkText: ""
    linkUrl: "https://webhookrelay.com/blog/2018/01/08/ingress-with-docker-for-mac/"
    openNewWindow: 
-   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_1.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fwebhookrelay.com%3Fsize%3D250 " 
- - title: "Communicating with Local Daemon Set Pods in Kubernetes"
-   summary: "bravopooper.wordpress.com"
-   linkText: ""
-   linkUrl: "https://bravopooper.wordpress.com/2017/07/17/communicating-with-local-daemon-set-pods-in-kubernetes/"
-   openNewWindow: 
-   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_1.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fbravopooper.wordpress.com%3Fsize%3D250" 
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_1.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fwebhookrelay.com%3Fsize%3D250 "  
  - title: "How to Pull an Image from Docker Registry and Deploy in to Kubernetes"
    summary: "tutorialspoint.com"
    linkText: ""

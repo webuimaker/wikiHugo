@@ -37,4 +37,3 @@ smallItem:
    openNewWindow: 
    image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_1.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Faws.amazon.com%3Fsize%3D250"
 ---
-## See more resources on [Kubernetes on AWS](/display/containers/Kubernetes+on+AW)
