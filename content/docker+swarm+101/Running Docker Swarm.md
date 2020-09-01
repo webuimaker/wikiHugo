@@ -12,7 +12,17 @@ subtitle: ""
 date_format: "Jan 2006"
 ---
 
-Because each pod has a unique IP in a flat address space inside the Kubernetes cluster, direct pod-to-pod communication is possible without requiring any kind of proxy or address translation. This also allows using standard ports for most applications as there is no need to route traffic from a host port to a container port, as in Docker. Note that because all containers in a pod share the same IP address, container-private ports are not possible (containers can access each other’s ports via `localhost:<port>` ) and port conflicts are possible. However, the typical use case for a pod is to run a single application service (in a similar fashion to a VM), in which case port conflicts are a rare situation.
+The Docker engine runs with swarm mode disabled by default. To run Docker in swarm mode, you can either create a new swarm or have the container join an existing swarm. 
 
-**For further reading, see community documentation:** {{< read-more "Networking"  "https://github.com/kubernetes/community/blob/master/contributors/design-proposals/network/networking.md" "_blank"  >}}
+To create a swarm, run the `docker swarm init` command, which creates a single-node swarm on the current Docker engine. The current node becomes the manager node for the newly created swarm.
+
+The output for the docker swarm init command tells you which command you need to run on other Docker containers to allow them to join your swarm as worker nodes. 
+
+Other nodes can access the SwarmKit API using the manager node's advertised IP address. SwarmKit is a toolkit for orchestrating distributed systems, including node discovery, task scheduling, and more. 
+
+Each node requires a secret token to join a swarm. The token for worker nodes is different from the token for manager nodes, and the token is only used at the time a container joins the swarm. 
+
+Manager tokens should be strongly protected, because any access to the manager token grants control over an entire swarm. 
+
+**For more details, see the Swarm documentation:** {{< read-more "Run Docker in Swarm mode"  "https://docs.docker.com/engine/swarm/swarm-mode/" "_blank"  >}}
 

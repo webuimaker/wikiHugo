@@ -12,16 +12,23 @@ subtitle: ""
 date_format: "Jan 2006"
 ---
 
-The Docker networking model relies, by default, on a virtual bridge network called `Docker0`. It is a per-host private network where containers get attached (and thus can reach each other) and allocated a private IP address. This means containers running on different machines are not able to communicate with each other (as they are attached to different hosts’ networks). In order to communicate across nodes with Docker, we have to map host ports to container ports and proxy the traffic. In this scenario, it’s up to the Docker operator to avoid port clashes between containers.
+<strong>Swarmkit</strong>&nbsp;– a separate project which implements Docker’s orchestration layer and is used directly within Docker to implement Docker swarm mode.
 
-The Kubernetes networking model, on the other hand, natively supports multi-host networking in which pods are able to communicate with each other by default, regardless of which host they live in. Kubernetes does not provide an implementation of this model by default, rather it relies on third-party tools that comply with the following requirements: all containers are able to communicate with each other without NAT; nodes are able to communicate with containers without NAT; and a container’s IP address is the same from inside and outside the container.
-
-
-Kubernetes follows an “IP-per-pod” model where each pod get assigned an IP address and all containers in a single pod share the same network namespaces and IP address. Containers in the same pod can therefore reach each other’s ports via `localhost:<port>`. However, it is not recommended to communicate directly with a pod via its IP address due to pod’s volatility (a pod can be killed and replaced at any moment). Instead, use a [Kubernetes service](/display/containers/kubernetes+services+101) which represents a group of pods acting as a single entity to the outside. Services get allocated their own IP address in the cluster and provide a reliable entry point.
+<strong>Swarm</strong>&nbsp;– a swarm consists of multiple Docker hosts which run in swarm mode and act as managers and workers.
 
 
-See Kubernetes documentation: Cluster Networking - Kubernetes Model
+<strong>Task</strong>&nbsp;– the swarm manager distributes a specific number of tasks among the nodes, based on the service scale you specify. A task carries a Docker container and the commands to run inside the container. Once a task is assigned to a node, it cannot move to another node. It can only run on the assigned node or fail.
+
+<strong>Service</strong>&nbsp;– a service is the definition of the tasks to execute on the manager or worker nodes. When you create a service, you specify which container image to use and which commands to execute inside running containers. A key difference between services and standalone containers is that you can modify a service’s configuration, including the networks and volumes it is connected to, without manually restarting the service.
+
+<strong>Nodes</strong>&nbsp;– a swarm node is an individual Docker Engine participating in the swarm. You can run one or more nodes on a single physical computer or cloud server, but production swarm deployments typically include Docker nodes distributed across multiple machines.
+
+<strong>Manager nodes</strong>&nbsp;– dispatches units of work called tasks to worker nodes. Manager nodes also perform orchestration and cluster management functions.
+
+<strong>Leader node</strong>&nbsp;– manager nodes elect a single leader to conduct orchestration tasks, using the Raft consensus algorithm.
+
+<strong>Worker nodes</strong>&nbsp;– receive and execute tasks dispatched from manager nodes. By default manager nodes also run services as worker nodes. An agent runs on each worker node and reports on the tasks assigned to it to its manager node.
+
+<strong>Load balancing</strong>&nbsp;– the swarm manager uses ingress load balancing to expose the services running on the Docker swarm, enabling external access. The swarm manager assigns a configurable PublishedPort for the service. External components, such as cloud load balancers, can access the service on the PublishedPort of any node in the cluster, whether or not the node is currently running the task for the service. All nodes in the swarm route ingress connections to a running task instance. The swarm manager uses internal load balancing to distribute requests among services within the cluster based upon the DNS name of the service.
 
 
-
-**For further reading, see Kubernetes Documentation:** {{< read-more "Cluster Networking - Kubernetes Model" "https://kubernetes.io/docs/concepts/cluster-administration/networking/#kubernetes-model" "_target"  >}}

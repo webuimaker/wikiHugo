@@ -13,6 +13,20 @@ date_format: "Jan 2006"
 
 ---
 
-Since a [Kubernetes cluster](/display/containers/kubernetes+cluster) consists of various nodes and pods, understanding how they communicate between them is essential. The Kubernetes networking model supports different types of open source implementations. Kubernetes provides an IP address to each pod so that there is no need to map host ports to container ports as in the Docker networking model. Pods behave much like VMs or physical hosts with respect to port allocation, naming, load balancing and application configuration.  For more background on Kubernetes components, see [Kuberenetes Architecture](/display/containers/kubernetes+architecture+101).
+[Docker](/display/containers/docker+containers) swarm mode allows you to manage a cluster of Docker Engines, natively within the Docker platform. You can use the Docker CLI to create a swarm, deploy application services to a swarm, and manage swarm behavior.
 
-**For further reading, see Kubernetes Documentation:** {{< read-more "Cluster Networking - Summary" "https://kubernetes.io/docs/concepts/cluster-administration/networking/#summary" "_blank"  >}}
+Docker will shortly support [Kubernetes Guide](/display/containers/kubernetes+guide) as well as Docker Swarm, and Docker users will be able to use either Kubernetes or Swarm to orchestrate their container workloads.
+
+
+Swarm can help developers and IT administrators:
+
+* Coordinate between containers and allocate tasks to groups of containers
+
+
+* Perform health checks and manage lifecycle of individual containers
+
+* Provide redundancy and failover in case nodes experience failure
+
+* Scale the number of containers up and down depending on load 
+
+* Perform rolling updates of software across multiple containers

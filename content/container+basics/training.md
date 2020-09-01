@@ -19,11 +19,17 @@ date_format: "Jan 2006"
 item:
 
 smallItem: 
- - title: "Docker Training - Expertise in Docker Containers, Virtualization on Windows &amp; Linux"
-   summary: "mindmajix.com"
+ - title: "Containers and Docker Webinars - Introduction, Security, Networking and DevOps"
+   summary: "ipspace.net"
    linkText: ""
-   linkUrl: "https://mindmajix.com/docker-training"
+   linkUrl: "http://www.ipspace.net/Roadmap/Containers_and_Docker"
    openNewWindow: 
-   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_auto,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fmindmajix.com%3Fsize%3D250"
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_2.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fipspace.net%3Fsize%3D250"
+ - title: "The Basic Idea of Containers"
+   summary: "lynda.com"
+   linkText: ""
+   linkUrl: "https://www.lynda.com/IT-Infrastructure-tutorials/Container-basics/548714/622230-4.html#tab"
+   openNewWindow: 
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_2.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Flynda.com%3Fsize%3D250"
 
 ---

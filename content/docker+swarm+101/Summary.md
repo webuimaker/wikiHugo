@@ -12,5 +12,5 @@ subtitle: ""
 date_format: "Jan 2006"
 ---
 
-Kubernetes provides a networking model but the specific implementation is done by a third party tool. By default, the model provides full communication inside the cluster (each pod gets its own IP address and can communicate with any other pod or service) and full isolation to the outside world. By specifying ingress rules, incoming outside traffic can be routed to services running in the cluster. Also, network policies specifications allow defining both ingress and egress rules for a set of pods (tagged with a given label) within a namespace. Such rules are defined based, for example, on IP address, namespace or pod labels.
+Docker Swarm is an orchestration tool provided as part of the Docker platform. It is an alternative to other popular container orchestration tools, such as Kubernetes and Apache Mesos. Swarm is considered easy to use, especially for those already familiar with the Docker model, and should be an easy first step into the world of managing multiple containers and composing them into services and applications.
 

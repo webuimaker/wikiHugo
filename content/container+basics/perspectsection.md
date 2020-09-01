@@ -16,51 +16,62 @@ date_format: "Jan 2006"
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 item:
- - title: "Announcing Docker Enterprise Edition 2.0"
-   summary: "Docker EE 2.0 gives flexibility and choice over the types of applications supported, orchestrators used, and where it’s deployed.This article will walk through some of the key new capabilities of Docker EE 2.0."
-   linkText: "Read the article on blog.docker.com »"
-   linkUrl: "https://blog.docker.com/2018/04/announcing-docker-enterprise-edition-2-0/"
-   openNewWindow: false
-   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_176,dpr_auto,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fblog.docker.com%3Fsize%3D250"
- - title: "Docker for Data Scientists – A Docker Tutorial for Your Deep Learning Projects"
-   summary: "This post will present a short tutorial on how Docker can give your deep learning projects a jump start. In the process you will learn the basics of how to interact with Docker containers and create custom Docker images for your AI workloads."
-   linkText: "Read the article on technet.microsoft.com »"
-   linkUrl: "https://blogs.technet.microsoft.com/machinelearning/2018/03/15/demystifying-docker-for-data-scientists-a-docker-tutorial-for-your-deep-learning-projects/?WT.mc_id=Revolutions-blog-davidsmi"
+ - title: "How to Get Started with Containerization"
+   summary: "Given how truly disruptive containers are, it’s easy to get excited and want to go all in. But people should define their short and long-term objectives and build in the runway needed to acclimate to containers and the culture that surrounds them."
+   linkText: "Read the article on blog.aquasec.com »"
+   linkUrl: "https://blog.aquasec.com/get-started-with-containerization"
    openNewWindow: 
-   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_176,dpr_auto,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Ftechnet.microsoft.com%3Fsize%3D250"
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_176,dpr_2.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fblog.aquasec.com%3Fsize%3D250"
+ - title: "The Story of Containers"
+   summary: "Containers and their use in modern day high-performance cloud-native apps have generated a lot of hype recently. Learn about the history behind the tech!"
+   linkText: "Read the article on vmware.com »"
+   linkUrl: "https://blogs.vmware.com/opensource/2018/02/27/the-story-of-containers/"
+   openNewWindow: 
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_176,dpr_2.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fvmware.com%3Fsize%3D250"
 
 smallItem: 
- - title: "Top 10 Benefits You Will Get By Using Docker"
-   summary: "apiumhub.com"
+ - title: "Containers 101"
+   summary: "atos.net"
    linkText: ""
-   linkUrl: "https://apiumhub.com/tech-blog-barcelona/top-benefits-using-docker/"
+   linkUrl: "https://atos.net/en/blog/containers-101"
    openNewWindow: 
-   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_auto,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fapiumhub.com%3Fsize%3D250"
- - title: "A High-Level Introduction to Docker Containers for Experienced Engineers"
-   summary: "dynomitedb.com"
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_2.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fatos.net%3Fsize%3D250"
+ - title: "Best Practices for Operating Containers"
+   summary: "cloud.google.com"
    linkText: ""
-   linkUrl: "http://www.dynomitedb.com/blog/2016/04/13/docker-containers/"
+   linkUrl: "https://cloud.google.com/solutions/best-practices-for-operating-containers"
    openNewWindow: 
-   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_auto,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fdynomitedb.com%3Fsize%3D250"
- - title: "15 Docker Commands Beginners Should Know"
-   summary: "dev.to"
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_2.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fcloud.google.com%3Fsize%3D250"
+ - title: "Why You Should be Using Containers"
+   summary: "snp.com"
    linkText: ""
-   linkUrl: "https://dev.to/kojikanao/15-docker-commands-for-beginners-4m4d"
+   linkUrl: "https://www.snp.com/blog/why-you-should-be-using-containers"
    openNewWindow: 
-   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_2.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fdev.to%3Fsize%3D250"
- - title: "Docker Container - Introduction"
-   summary: "linuxandubuntu.com"
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_2.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fsnp.com%3Fsize%3D250"
+ - title: "Setting the Record Straight: containers vs. Zones vs. Jails vs. VMs"
+   summary: "jessfraz.com"
    linkText: ""
-   linkUrl: "http://www.linuxandubuntu.com/home/what-is-docker-container"
-   openNewWindow:
-   image: "https://i-cdn.embed.ly/1/display/crop?height=300&key=fd92ebbc52fc43fb98f69e50e7893c13&url=http%3A%2F%2Fwww.linuxandubuntu.com%2Fwp-content%2Fuploads%2F2019%2F07%2Fdocker-deploy-applications-easily.jpg&width=636"
- - title: "Docker-in-Docker ('DinD') - Valid Solution for Continuous Integration?"
-   summary: "blog.loof.fr"
-   linkText: ""
-   linkUrl: "http://blog.loof.fr/2018/01/to-dind-or-not-do-dind.html"
+   linkUrl: "https://blog.jessfraz.com/post/containers-zones-jails-vms/"
    openNewWindow: 
-   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_2.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fblog.loof.fr%3Fsize%3D250"
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_2.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fjessfraz.com%3Fsize%3D250"
+ - title: "Containers: Back to Basics"
+   summary: "missioncriticalmagazine.com"
+   linkText: ""
+   linkUrl: "https://www.missioncriticalmagazine.com/blogs/14-the-mission-critical-blog/post/89626-containers-back-to-basics"
+   openNewWindow: 
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_2.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fmissioncriticalmagazine.com%3Fsize%3D250"
+ - title: "Containers - From the Origins to Docker"
+   summary: "criticalcase.com"
+   linkText: ""
+   linkUrl: "https://www.criticalcase.com/blog/containers-from-the-origins-to-docker.html"
+   openNewWindow: 
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_2.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fcriticalcase.com%3Fsize%3D250"
+ - title: "Controlling Software through Containers and Microservices"
+   summary: "sdtimes.com"
+   linkText: ""
+   linkUrl: "http://sdtimes.com/controlling-software-containers-microservices/"
+   openNewWindow: 
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_2.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fsdtimes.com%3Fsize%3D250"
 
 ---
-
- 
+    

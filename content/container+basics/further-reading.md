@@ -17,26 +17,13 @@ date_format: "Jan 2006"
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 itemLink:
-- linkText: "Docker Image Repositories"
-  linkUrl: "/display/containers/Docker+Image+Repositories"
-  openNewWindow: false
-- linkText: "Working With Dockerfiles"
-  linkUrl: "/display/containers/Working+With+Dockerfiles"
-  openNewWindow: false
-- linkText: "Running Docker Containers"
-  linkUrl: "/display/containers/Running+Docker+Containers"
-  openNewWindow: false
-- linkText: "Working With Docker Hub"
-  linkUrl: "/display/containers/Working+With+Docker+Hub"
-  openNewWindow: false
-- linkText: "Docker Container Management"
-  linkUrl: "/display/containers/Docker+Container+Management"
-  openNewWindow: false
-- linkText: "Storing Data Within Containers"
-  linkUrl: "/display/containers/Storing+Data+Within+Containers"
-  openNewWindow: false
-- linkText: "Docker Compliance"
-  linkUrl: "/display/containers/Docker+Compliance"
-  openNewWindow: false
 
 ---
+
+*   **[Container Architecture](/display/containers/container+architecture)** — Resources on building blocks of a container architecture, and architectural options organizations face when using containers for application development.
+*   **[Advantages of Containers](/display/containers/advantages+of+containers)** — Resources about the advantages of containers for developers and ops, including immutability, utilization, portability, performance and scalability.
+*   **[Container Challenges](/display/containers/container+challenges)** — Containers are quickly becoming popular as a way to speed and simplify application deployment. However, while developers often find it fast and easy to deploy containerized applications, experts say that enterprises sometimes run into unexpected challenges when deploying containers in production. This page gathers resources about some of the major challenges in container adoption and how to overcome them.
+*   **[Containers and IT Infrastructure](/display/containers/containers+and+it+infrastructure)** — Information technology infrastructure is composed of physical and virtual resources that support the flow, storage, processing and analysis of data. This page gathers resources about the combination of containers and IT Infrastructure like hybrid clouds, private clouds, data center and more.
+*   **[Enterprise DevOps](/display/containers/enterprise+devops)** — Large enterprises have bigger teams, more inherent operational complexity, and greater governance controls. Therefore, they need a different type of DevOps that caters to their sensibilities and not those of agile web startups. This page gathers resources about DevOps practices for large organizations.
+*   **[eBPF](/display/containers/ebpf)** — eBPF – extended Berkeley Packet Filter – is a Linux-native in-kernel virtual machine that enables secure, low-overhead tracing for application performance and event observability and analysis. eBPF delivers a lot more than network packet information, it can offer the deep visibility for cloud-native and container environments, from host and network data to container processes, resource utilization, and more.
+*   **[eBPF Linux](/display/containers/ebpf+linux)** — eBPF  (Extended Berkeley Packet Filter) is a Linux-native in-kernel virtual machine that enables secure, low-overhead tracing for application performance and event observability and analysis.  eBPF enables programmers to write code which gets executed in kernel space in a more secure and restricted environment. This page gather resources about eBPF on Linux and tutorials.

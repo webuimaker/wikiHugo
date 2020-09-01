@@ -13,9 +13,7 @@ active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
- - text: Docker Containers
-   url : "/display/containers/docker+containers"
- - text: Basic Docker Operations
+ - text: Container Basics
    url: ""
 promotion:
   enable: true

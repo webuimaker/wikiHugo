@@ -17,26 +17,26 @@ date_format: "Jan 2006"
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 itemLink:
-- linkText: "Docker Image Repositories"
-  linkUrl: "/display/containers/Docker+Image+Repositories"
+- linkText: "Container Architecture"
+  linkUrl: "/display/containers/container+architecture"
   openNewWindow: 
-- linkText: "Working With Dockerfiles"
-  linkUrl: "/display/containers/Working+With+Dockerfiles"
+- linkText: "Advantages of Containers"
+  linkUrl: "/display/containers/advantages+of+containers"
   openNewWindow: 
-- linkText: "Running Docker Containers"
-  linkUrl: "/display/containers/Running+Docker+Containers"
+- linkText: "Container Challenges"
+  linkUrl: "/display/containers/container+challenges"
   openNewWindow: 
-- linkText: "Working With Docker Hub"
-  linkUrl: "/display/containers/Working+With+Docker+Hub"
+- linkText: "Containers and IT Infrastructure"
+  linkUrl: "/display/containers/containers+and+it+infrastructure"
   openNewWindow: 
-- linkText: "Docker Container Management"
-  linkUrl: "/display/containers/Docker+Container+Management"
+- linkText: "Enterprise DevOps"
+  linkUrl: "/display/containers/enterprise+devOps"
   openNewWindow: 
-- linkText: "Storing Data Within Containers"
-  linkUrl: "/display/containers/Storing+Data+Within+Containers"
+- linkText: "eBPF"
+  linkUrl: "/display/containers/ebpf"
   openNewWindow: 
-- linkText: "Docker Compliance"
-  linkUrl: "/display/containers/Docker+Compliance"
+- linkText: "eBPF Linux"
+  linkUrl: "/display/containers/ebpf+linux"
   openNewWindow: 
 
 advanced:

@@ -11,52 +11,26 @@ subtitle: ""
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format: "Jan 2006"
 ---
+When working with multi-host, there is a need to use higher-level Docker orchestration tools to ease management of networking between a cluster of machines. Popular orchestration tools today include [Docker Swarm](/display/containers/Docker+Swarm+101), Kubernetes, and Apache Mesos.
 
-Nodes inside a Kubernetes cluster are firewalled from the Internet by default, thus services IP addresses are only targetable within the cluster network. In order to allow incoming traffic from outside the cluster, a service specification can map the service to one or more `externalIPs` (external to the cluster). Requests arriving at an external IP address get routed by the underlying cloud provider to a node in the cluster (usually via a load balancer outside Kubernetes). The node then knows which service is mapped to the external IP and also which pods are part of the service, thus routing the request to an appropriate pod.
+## Docker Swarm
 
-To support more complex policies on incoming traffic, Kubernetes provides an Ingress API offering externally-reachable URLs, traffic load balancing, SSL termination, and name based virtual hosting to services. An ingress is a collection of rules that allow inbound connections to reach the cluster service. Note that to actually action ingresses specified via the API, an ingress controller (such as the [NGINX ingress controller](https://github.com/kubernetes/ingress-nginx/blob/master/README.md) ) must be deployed and configured for the cluster. This might be done automatically or not, depending on which Kubernetes cloud provider you are using.
+[Docker Swarm](/display/containers/Docker+Swarm+101) is a Docker Inc. native tool used to orchestrate Docker containers. It enables you to manage a cluster of hosts as a single resource pool.
 
-A minimal ingress specification might look like this:
+Docker Swarm makes use of overlay networks for inter-host communication. The swarm manager service is responsible for automatically assigning IP addresses to the containers.
 
-```
-apiVersion: extensions/v1beta1
-kind: Ingress
-metadata:
-  name: my-ingress
-spec:
-  backend:
-    serviceName: my-service
-    servicePort: 80
-```
+For service discovery, each service in the swarm gets assigned a unique DNS name. Additionally, Docker Swarm has an embedded DNS server. You can query every container running in the swarm through this embedded DNS server.
 
-When processing this specification, the ingress controller would allocate an external IP to satisfy `my-ingress` rules, and forward all requests arriving at that IP to `my-service:80` .
+**See Docker Documentation:** {{< read-more "Manage swarm service networks" "https://docs.docker.com/engine/swarm/networking/" "_blank" >}}
 
-A slightly more complex example using simple load balancing could look like this:
+## Kubernetes
 
-```
-apiVersion: extensions/v1beta1
-kind: Ingress
-metadata:
-  name: my-ingress
-  annotations:
-    ingress.kubernetes.io/rewrite-target: /
-spec:
-  rules:
-  - host: foo.bar.com
-    http:
-      paths:
-      - path: /foo
-        backend:
-          serviceName: my-service-1
-          servicePort: 80
-      - path: /bar
-        backend:
-          serviceName: my-service-2
-          servicePort: 80
-```
+[Kubernetes Guide](/display/containers/Kubernetes+Guide) is a system used for automating deployment, scaling, and management of containerized applications, either on a single host or across a cluster of hosts.
 
-In this case all requests sent to `foo.bar.com/foo` get routed (through node load balancing) to `my-service-1:80` while requests sent to `foo.bar.com/bar` get routed (through node load balancing) to `my-service-2:80`
+Kubernetes approaches networking in a different way as compared to Docker, using native concepts like services and pods. Each pod has an IP address and no linking of pods is required, neither do you need to explicitly map container ports to host ports. There are DNS-based service discovery plugins which can be used for service discovery.
+Apache Mesos
+Apache Mesos is an open-source project used to manage a cluster of containers, providing efficient resource sharing and isolation across distributed applications.
 
-Note that the load balancing strategy is defined by the ingress controller and applied to all ingresses, thus does not appear in the ingress specification.
+Mesos uses IP address management (IPAM) server and client to manage containers networking. The role of the IPAM server is to assign IP addresses on demand while the IPAM client acts as a bridge between a network isolator module and the IPAM server. A network isolator module is a lightweight module that’s loaded into the Mesos agent. It looks at scheduler task requirements and uses IPAM and network isolator services to provide IP addresses to the containers.
 
-**For further reading, see Kubernetes documentation: Ingress** {{< read-more "Ingress" "https://kubernetes.io/docs/concepts/services-networking/ingress/" "_blank" >}}
+Mesos-dns is a DNS-based service discovery for Mesos. It allows applications and services running on Mesos to find each other through the DNS service.

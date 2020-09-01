@@ -12,16 +12,39 @@ subtitle: ""
 date_format: "Jan 2006"
 ---
 
-The Docker networking model relies, by default, on a virtual bridge network called `Docker0`. It is a per-host private network where containers get attached (and thus can reach each other) and allocated a private IP address. This means containers running on different machines are not able to communicate with each other (as they are attached to different hosts’ networks). In order to communicate across nodes with Docker, we have to map host ports to container ports and proxy the traffic. In this scenario, it’s up to the Docker operator to avoid port clashes between containers.
+Different networks provide different communication patterns (for example by IP address only, or by container name) between containers depending on network type and whether it’s a Docker default or a user-defined network.
 
-The Kubernetes networking model, on the other hand, natively supports multi-host networking in which pods are able to communicate with each other by default, regardless of which host they live in. Kubernetes does not provide an implementation of this model by default, rather it relies on third-party tools that comply with the following requirements: all containers are able to communicate with each other without NAT; nodes are able to communicate with containers without NAT; and a container’s IP address is the same from inside and outside the container.
+## Container discovery on docker0 network (DNS resolution)
+
+Docker will assign a name and hostname to each container created on the default `docker0` network, unless a different name/hostname is specified by the user. Docker then keeps a mapping of each name/hostname against the container’s IP address. This mapping allows pinging each container by name as opposed to IP address.
+
+Furthermore, consider the following example which starts a Docker container with a custom name, hostname and DNS server:
+
+`$ docker run --name test-container -it \
+--hostname=test-con.example.com \
+--dns=8.8.8.8 \
+ubuntu /bin/bash`
 
 
-Kubernetes follows an “IP-per-pod” model where each pod get assigned an IP address and all containers in a single pod share the same network namespaces and IP address. Containers in the same pod can therefore reach each other’s ports via `localhost:<port>`. However, it is not recommended to communicate directly with a pod via its IP address due to pod’s volatility (a pod can be killed and replaced at any moment). Instead, use a [Kubernetes service](/display/containers/kubernetes+services+101) which represents a group of pods acting as a single entity to the outside. Services get allocated their own IP address in the cluster and provide a reliable entry point.
+In this example, processes running inside `test-container`, when confronted with a hostname not in `/etc/hosts`, will connect to address 8.8.8.8 on port 53 expecting a DNS service.
 
 
-See Kubernetes documentation: Cluster Networking - Kubernetes Model
+**For further reading, see Kubernetes Documentation:** {{< read-more "Embedded DNS server in user-defined networks" "https://docs.docker.com/engine/userguide/networking/configure-dns/" "_target"  >}}
+  
+  
+  
+## Directly linking containers
+It is possible to directly link one container to another using the `--link` option when starting a container. This allow containers to discover each other and securely transfer information about one container to another container. However, Docker has deprecated this feature and recommends creating user-defined networks instead.
+
+As an example, imagine you have a `mydb` container running a database service. We can then create an application container named `myweb` and directly link it to `mydb`:
+
+`$ docker run --name myweb --link mydb:mydb -d -P myapp python app.py`
+
+
+**For further reading see Docker Documentation:** {{< read-more "Legacy container links" "https://docs.docker.com/engine/userguide/networking/default_network/dockerlinks/" "_target"  >}}
 
 
 
-**For further reading, see Kubernetes Documentation:** {{< read-more "Cluster Networking - Kubernetes Model" "https://kubernetes.io/docs/concepts/cluster-administration/networking/#kubernetes-model" "_target"  >}}
+
+
+
