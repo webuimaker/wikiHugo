@@ -178,7 +178,7 @@ sidebar:
         - name: Kubernetes Security 
           url:   "https://www.aquasec.com/solutions/kubernetes-container-security/"
         - name: Kubernetes Networking 
-          url:   "/display/containers/Kubernetes+Networking"
+          url:   "/display/containers/kubernetes+networking+101"
         - name: Kubernetes Storage Management
           url:   "/display/containers/Kubernetes+Storage+Management" 
         - name: Kubernetes in Production 
