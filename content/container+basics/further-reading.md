@@ -3,8 +3,8 @@
 widget: "reading"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless: true  # This file represents a page section.
 active: true  # Activate this widget? true/false
-weight: 1  # Order that this section will appear.
-title: "Key Topics"
+weight: 6  # Order that this section will appear.
+title: "Further Reading"
 subtitle: ""
 
 # Date format
@@ -19,28 +19,24 @@ date_format: "Jan 2006"
 itemLink:
 - linkText: "Docker Image Repositories"
   linkUrl: "/display/containers/Docker+Image+Repositories"
-  openNewWindow: 
+  openNewWindow: false
 - linkText: "Working With Dockerfiles"
   linkUrl: "/display/containers/Working+With+Dockerfiles"
-  openNewWindow: 
+  openNewWindow: false
 - linkText: "Running Docker Containers"
   linkUrl: "/display/containers/Running+Docker+Containers"
-  openNewWindow: 
+  openNewWindow: false
 - linkText: "Working With Docker Hub"
   linkUrl: "/display/containers/Working+With+Docker+Hub"
-  openNewWindow: 
+  openNewWindow: false
 - linkText: "Docker Container Management"
   linkUrl: "/display/containers/Docker+Container+Management"
-  openNewWindow: 
+  openNewWindow: false
 - linkText: "Storing Data Within Containers"
   linkUrl: "/display/containers/Storing+Data+Within+Containers"
-  openNewWindow: 
+  openNewWindow: false
 - linkText: "Docker Compliance"
   linkUrl: "/display/containers/Docker+Compliance"
-  openNewWindow: 
+  openNewWindow: false
 
-advanced:
- # Custom CSS. 
- css_style: "order:0"
- 
 ---
