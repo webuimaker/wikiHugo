@@ -28,12 +28,12 @@ twoColumnitem:
    linkText: ""
    linkUrl: "/display/containers/70+best+kubernetes+tutorials"
    openNewWindow: false
-   image: "images/icon101_25_kubernetes_Tutorials.png"
+   image: "images/icon101_25_kubernetes_tutorials.png"
 
  - title: "Kubernetes Deployment 101"
    summary: "Get started with Kubernetes deployment: with common Kubernetes deployment tasks and deployment strategies including rolling updates, blue-green, and canary releases."
    linkText: ""
-   linkUrl: "/display/containers/Kubernetes+Deployment+101"
+   linkUrl: "/display/containers/kubernetes+deployment+101"
    openNewWindow: false
    image: "images/icon101_04_kubernetes_DEPLOYMENT.png"
 
@@ -48,7 +48,7 @@ twoColumnitem:
  - title: "Kubernetes Helm 101"
    summary: "Learn about Kubernetes Helm, which can installs application packages called charts in one click."
    linkText: ""
-   linkUrl: "/display/containers/Kubernetes+Helm+101"
+   linkUrl: "/display/containers/kubernetes+helm+101"
    openNewWindow: false
    image: "images/icon101_27_kubernetes_HELM.png"
 
@@ -62,7 +62,7 @@ twoColumnitem:
  - title: "Kubernetes Networking 101"
    summary: "Learn about Kubernetes vs. Docker networking model, K8s networking implementations, how pods communicate, incoming traffic, DNS for services and pods, and more."
    linkText: ""
-   linkUrl: "/display/containers/Kubernetes+Networking+101"
+   linkUrl: "/display/containers/kubernetes+networking+101"
    openNewWindow: false
    image: "images/icon101_06_kubernetes_Networking_CR.png"
 ---
