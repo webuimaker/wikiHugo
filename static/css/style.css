@@ -751,6 +751,14 @@ a.home:hover {
   margin-right: -30px;
 }
 
+.basic-conatiner h3{
+  font-size: 18px;
+}
+
+.basic-conatiner h4{
+  font-size: 16px;
+}
+
 .highlight{
   border: 1px solid #08b1d5;
   border-radius: 3px;

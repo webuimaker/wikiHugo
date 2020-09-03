@@ -11,7 +11,8 @@ subtitle: ""
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format: "Jan 2006"
 ---
-{{< further-links >}}*   [Installing Kubernetes](/display/containers/Installing+Kubernetes)
+{{< further-links >}}
+*   [Installing Kubernetes](/display/containers/Installing+Kubernetes)
 *   [Kubernetes Configuration](/display/containers/Kubernetes+Configuration)
 *   [Kubernetes Monitoring](/display/containers/Kubernetes+Monitoring)
 *   [Kubernetes Debugging and Troubleshooting](/display/containers/Kubernetes+Debugging+and+Troubleshooting)
