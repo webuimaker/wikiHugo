@@ -20,7 +20,7 @@ twoColumnitem:
  - title: "Docker Containers vs. Virtual Machines"
    summary: "Docker provides many capabilities of Virtual Machines, with added advantages. Learn how they compare."
    linkText: ""
-   linkUrl: "/display/containers/docker+containers+vs.+virtual+machines"
+   linkUrl: "/display/containers/docker+containers+vs.+virtual+machines/"
    openNewWindow: false
    image: "images/docker1.png"
  - title: "100 Best Docker Tutorials"
