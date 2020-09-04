@@ -1,11 +1,8 @@
 ---
 # Homepage
-title: "Kubernetes Alternatives
-"
-description: "Resources about alternative container orchestrators to Kubernetes, like OpenShift, Mesosphere DC/OS and Apache Mesos.
-"
-titleDescription: "Resources about alternative container orchestrators to Kubernetes, like <a href='/display/containers/OpenShift+vs.+Kubernetes'>OpenShift</a>, Mesosphere DC/OS and Apache Mesos.
-" 
+title: "Kubernetes Alternatives"
+description: "Resources about alternative container orchestrators to Kubernetes, like OpenShift, Mesosphere DC/OS and Apache Mesos."
+titleDescription: "Resources about alternative container orchestrators to Kubernetes, like <a href='/display/containers/OpenShift+vs.+Kubernetes'>OpenShift</a>, Mesosphere DC/OS and Apache Mesos." 
 
 type: "widget_page"
 url: "/display/containers/kubernetes+alternatives/" 

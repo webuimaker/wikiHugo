@@ -47,10 +47,10 @@ twoColumnitem:
    linkUrl: "/display/containers/docker+images+101"
    openNewWindow: false
    image: "images/docker5.png"
- - title: "Risks, Benefits and 8 Best Practices"
+ - title: "Docker Security: Risks, Benefits and 8 Best Practices"
    summary: "Learn about unique security risks affecting Docker users, and 8 security best practices from Aqua's container security experts. "
    linkText: ""
-   linkUrl: "/display/containers/docker+security+-+risks%2C+benefits+and+8+best+practices"
+   linkUrl: "https://blog.aquasec.com/docker-security-best-practices"
    openNewWindow: false
    image: "images/docker6.png"
  - title: "Docker Alternatives"
