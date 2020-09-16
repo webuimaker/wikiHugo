@@ -1,5 +1,5 @@
 sidebar:
-  - sectionMain: Docker Containers
+  - sectionMain: Docker Containers text
     url: "/display/containers/Docker+Containers"
     icon: "yesIcon"
     childrenContent: 
