@@ -20,7 +20,7 @@ itemLink:
 
 ---
 
-- **[Docker Containers](/display/containers/Docker+Container)**  — The raw deal on Docker - architecture, concepts, basics, opinions, to ninja topics like Docker Swarm and Docker Networking.
+- **[Docker Containers](/display/containers/docker+containers)**  — The raw deal on Docker - architecture, concepts, basics, opinions, to ninja topics like Docker Swarm and Docker Networking.
 
 - **[Kubernetes Guide](/display/containers/Kubernetes+Guide)** — Everything you ever wanted to know about Kubernetes - intros and in-depth resources on architecture, commands, deployment, networking and more.
 - **[Container Basics](/display/containers/Container+Basics)**  — Resources about the basic concepts of container technology - what are containers and their advantages, containers in the context of agile software development and DevOps, container challenges, and how containers interact with IT infrastructure like public and private clouds.

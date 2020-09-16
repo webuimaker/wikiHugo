@@ -1,7 +1,6 @@
 ---
 # Homepage
-title: "Openshift on AWS
-"
+title: "Openshift on AWS"
 description: "Red Hat OpenShift Container Platform is based on Docker-formatted Linux containers, Kubernetes orchestration, and Red Hat Enterprise Linux (RHEL). Red Hat OpenShift combined with Amazon Web Services helps teams accelerate development and delivery of Kubernetes applications across a unified, hybrid cloud environment. This page gather resources about OpenShift and how to deploy it on AWS."
 titleDescription: "Red Hat OpenShift Container Platform is based on Docker-formatted Linux containers, Kubernetes orchestration, and Red Hat Enterprise Linux (RHEL). Red Hat OpenShift combined with Amazon Web Services helps teams accelerate development and delivery of Kubernetes applications across a unified, hybrid cloud environment. This page gather resources about OpenShift and how to deploy it on AWS." 
 

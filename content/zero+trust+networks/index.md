@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "Zero Trust Networks
-
-"
+title: "Zero Trust Networks"
 description: "Zero Trust is a security concept centered on the belief that organizations should not automatically trust anything inside or outside its perimeters and instead must verify anything and everything trying to connect to its systems before granting access. This page gathers resources about the basic concepts of zero trust security, including a list of leading solutions.
 
 "

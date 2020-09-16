@@ -1,12 +1,10 @@
 ---
 # Homepage
-title: "Network Segmentation for Containers
-
-"
+title: "Network Segmentation for Containers"
 description: "Network segmentation is the practice of dividing a larger computer network into several small subnetworks that are each isolated from one another. This page gathers resources about the security benefits of network segmentation, the rise of micro-segmentation and the nano-segmantation approach.
 
 "
-titleDescription: "<a href='/display/containers/Kubernetes+Networking'>Network</a> segmentation is the practice of dividing a larger computer network into several small subnetworks that are each <a href='/display/containers/Isolating+Docker+Containers'>isolated</a> from one another. This page gathers resources about the security benefits of network segmentation, the rise of micro-segmentation and the nano-segmantation approach.
+titleDescription: "<a href='/display/containers/kubernetes+networking+101'>Network</a> segmentation is the practice of dividing a larger computer network into several small subnetworks that are each <a href='/display/containers/iosolating+docker+containers'>isolated</a> from one another. This page gathers resources about the security benefits of network segmentation, the rise of micro-segmentation and the nano-segmantation approach.
 " 
 
 type: "widget_page"

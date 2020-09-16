@@ -1,9 +1,8 @@
 ---
 # Homepage
-title: "VMware PKS
-"
-description: "VMware Enterprise PKS (formerly known as Pivotal Container Service or PKS) is a turnkey product that enables enterprises and service providers to simplify the deployment and operations of Kubernetes clusters. This page gathers resources about VMware PKS and how to deploy it."
-titleDescription: "VMware Enterprise PKS (formerly known as Pivotal Container Service or PKS) is a turnkey product that enables enterprises and service providers to simplify the deployment and operations of Kubernetes clusters. This page gathers resources about VMware PKS and how to deploy it." 
+title: "Multi-Cloud Strategy"
+description: "Multi-cloud is the use of multiple cloud computing and storage services in a single heterogeneous architecture. This page gathers resources about the benefits, challenges and best practices of multi-cloud adoption."
+titleDescription: "Multi-cloud is the use of multiple cloud computing and storage services in a single heterogeneous architecture. This page gathers resources about the benefits, challenges and best practices of multi-cloud adoption." 
 
 type: "widget_page"
 url: "/display/containers/multi-cloud+strategy/" 
@@ -17,7 +16,7 @@ breadcrumbs:
    url: "/"
  - text: Container Platforms
    url: "/display/containers/Container+Platforms"
- - text: VMware PKS
+ - text: Multi-Cloud Strategy
    url: ""
 promotion:
   enable: true

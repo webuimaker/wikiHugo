@@ -1,7 +1,6 @@
 ---
 # Homepage
-title: "Openshift vs Docker
-"
+title: "Openshift vs Docker"
 description: "As Modern Software application development strategy moved towards Microservices and Container-based applications. Deployment and other Operational activities in Container-based application developments are in demand with Container Orchestration and Management tools. A couple of market-leading Container Orchestration and Management tools are Docker and OpenShift. This page gathers resources about the real differences between those two."
 titleDescription: "As Modern Software application development strategy moved towards Microservices and Container-based applications. Deployment and other Operational activities in Container-based application developments are in demand with Container Orchestration and Management tools. A couple of market-leading Container Orchestration and Management tools are Docker and OpenShift. This page gathers resources about the real differences between those two." 
 

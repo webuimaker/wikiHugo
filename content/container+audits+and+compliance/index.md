@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "Container Audits and Compliance
-
-"
+title: "Container Audits and Compliance"
 description: "Security and compliance are top of mind for IT organizations. In a technology-first era rife with cyber threats, it is important for enterprises to have the ability to deploy applications on a platform that adheres to stringent security baselines. This page gathers resources about audits and compliance of containers and their relationship to security.
 
 

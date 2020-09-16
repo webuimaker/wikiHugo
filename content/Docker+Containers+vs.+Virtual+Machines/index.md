@@ -4,7 +4,7 @@ title: "Docker Containers vs. Virtual Machines"
 description: "Docker provides many capabilities of Virtual Machines, with added advantages. Learn how they compare."
 titleDescription: "Docker provides many capabilities of Virtual Machines, with added advantages. Learn how they compare."
 type: "widget_page"
-url: "/display/containers/docker+containers+vs+virtual+machines"  
+url: "/display/containers/docker+containers+vs.+virtual+machines"  
 rightSide: true # true or false for right side bar
 # permalink: "/display/containers/container-security-management/"
 # headless = true  # Homepage is headless, other widget pages are not.

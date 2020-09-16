@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "Open Source Security Tools
-
-"
+title: "Open Source Security Tools"
 description: "Technology has come a long way, but so does hacking. Just like the digital world, hacking techniques and tools have also become more sophisticated and also threatening. This page gather resources about open source security tools for containers, websites, and software.
 
 "

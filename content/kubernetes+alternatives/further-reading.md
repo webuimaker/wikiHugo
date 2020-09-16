@@ -20,27 +20,27 @@ itemLink:
 
 ---
 
-- **[Docker Containers](/display/containers/Docker+Container)**  — The raw deal on Docker - architecture, concepts, basics, opinions, to ninja topics like Docker Swarm and Docker Networking.
+- **[Docker Containers](/display/containers/docker+containers)**  — The raw deal on Docker - architecture, concepts, basics, opinions, to ninja topics like Docker Swarm and Docker Networking.
 
-- **[Kubernetes Guide](/display/containers/Kubernetes+Guide)** — Everything you ever wanted to know about Kubernetes - intros and in-depth resources on architecture, commands, deployment, networking and more.
-- **[Container Basics](/display/containers/Container+Basics)**  — Resources about the basic concepts of container technology - what are containers and their advantages, containers in the context of agile software development and DevOps, container challenges, and how containers interact with IT infrastructure like public and private clouds.
-
-
-- **[Containers Ops](/display/containers/Containers+Ops)** — Resources about the process of managing the capacity, security, performance, and availability of an organization’s container infrastructure across environments and multiple deployment targets like physical servers, virtual machines, and private or public clouds.
-
-- **[Container Security](/display/containers/Container+Security)** — Resources about the growing concerns about container security, how to detect security vulnerabilities within containers and images, and security best practices https://blog.aquasec.com/docker-security-best-practices such as secrets management, network segmentation and access control.
-
-- **[Cloud Native Computing Foundation](/display/containers/Cloud+Native+Computing+Foundation)** — The Cloud Native Computing Foundation builds sustainable ecosystems and fosters a community around a constellation of high-quality projects that orchestrate containers as part of a microservices architecture.
-- **[Serverless Computing](/display/containers/Serverless+Computing)** — Serverless computing is a type of cloud service where the hosting provider allocates adequate resources for you on the fly rather than making you pay for dedicated servers or capacity in advance. This page gathers resources about how serverless computing will change the future of container and database technology.
-
-- **[Container Platforms](/display/containers/Container+Platforms)** — SResources about running and managing containers on public cloud environments&nbsp;like AWS and Azure, on operating systems like ContainerLinux and RancherOS and on virtualization frameworks like VMware.
-
-- **[Other Container Engines](/display/containers/Other+Container+Engines)** — SResources about alternative containers to Docker, including CoreOS rkt, Turbo.net, and Intel Clear Containers.
-
-- **[Kubernetes Alternatives](/display/containers/Kubernetes+Alternatives)** — Resources about alternative container orchestrators to Kubernetes, like OpenShift, Mesosphere DC/OS and Apache Mesos
+- **[Kubernetes Guide](/display/containers/kubernetes+guide)** — Everything you ever wanted to know about Kubernetes - intros and in-depth resources on architecture, commands, deployment, networking and more.
+- **[Container Basics](/display/containers/container+basics)**  — Resources about the basic concepts of container technology - what are containers and their advantages, containers in the context of agile software development and DevOps, container challenges, and how containers interact with IT infrastructure like public and private clouds.
 
 
-- **[Container Community and Events](/display/containers/Container+Community+and+Events)** — Resources about events, conferences, standards, organizations, communities and websites, in the global container technology community.
+- **[Containers Ops](/display/containers/containers+ops)** — Resources about the process of managing the capacity, security, performance, and availability of an organization’s container infrastructure across environments and multiple deployment targets like physical servers, virtual machines, and private or public clouds.
+
+- **[Container Security](/display/containers/container+security)** — Resources about the growing concerns about container security, how to detect security vulnerabilities within containers and images, and security best practices https://blog.aquasec.com/docker-security-best-practices such as secrets management, network segmentation and access control.
+
+- **[Cloud Native Computing Foundation](/display/containers/cloud+native+computing+foundation)** — The Cloud Native Computing Foundation builds sustainable ecosystems and fosters a community around a constellation of high-quality projects that orchestrate containers as part of a microservices architecture.
+- **[Serverless Computing](/display/containers/serverless+computing)** — Serverless computing is a type of cloud service where the hosting provider allocates adequate resources for you on the fly rather than making you pay for dedicated servers or capacity in advance. This page gathers resources about how serverless computing will change the future of container and database technology.
+
+- **[Container Platforms](/display/containers/container+platforms)** — SResources about running and managing containers on public cloud environments&nbsp;like AWS and Azure, on operating systems like ContainerLinux and RancherOS and on virtualization frameworks like VMware.
+
+- **[Other Container Engines](/display/containers/other+container+engines)** — SResources about alternative containers to Docker, including CoreOS rkt, Turbo.net, and Intel Clear Containers.
+
+- **[Kubernetes Alternatives](/display/containers/kubernetes+alternatives)** — Resources about alternative container orchestrators to Kubernetes, like OpenShift, Mesosphere DC/OS and Apache Mesos
+
+
+- **[Container Community and Events](/display/containers/container+community+and+events)** — Resources about events, conferences, standards, organizations, communities and websites, in the global container technology community.
 
 
 

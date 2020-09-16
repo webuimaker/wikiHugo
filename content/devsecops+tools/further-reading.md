@@ -22,7 +22,7 @@ itemLink:
 
 - **[Container Security Best Practices](/display/containers/Container+Security+Best+Practices)**  
 
-- **[Containers for DevSecOps](/display/containers/Containers+for+DevSecOp)** 
+- **[Containers for DevSecOps](/display/containers/containers+for+devsecops)** 
 - **[Container Vulnerabilities and Threats](/display/containers/Container+Vulnerabilities+and+Threats)** 
 
 

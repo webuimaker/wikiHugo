@@ -20,12 +20,12 @@ itemLink:
 
 ---
 
-- **[Kubernetes 101](/display/containers/Kubernetes+101)**  
-- **[Kubernetes Architecture](/display/containers/Kubernetes+Architecture)**  
-- **[Kubernetes Advantages and Use Cases](/display/containers/Kubernetes+Advantages+and+Use+Cases)** 
-- **[Kubernetes Operations ](/display/containers/Kubernetes+perations)**  
-- **[Kubernetes Cluster ](/display/containers/Kubernetes+Cluster )**  
-- **[Kubernetes as a Service](/display/containers/Kubernetes+as+a+Service)**  
-- **[Managed Kubernetes](/display/containers/Managed+Kubernetes)**  
-- **[Kubernetes Distributions](/display/containers/Kubernetes+Distributions)**  
-- **[Enterprise Kubernetes](/display/containers/Enterprise+Kubernetess)**  
+- **[Kubernetes 101](/display/containers/kubernetes+101)**  
+- **[Kubernetes Architecture](/display/containers/kubernetes+architecture)**  
+- **[Kubernetes Advantages and Use Cases](/display/containers/kubernetes+advantages+and+use+cases)** 
+- **[Kubernetes Operations ](/display/containers/kubernetes+operations)**  
+- **[Kubernetes Cluster ](/display/containers/kubernetes+cluster )**  
+- **[Kubernetes as a Service](/display/containers/kubernetes+as+a+service)**  
+- **[Managed Kubernetes](/display/containers/managed+kubernetes)**  
+- **[Kubernetes Distributions](/display/containers/kubernetes+distributions)**  
+- **[Enterprise Kubernetes](/display/containers/enterprise+kubernetes)**  

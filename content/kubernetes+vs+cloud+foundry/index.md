@@ -1,7 +1,6 @@
 ---
 # Homepage
-title: "Kubernetes vs Cloud Foundry
-"
+title: "Kubernetes vs Cloud Foundry"
 description: "Pivotal’s Cloud Foundry (PCF) and Kubernetes (K8s) are both platform services for deploying cloud-native apps. There’s a lot of functional overlap between PCF and K8s, but it’s important to understand how they differ from each other and when it’s best to use one rather than the other, and when it’s best to use them together."
 titleDescription: "Pivotal’s Cloud Foundry (PCF) and Kubernetes (K8s) are both platform services for deploying <a href='/display/containers/cloud+native+security'>cloud-native apps</a>. There’s a lot of functional overlap between PCF and K8s, but it’s important to understand how they differ from each other and when it’s best to use one rather than the other, and when it’s best to use them together." 
 

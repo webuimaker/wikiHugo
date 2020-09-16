@@ -1,9 +1,8 @@
 ---
 # Homepage
-title: "Kubernetes vs Cloud Foundry
-"
-description: "Pivotal’s Cloud Foundry (PCF) and Kubernetes (K8s) are both platform services for deploying cloud-native apps. There’s a lot of functional overlap between PCF and K8s, but it’s important to understand how they differ from each other and when it’s best to use one rather than the other, and when it’s best to use them together."
-titleDescription: "Pivotal’s Cloud Foundry (PCF) and Kubernetes (K8s) are both platform services for deploying <a href='/display/containers/cloud+native+security'>cloud-native apps</a>. There’s a lot of functional overlap between PCF and K8s, but it’s important to understand how they differ from each other and when it’s best to use one rather than the other, and when it’s best to use them together." 
+title: " CWPP"
+description: "A cloud workload is a discrete capability or amount of work you’d like to run on a cloud instance. Cloud Workload Protection Platforms (CWPP) is defined by host-centric solutions that target the unique requirements of server workload protection in modern hybrid data center architectures. This page gathers resources about Cloud Workload Protection Platforms."
+titleDescription: "A cloud workload is a discrete capability or amount of work you’d like to run on a cloud instance. Cloud Workload Protection Platforms (CWPP) is defined by host-centric solutions that target the unique requirements of server workload protection in modern hybrid data center architectures. This page gathers resources about Cloud Workload Protection Platforms." 
 
 type: "widget_page"
 url: "/display/containers/cwpp/" 
@@ -17,7 +16,7 @@ breadcrumbs:
    url: "/"
  - text: Container Platforms
    url: "/display/containers/Container+Platforms"
- - text: Kubernetes vs Cloud Foundry
+ - text: cwpp
    url: ""
 promotion:
   enable: true

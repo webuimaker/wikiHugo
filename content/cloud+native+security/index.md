@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "Cloud Native Security
-
-"
+title: "Cloud Native Security"
 description: "
 Businesses are increasingly reliant on cloud-native applications despite the strong, broad perception that use of the cloud will drive security risks. This page gathers resources about the security gaps of cloud-native applications •and which issues are top of mind.
 

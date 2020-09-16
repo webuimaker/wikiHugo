@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "Cloud Native Infrastructure
-
-"
+title: "Cloud Native Infrastructure"
 description: "
 Cloud-native is an approach to building and running applications that exploits the advantages of the cloud computing delivery model. Cloud-native infrastructure is the hardware and software that runs and supports the applications. This page gather resources about cloud native infrastructure and how to build it.
 

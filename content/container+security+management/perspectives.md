@@ -44,7 +44,7 @@ smallItem:
  - title: "How Security Of Containers Is Threatened&#8202;—&#8202;and What to Do About It"
    summary: "blog.reblaze.com"
    linkText: ""
-   linkUrl: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_1.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fblog.reblaze.com%3Fsize%3D250"
+   linkUrl: "https://blog.reblaze.com/keeping-containers-secure-and-how-the-cloud-can-help-e633063216d3"
    openNewWindow: 
    image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_1.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fblog.reblaze.com%3Fsize%3D250"  
  - title: "The State of Container Security"

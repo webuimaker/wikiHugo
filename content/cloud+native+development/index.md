@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "Cloud Native Development
-
-"
+title: "Cloud Native Development"
 description: "
 Cloud-native applications are a collection of small, independent, and loosely coupled services. Cloud-native app development is a way to speed up how you build new applications, optimize existing ones, and connect them all together. Its goal is to deliver apps users want at the pace a business needs. This page gather resources about cloud native applications development and best practices.
 

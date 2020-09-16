@@ -1,7 +1,6 @@
 ---
 # Homepage
-title: "Openshift Security
-"
+title: "Openshift Security"
 description: "Red Hat OpenShift is an open source container application platform by Red Hat based on top of Docker containers and the Kubernetes container cluster manager for enterprise app development and deployment.  This page gathers resources about OpenShift built-in security features."
 titleDescription: "Red Hat <a style='text-decoration: none;' href='https://www.aquasec.com/wiki/display/containers/OpenShift+vs.+Kubernetes' class='external-link' target='_blank'><span>&nbsp;</span>OpenShift</a> is an open source container application platform by Red Hat based on top of Docker containers and the Kubernetes container cluster manager for enterprise app development and deployment.  This page gathers resources about OpenShift built-in security features." 
 

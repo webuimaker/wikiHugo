@@ -22,7 +22,7 @@ itemLink:
 
 - **[Container Security Best Practices](/display/containers/Container+Security+Best+Practices)** — When containerization is implemented with good security practices, containers can offer better application security rather than a VM only solution. This page gathers resources about basic tips, Docker security https://blog.aquasec.com/docker-security-best-practices best practices and Kubernetes security best practices. 
 
-- **[Containers for DevSecOps](/display/containers/Containers+for+DevSecOp)** — DevSecOps is an extension of the DevOps concept that emphasizes the integration of security teams into continuous delivery workflows. This page gathers resources about how DevSecOps makes for a more efficient and secure containers. 
+- **[Containers for DevSecOps](/display/containers/containers+for+devsecops)** — DevSecOps is an extension of the DevOps concept that emphasizes the integration of security teams into continuous delivery workflows. This page gathers resources about how DevSecOps makes for a more efficient and secure containers. 
 - **[Container Vulnerabilities and Threats](/display/containers/Container+Vulnerabilities+and+Threats)** — While containers are driving evolution in the management of network applications, which, although self-contained, are still vulnerable. This page gathers resources about container vulnerabilities like 'Dirty Cow' and 'Escape Vulnerability' including tips on how to secure containers from cyber threats.
 
 

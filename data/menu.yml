@@ -1,6 +1,6 @@
 sidebar:
   - sectionMain: Docker Containers
-    url: "/display/containers/docker+containers"
+    url: "/display/containers/Docker+Containers"
     icon: "yesIcon"
     childrenContent: 
     - name: Docker 101    

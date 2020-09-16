@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "Security Issues in Cloud Computing
-
-"
+title: "Security Issues in Cloud Computing"
 description: "
 Cloud computing presents many unique security issues and challenges. In the cloud, data is stored with a third-party provider and accessed over the internet. This means visibility and control over that data is limited. It also raises the question of how it can be properly secured. It is imperative everyone understands their respective role and the security issues inherent in cloud computing. This page gathers resources about security issues in cloud computing and how to handle them.
 

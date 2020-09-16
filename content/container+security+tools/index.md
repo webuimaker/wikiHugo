@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "Container Security Tools
-
-"
+title: "Container Security Tools"
 description: "Containers have been one of the hottest trends in the software industry in recent years as more organizations turn to them to build.  In working with containers, we need to recognize that they face a different range of threats from other sorts of software that we use. This page gathers resources about container security tools and compare them.
 
 

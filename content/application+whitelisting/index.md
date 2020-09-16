@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "Application Whitelisting
-
-"
+title: "Application Whitelisting"
 description: "Whitelisting is the practice of specifying an index of approved applications that are permitted to be present and active. There are several characteristics of containers that lend themselves to intent-based security, which, in effect, is whitelisting. This page gathers resources about whitelisting in Kubertenes and other platforms.
 
 

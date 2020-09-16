@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "SPIFFE
-
-"
+title: "SPIFFE"
 description: "
 The Secure Production Identity Framework For Everyone (SPIFFE) Project defines a framework and set of standards for identifying and securing communications between web-based services. This page gathers resources about the basics of SPIFFE, its users and consumers.
 

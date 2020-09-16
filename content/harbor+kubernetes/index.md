@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "Harbor Kubernetes
-
-"
+title: "Harbor Kubernetes"
 description: "
 Harbor is an open source container image registry that secures images with role-based access control, scans images for vulnerabilities, and signs images as trusted. As a CNCF Incubating project, Harbor delivers compliance, performance, and interoperability to help you consistently and securely manage images across cloud native compute platforms like Kubernetes and Docker. This page gather resources about Harbor and how to deploy it with Kubernetes.
 

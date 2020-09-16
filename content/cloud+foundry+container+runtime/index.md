@@ -1,7 +1,6 @@
 ---
 # Homepage
-title: "Cloud Foundry Container Runtime
-"
+title: "Cloud Foundry Container Runtime"
 description: "Cloud Foundry Container Runtime (CFCR) is a BOSH release that offers a uniform way to instantiate, deploy, and manage highly available Kubernetes clusters on a cloud platform using BOSH. This page gather resources about CFCR and how to use it with Kubernetes."
 titleDescription: "Cloud Foundry Container Runtime (CFCR) is a BOSH release that offers a uniform way to instantiate, deploy, and manage highly available Kubernetes clusters on a cloud platform using BOSH. This page gather resources about CFCR and how to use it with Kubernetes." 
 

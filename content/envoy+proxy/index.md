@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "Envoy Proxy
-
-"
+title: "Envoy Proxy"
 description: "
 Envoy Proxy is a modern, high performance, small footprint edge and service proxy. Envoy is most comparable to software load balancers such as NGINX and HAProxy. This page gathers resources about the basics of Envoy, tutorials and examples.
 

@@ -5,7 +5,7 @@ description: "Cloud-native architecture is an architecture or system that has be
 titleDescription: "
 Cloud-native architecture is an architecture or system that has been built specifically to run in the cloud. <a href='/display/containers/Cloud+Native+Security'>Cloud-native</a> architectures have the benefit of more flexibility over legacy systems that were built to run on premise, and may be difficult to migrate to the cloud later." 
 type: "widget_page"
-url: "/display/containers/cloud-native-architecture"
+url: "/display/containers/cloud-native+architecture"
 
 rightSide: true 
 # permalink: "/display/containers/kubernetes+and+microservices"

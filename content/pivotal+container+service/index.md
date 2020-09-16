@@ -1,7 +1,6 @@
 ---
 # Homepage
-title: "Pivotal Container Service
-"
+title: "Pivotal Container Service"
 description: "Pivotal Container Service (PKS) is an enterprise Kubernetes platform, architected for rapid results, scaling, and reliability on any infrastructure. It enables operators to provision, operate, and manage enterprise-grade Kubernetes clusters using BOSH and Pivotal Ops Manager. This page gather resources about Pivotal Container Service and how to use it."
 titleDescription: "Pivotal Container Service (PKS) is an enterprise Kubernetes platform, architected for rapid results, scaling, and reliability on any infrastructure. It enables operators to provision, operate, and manage enterprise-grade Kubernetes clusters using BOSH and Pivotal Ops Manager. This page gather resources about Pivotal Container Service and how to use it." 
 

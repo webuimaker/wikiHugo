@@ -1,7 +1,6 @@
 ---
 # Homepage
-title: "VMware PKS
-"
+title: "VMware PKS"
 description: "VMware Enterprise PKS (formerly known as Pivotal Container Service or PKS) is a turnkey product that enables enterprises and service providers to simplify the deployment and operations of Kubernetes clusters. This page gathers resources about VMware PKS and how to deploy it."
 titleDescription: "VMware Enterprise PKS (formerly known as Pivotal Container Service or PKS) is a turnkey product that enables enterprises and service providers to simplify the deployment and operations of Kubernetes clusters. This page gathers resources about VMware PKS and how to deploy it." 
 

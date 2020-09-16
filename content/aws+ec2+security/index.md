@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "AWS EC2 Security
-
-"
+title: "AWS EC2 Security"
 description: "
 Amazon Elastic Container Service (Amazon ECS) is a highly scalable, fast, container management service that makes it easy to run, stop, and manage Docker containers on a cluster. This page gathers resources about how to secure AWS EC2 instances.
 

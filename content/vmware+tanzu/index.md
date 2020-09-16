@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "VMware Tanzu
-
-"
+title: "VMware Tanzu"
 description: "
 VMware Tanzu is the suite or portfolio of products and solutions that allow its customers to Build, Run, and Manage Kubernetes controlled container-based applications. This page gather Resources about VMware Tanzu and how to deploy it.
 

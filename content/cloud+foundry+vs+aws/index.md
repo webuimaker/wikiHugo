@@ -1,7 +1,6 @@
 ---
 # Homepage
-title: "Cloud Foundry vs AWS
-"
+title: "Cloud Foundry vs AWS"
 description: "Cloud Foundry is an open source, multi-cloud application platform as a service governed by the Cloud Foundry Foundation.  AWS platform is developed with a combination of infrastructure as a service (IaaS), platform as a service (PaaS) and packaged software as a service (SaaS) offerings. This page gather resources about the features of both platforms and the differences between them, and how to deploy Cloud Foundry on AWS."
 titleDescription: "Cloud Foundry is an open source, multi-cloud application platform as a service governed by the Cloud Foundry Foundation.  AWS platform is developed with a combination of infrastructure as a service (IaaS), platform as a service (PaaS) and packaged software as a service (SaaS) offerings. This page gather resources about the features of both platforms and the differences between them, and how to deploy Cloud Foundry on AWS." 
 

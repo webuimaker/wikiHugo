@@ -23,7 +23,7 @@ itemLink:
 - **[AWS EC2 Security](/display/containers/aws+ec2+security)** 
 
 - **[Cloud-Native Applications](/display/containers/cloud-native+applications)** 
-- **[Cloud-Native Architecture](/display/containers/cloud-native+architecture)** 
+- **[Cloud-Native Architecture](/display/containers/cloud-native-architecture)** 
 - **[Cloud Native AWS](/display/containers/cloud+native+aws)** 
 - **[Cloud Native Development](/display/containers/cloud+native+development)** 
 - **[Cloud Native Infrastructure](/display/containers/cloud+native+infrastructure)** 
@@ -32,8 +32,8 @@ itemLink:
 - **[Harbor Kubernetes](/display/containers/harbor+kubernetes)** 
 - **[Open Policy Agent](/display/containers/open+policy+agent)** 
 - **[Oracle Cloud Security](/display/containers/oracle+cloud+security)**
-- **[SaaS Cloud Security](/display/containers/saaS+cloud+security)** 
-- **[Security Issues in Cloud Computing](/display/security+issues+in+cloud+computing)** 
-- **[SPIFFE](/display/spiffe)** 
-- **[VMware Tanzu](/display/vmware+tanzu)** 
+- **[SaaS Cloud Security](/display/containers/saas+cloud+security)** 
+- **[Security Issues in Cloud Computing](/display/containers/security+issues+in+cloud+computing)** 
+- **[SPIFFE](/display/containers/spiffe)** 
+- **[VMware Tanzu](/display/containers/vmware+tanzu)** 
 

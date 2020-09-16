@@ -1,7 +1,6 @@
 ---
 # Homepage
-title: "Pivotal Cloud Foundry Containers
-"
+title: "Pivotal Cloud Foundry Containers"
 description: "Running containers at enterprise scale is complex. Cloud Foundry enables enterprises to reap the benefits of containers, support cloud architectures and continue to build a DevOps culture."
 titleDescription: "Running containers at enterprise scale is complex. Cloud Foundry enables enterprises to reap the benefits of containers, support cloud architectures and continue to build a DevOps culture." 
 

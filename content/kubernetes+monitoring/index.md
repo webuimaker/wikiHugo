@@ -2,7 +2,7 @@
 # Homepage
 title: "Kubernetes Monitoring"
 description: "Monitoring Kubernetes effectively requires to rethink and reorient all monitoring strategies, especially if using traditional hosts such as VMs or physical machines. This page gathers resources about how to monitor Kubernetes cluster with tools like Prometheus and Datadog."
-titleDescription: "Monitoring Kubernetes effectively requires to rethink and reorient all monitoring strategies, especially if using traditional hosts such as <a href='/display/containers/Docker+Containers+vs.+Virtual+Machines'>VMs or physical machines</a>. This page gathers resources about how to monitor Kubernetes cluster with tools like Prometheus and Datadog." 
+titleDescription: "Monitoring Kubernetes effectively requires to rethink and reorient all monitoring strategies, especially if using traditional hosts such as <a href='/display/containers/docker+containers+vs.+virtual+machines'>VMs or physical machines</a>. This page gathers resources about how to monitor Kubernetes cluster with tools like Prometheus and Datadog." 
 
 type: "widget_page"
 url: "/display/containers/kubernetes+monitoring" 

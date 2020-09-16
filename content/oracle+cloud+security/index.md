@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "Oracle Cloud Security
-
-"
+title: "Oracle Cloud Security"
 description: "
 Oracle Cloud is a cloud computing service offered by Oracle Corporation providing servers, storage, network, applications and services through a global network of Oracle Corporation managed data centers. This page gather resources about Oracle Cloud security, best practices, and how to implement it.
 

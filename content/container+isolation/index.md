@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "Container Isolation
-
-"
+title: "Container Isolation"
 description: "Container isolation aim to protect the underlying host OS that runs containers and functions against malicious escape and breakout attempts into other targets on the same host or on the shared infrastructure. They attempt to provide VM-level isolation while maintaining the expected speed and efficiency. This page gathers resources about isolation technologie such as Kata Containers, Amazon Firecracker, gVisor and Nabla Containers.
 "
 titleDescription: "Container isolation aim to protect the underlying host OS that runs containers and functions against malicious escape and breakout attempts into other targets on the same host or on the shared infrastructure. They attempt to provide VM-level isolation while maintaining the expected speed and efficiency. This page gathers resources about isolation technologie such as Kata Containers, Amazon Firecracker, gVisor and Nabla Containers.

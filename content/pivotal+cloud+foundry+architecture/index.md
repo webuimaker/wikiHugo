@@ -1,7 +1,6 @@
 ---
 # Homepage
-title: "Pivotal Cloud Foundry Architecture
-"
+title: "Pivotal Cloud Foundry Architecture"
 description: "Cloud Foundry is an open source cloud platform as a service (PaaS) that provides a choice of clouds, application services, and developer frameworks to clients. Cloud Foundry makes the process of building, testing, deploying and scaling applications easier and faster. This page gather resources about each of the technologies that make up a typical Pivotal Cloud Foundry cluster and how they work together."
 titleDescription: "Cloud Foundry is an open source cloud platform as a service (PaaS) that provides a choice of clouds, application services, and developer frameworks to clients. Cloud Foundry makes the process of building, testing, deploying and scaling applications easier and faster. This page gather resources about each of the technologies that make up a typical Pivotal Cloud Foundry cluster and how they work together." 
 

@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "SaaS Cloud Security
-
-"
+title: "SaaS Cloud Security"
 description: "
 Software-as-a-service (SaaS) is an on-demand, cloud-based software delivery model that enables organizations to subscribe to the applications they need without hosting them in house. This page gather resources about SaaS and cloud security, how to implement them, and best practices.
 

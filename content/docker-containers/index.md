@@ -4,7 +4,7 @@ title: "Docker Containers"
 description: "The raw deal on Docker - architecture, concepts, basics, opinions, to ninja topics like Docker Swarm and Docker Networking."
 titleDescription: "The raw deal on Docker - architecture, concepts, basics, opinions, to ninja topics like <a href='#'>Docker Swarm</a> and  <a href='#'>Docker Networking</a>."
 type: "widget_page"
-url: "/display/containers/docker+containers"  
+url: "/display/containers/Docker+Containers"  
 rightSide: false
 # permalink: "/display/containers/container-security-management/"
 # headless = true  # Homepage is headless, other widget pages are not.

@@ -30,7 +30,7 @@ itemLink:
 
 - **[Kubernetes Proxies](/display/containers/kubernetes+proxies )**  — There are several different proxies you may encounter when using Kubernetes: kubectl, apiserver proxy, kube-proxy, a proxy/load-balancer in front of apiserver and a cloud load balancer on external services. This page gathers resources about the different types of Kubernetes proxies.
 
-- **[Kubernetes Serverless](/display/containers/kubernetes+serverless)**  — he idea behind&nbsp;serverless computing&nbsp;is that it lets you, as a developer, focus only on writing your code. With serverless computing, you just upload the code somewhere, and it runs whenever you invoke it. Simply put, serverless computing frees you from the complexities of configuring and maintaining Kubernetes clusters. •This page gathers resources about how to build a Serverless Kubernetes cluster.
+- **[Kubernetes Serverless](https://blog.aquasec.com/knative-serverless-for-kubernetes)**  — he idea behind&nbsp;serverless computing&nbsp;is that it lets you, as a developer, focus only on writing your code. With serverless computing, you just upload the code somewhere, and it runs whenever you invoke it. Simply put, serverless computing frees you from the complexities of configuring and maintaining Kubernetes clusters. •This page gathers resources about how to build a Serverless Kubernetes cluster.
 
 - **[Working with Kubernetes Dashboard](/display/containers/working+with+kubernetes+dashboard)**  — Kubernetes Dashboard is a general purpose, web-based UI for Kubernetes clusters. It allows users to manage applications running in the cluster and troubleshoot them, as well as manage the cluster itself. This page gathers resources on how to install, access and secure Kubernetes dashboard.
 

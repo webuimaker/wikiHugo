@@ -1,8 +1,6 @@
 ---
 # Homepage
-title: "Open Source Security Tools for Containers
-
-"
+title: "Open Source Security Tools for Containers"
 description: "As containers becomimng more popular, the instances of malware are increasing. Securing containers is a top priority for DevOps engineers. This page gathers resources about open source security tools for containers such as: kube-bench, kube-hunter, Clair and more.
 
 "

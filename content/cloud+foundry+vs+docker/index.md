@@ -1,7 +1,6 @@
 ---
 # Homepage
-title: "Cloud Foundry vs Docker
-"
+title: "Cloud Foundry vs Docker"
 description: "There are different ways to package different applications to deploy and run them in the cloud. Developers can choose in-between Cloud Foundry and Docker. The two models have certain similarities but, there are also significant differences. This page gather resources about the differences between Cloud Foundry and Docker."
 titleDescription: "There are different ways to package different applications to deploy and run them in the cloud. Developers can choose in-between Cloud Foundry and Docker. The two models have certain similarities but, there are also significant differences. This page gather resources about the differences between Cloud Foundry and Docker." 
 

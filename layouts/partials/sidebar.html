@@ -5,7 +5,7 @@
 
         
         {{ range  .Site.Data.menu.sidebar}}
-            <h4><a href="{{.url | lower }}"><span>{{if .icon }}  {{else }}{{end}}{{.sectionMain}}</span></a></h4>
+            <h4><a href="{{.url  }}"><span>{{if .icon }}  {{else }}{{end}}{{.sectionMain}}</span></a></h4>
             {{if .childrenContent }}
                 {{range .childrenContent }}           
                     <ul class="nav flex-column pl-0 sidebar-nav">

@@ -32,5 +32,5 @@ advanced:
 
 - **[Kubernetes Logging](/display/containers/Kubernetes+Logging)** 
 - **[Kubernetes Proxies](/display/containers/Kubernetes+Proxies)** 
-- **[Kubernetes Serverless](/display/containers/Kubernetes+Serverless)** 
+- **[Kubernetes Serverless](https://blog.aquasec.com/knative-serverless-for-kubernetes)** 
 - **[Working with Kubernetes Dashboard](/display/containers/Working+with+Kubernetes+Dashboard)** 
