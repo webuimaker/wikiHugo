@@ -2,19 +2,16 @@
 # Homepage
 title: "Cloud Native AWS"
 description: "
-Benefits of cloud are no more limited to shared infrastructure to host an application. Cloud-native, that leverages loosely-coupled components of cloud for application development is gaining grounds in the software industry due to its exponential scalability and increased robustness. Amazon Web Services (AWS) is a cloud computing platform that offers a mix of infrastructure as a service (IaaS), platform as a service (PaaS), and packaged software as a service (SaaS) services. This page gather resources about Cloud native on AWS and its advantages
-
-
-"
+Benefits of cloud are no more limited to shared infrastructure to host an application. Cloud-native, that leverages loosely-coupled components of cloud for application development is gaining grounds in the software industry due to its exponential scalability and increased robustness. Amazon Web Services (AWS) is a cloud computing platform that offers a mix of infrastructure as a service (IaaS), platform as a service (PaaS), and packaged software as a service (SaaS) services. This page gather resources about Cloud native on AWS and its advantages"
 titleDescription: "
 Benefits of cloud are no more limited to shared infrastructure to host an application. Cloud-native, that leverages loosely-coupled components of cloud for application development is gaining grounds in the software industry due to its exponential scalability and increased robustness. Amazon Web Services (AWS) is a cloud computing platform that offers a mix of infrastructure as a service (IaaS), platform as a service (PaaS), and packaged software as a service (SaaS) services. This page gather resources about Cloud native on AWS and its advantages
 " 
 
 type: "widget_page"
-url: "/display/containers/cloud+native+aws/" 
+url: "/display/containers/Cloud+Native+AWS/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

@@ -8,10 +8,10 @@ titleDescription: "Technology has come a long way, but so does hacking. Just lik
 " 
 
 type: "widget_page"
-url: "/display/containers/open+source+security+tools" 
+url: "/display/containers/Open+Source+Security+Tools" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

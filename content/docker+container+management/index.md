@@ -5,7 +5,7 @@ description: "The true power of Docker container technology lies in its ability 
 titleDescription: "The true power of <a href='/display/containers/docker+containers'>Docker container</a> technology lies in its ability to perform complex tasks with minimal <a href='/display/containers/managing+container+resources'>resources</a>.  If not managed properly they will bloat, bogging down the environment and reducing the capabilities they were designed to deliver.  This page gathers resources about how to effectively manage Docker, how to pick the right management tool including a list of recomended tools." 
 
 type: "widget_page"
-url: "display/containers/docker+container+management" 
+url: "display/containers/Docker+Container+Management" 
 rightSide: true 
 # permalink: "/display/containers/container-security-management/"
 # headless = true  # Homepage is headless, other widget pages are not.

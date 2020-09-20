@@ -2,22 +2,22 @@
 # Homepage
 title: "Kubernetes High Availability Clusters"
 description: "Kubernetes clusters enable a higher level of abstraction to deploy and manage a group of containers that comprise the micro-services in a cloud-native application. This page gathers resources about high availability cluster components and how to set up a high availability Kubernetes cluster."
-titleDescription: "<a href='/display/containers/kubernetes+cluster'>Kubernetes clusters</a> enable a higher level of abstraction to deploy and manage a group of containers that comprise the <a href='/display/containers/Kubernetes+and+Microservices'>micro-services</a> in a cloud-native application. This page gathers resources about high availability cluster components and how to set up a high availability Kubernetes cluster." 
+titleDescription: "<a href='/display/containers/Kubernetes+Cluster'>Kubernetes clusters</a> enable a higher level of abstraction to deploy and manage a group of containers that comprise the <a href='/display/containers/Kubernetes+and+Microservices'>micro-services</a> in a cloud-native application. This page gathers resources about high availability cluster components and how to set up a high availability Kubernetes cluster." 
 
 type: "widget_page"
-url: "/display/containers/kubernetes+high+availability+clusters/" 
+url: "/display/containers/Kubernetes+High+Availability+Clusters" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url: "/display/containers/kubernetes+guide/"
+   url: "/display/containers/Kubernetes+Guide/"
  - text: Kubernetes Cluster
-   url: "/display/containers/kubernetes+cluster/"
+   url: "/display/containers/Kubernetes+Cluster/"
  - text: Kubernetes High Availability Clusters
    url: ""
 promotion:

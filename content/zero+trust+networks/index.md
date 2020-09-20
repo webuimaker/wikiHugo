@@ -8,10 +8,10 @@ titleDescription: "Zero Trust is a security concept centered on the belief that 
 " 
 
 type: "widget_page"
-url: "/display/containers/zero+trust+networks/" 
+url: "/display/containers/Zero+Trust+Networks/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

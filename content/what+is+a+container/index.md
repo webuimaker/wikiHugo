@@ -5,19 +5,19 @@ description: "Containers are a method of virtualization that packages an applica
 titleDescription: "Containers are a method of virtualization that packages an application's code, configurations, and dependencies into building blocks for consistency, efficiency, productivity, and version control. This page gathers resources about containers, including technical definitions and comparisons." 
 
 type: "widget_page"
-url: "/display/containers/what+is+a+container/" 
+url: "/display/containers/What+is+a+Container" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Container Architecture
-   url: "/display/containers/container+architecture/"
+   url: "/display/containers/Container+Architecture/"
  - text: What is a Container
    url: ""
 promotion:

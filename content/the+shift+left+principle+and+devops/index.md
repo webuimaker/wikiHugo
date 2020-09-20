@@ -5,7 +5,7 @@ description: "The move to Agile and DevSecOps development processes has fostered
 titleDescription: "The move to Agile and <a href='/display/containers/Containers+for+DevSecOps'>DevSecOps</a> development processes has fostered a lot of attention on the need to shift security testing left in the development cycle. Moving security testing into the realm of the developer makes security testing faster, easier, more effective and less expensive. The page gathers resources about how shifting left improves DevOps and security." 
 
 type: "widget_page"
-url: "/display/containers/the+shift+left+principle+and+devops/" 
+url: "/display/containers/The+Shift+Left+Principle+and+DevOps/" 
 
 rightSide: true 
 # permalink: "/display/containers/kubernetes+and+microservices"
@@ -15,9 +15,9 @@ breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Enterprise DevOps
-   url: "/display/containers/enterprise+devops/"
+   url: "/display/containers/Enterprise+DevOps/"
  - text: The Shift Left Principle and DevOps
    url: ""
 promotion:

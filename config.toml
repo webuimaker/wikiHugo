@@ -2,7 +2,8 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Container Technology Wiki"
 
-disablePathToLower = false 
+disablePathToLower = true
+uglyurls = true 
 
 
 [markup]

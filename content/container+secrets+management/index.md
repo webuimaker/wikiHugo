@@ -5,10 +5,10 @@ description: "In computing as in real life, a secret is information you want kep
 titleDescription: "In computing as in real life, a secret is information you want kept private, outside of the people and systems you want or need to share it with. In the application security realm, common examples of secrets are passwords, tokens, and private keys. This page gathers resources about managing secrets in containers including <a href='/display/containers/Docker+Containers'>Docker containers</a>, <a href='/display/containers/Amazon+Elastic+Container+Service'>Amazon Elastic Container Service</a>, <a href='/display/containers/Kubernetes+Guide'> Kubernetes</a> and more." 
 
 type: "widget_page"
-url: "/display/containers/container+secrets+management/" 
+url: "/display/containers/Container+Secrets+Management/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

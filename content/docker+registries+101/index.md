@@ -4,7 +4,7 @@ title: "Docker Registries 101"
 description: "Learn about Docker Registries,DockerHub, other public registries, and private registries"
 titleDescription: "Learn about Docker Registries,DockerHub, other public registries, and private registries"
 type: "widget_page"
-url: "/display/containers/docker+registries+101"  
+url: "/display/containers/Docker+Registries+101"  
 rightSide: true # true or false for right side bar
 # permalink: "/display/containers/container-security-management/"
 # headless = true  # Homepage is headless, other widget pages are not.
@@ -13,9 +13,9 @@ breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Docker Containers
-   url : "/display/containers/docker+containers"
+   url : "/display/containers/Docker+Containers"
  - text: Docker 101
-   url : "/display/containers/docker+101"
+   url : "/display/containers/Docker+101"
  - text: Docker Registries 101
    url : ""
 promotion:

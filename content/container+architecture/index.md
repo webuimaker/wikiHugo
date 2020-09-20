@@ -5,10 +5,10 @@ description: "Resources on building blocks of a container architecture, and arch
 titleDescription: "Resources on building blocks of a <a href='/display/containers/What+is+a+Container'>container </a> architecture, and architectural options organizations face when using containers for application development." 
 
 type: "widget_page"
-url: "/display/containers/container+architecture/" 
+url: "/display/containers/Container+Architecture" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

@@ -5,19 +5,19 @@ description: "Istio makes it easy to create a network of deployed services with 
 titleDescription: "Istio makes it easy to create a network of deployed services with <a href='/display/containers/Kubernetes+Load+Balancing'>load balancing</a>, service-to-service authentication, monitoring, and more, without any changes in service code.  This page gathers resources about Istio and how it fits in the service mesh architecture ." 
 
 type: "widget_page"
-url: "/display/containers/istio/" 
+url: "/display/containers/Istio/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Container Architecture
-   url: "/display/containers/container+architecture/"
+   url: "/display/containers/Container+Architecture/"
  - text: Service Mesh
    url: "/display/containers/Service+Mesh/"
  - text: Istio

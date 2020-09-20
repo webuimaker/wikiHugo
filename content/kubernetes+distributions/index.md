@@ -5,17 +5,17 @@ description: "Kubernetes is complex, and difficult to set up and configure. The 
 titleDescription: "Kubernetes is complex, and difficult to set up and configure. The best approach, therefore, is to seek out a complete container solution that includes Kubernetes as a supported, maintained component. This page gathers resources about the leading Kubetnetes distributions such as <a href='/display/containers/OpenShift+vs.+Kubernetes'>OpenShift</a>, Canonical, Rancher and more." 
 
 type: "widget_page"
-url: "/display/containers/kubernetes+distributions/" 
+url: "/display/containers/Kubernetes+Distributions" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url: "/display/containers/kubernetes+guide/"
+   url: "/display/containers/Kubernetes+Guide/"
  - text: Kubernetes Distributions
    url: ""
 promotion:

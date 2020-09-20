@@ -7,19 +7,19 @@ titleDescription: "While a <a href='/display/containers/What+is+a+Container'>con
 " 
 
 type: "widget_page"
-url: "/display/containers/container+storage+best+practices/" 
+url: "/display/containers/Container+Storage+Best+Practices/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Container Challenges
-   url: "/display/containers/container+challenges"
+   url: "/display/containers/Container+Challenges"
  - text: Container Storage Best Practices
    url: ""
 promotion:

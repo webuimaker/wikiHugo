@@ -2,20 +2,20 @@
 # Homepage
 title: "Kubernetes Networking 101"
 description: "Learn about Kubernetes Networking: Kubernetes vs. Docker Networking Model, Kubernetes Networking Model Implementations, how Pods communicate with each other, incoming traffic, DNS for services and Pods, network policies, and network extensions."
-titleDescription: "Learn about Kubernetes Networking: <a href='/display/containers/Docker+vs.+kubernetes+-+8+industry+opinions'>Kubernetes vs. Docker</a> Networking Model, Kubernetes Networking Model Implementations, how Pods communicate with each other, incoming traffic, DNS for services and Pods, network policies, and network extensions."
+titleDescription: "Learn about Kubernetes Networking: <a href='/display/containers/Docker+vs.+Kubernetes+-+8+Industry+Opinions'>Kubernetes vs. Docker</a> Networking Model, Kubernetes Networking Model Implementations, how Pods communicate with each other, incoming traffic, DNS for services and Pods, network policies, and network extensions."
 type: "widget_page"
-url: "/display/containers/kubernetes+networking+101"  
+url: "/display/containers/Kubernetes+Networking+101"  
 rightSide: true # true or false for right side bar
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url : "/display/containers/kubernetes+guide"
+   url : "/display/containers/Kubernetes+Guide"
  - text: Kubernetes 101
-   url : "/display/containers/kubernetes+101"
+   url : "/display/containers/Kubernetes+101"
  - text: Kubernetes Networking 101
    url : ""
 promotion:

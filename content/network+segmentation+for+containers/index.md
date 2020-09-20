@@ -4,14 +4,14 @@ title: "Network Segmentation for Containers"
 description: "Network segmentation is the practice of dividing a larger computer network into several small subnetworks that are each isolated from one another. This page gathers resources about the security benefits of network segmentation, the rise of micro-segmentation and the nano-segmantation approach.
 
 "
-titleDescription: "<a href='/display/containers/kubernetes+networking+101'>Network</a> segmentation is the practice of dividing a larger computer network into several small subnetworks that are each <a href='/display/containers/iosolating+docker+containers'>isolated</a> from one another. This page gathers resources about the security benefits of network segmentation, the rise of micro-segmentation and the nano-segmantation approach.
+titleDescription: "<a href='/display/containers/Kubernetes+Networking+101'>Network</a> segmentation is the practice of dividing a larger computer network into several small subnetworks that are each <a href='/display/containers/Iosolating+Docker+Containers'>isolated</a> from one another. This page gathers resources about the security benefits of network segmentation, the rise of micro-segmentation and the nano-segmantation approach.
 " 
 
 type: "widget_page"
-url: "/display/containers/network+segmentation+for+containers/" 
+url: "/display/containers/Network+Segmentation+for+Containers/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

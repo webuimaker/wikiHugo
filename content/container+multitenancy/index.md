@@ -5,10 +5,10 @@ description: "Multi-tenancy is an architecture in which a single instance of a s
 titleDescription: "Multi-tenancy is an architecture in which a single instance of a software application serves multiple customers. Each customer is called a tenant. This page gathers resources about the importance of multitenancy in containerize apps delivery."
 
 type: "widget_page"
-url: "/display/containers/container+multitenancy/" 
+url: "/display/containers/Container+Multitenancy/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

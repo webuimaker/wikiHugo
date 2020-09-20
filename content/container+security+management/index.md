@@ -5,17 +5,17 @@ description: "Securing containers requires a different approach. Since container
 titleDescription: "<a href='/display/containers/Container+Security'>Securing containers</a> requires a different approach. Since containers run on a shared host and typically use multiple components to deliver a complete solution, there are many considerations that are required to secure container environment. This page gathers resources about managing security in containers including security considerations, security best practices and more." 
 
 type: "widget_page"
-url: "/display/containers/container+security+management/" 
+url: "/display/containers/Container+Security+Management/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Container Security Management
    url: ""
 promotion:

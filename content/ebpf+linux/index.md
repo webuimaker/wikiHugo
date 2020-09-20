@@ -5,7 +5,7 @@ description: "eBPF  (Extended Berkeley Packet Filter) is a Linux-native in-kerne
 titleDescription: "eBPF  (Extended Berkeley Packet Filter) is a Linux-native in-kernel virtual machine that enables secure, low-overhead tracing for application performance and event observability and analysis.  eBPF enables programmers to write code which gets executed in kernel space in a more secure and restricted environment. This page gather resources about eBPF on Linux and tutorials." 
 
 type: "widget_page"
-url: "/display/containers/ebpf+linux/" 
+url: "/display/containers/eBPF+Linux/" 
 
 rightSide: true 
 # permalink: "/display/containers/kubernetes+and+microservices"
@@ -15,7 +15,7 @@ breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: eBPF Linux
 
    url: ""

@@ -5,18 +5,18 @@ description: "In order to get as much efficiency out of Docker as possible, we n
 titleDescription: "In order to get as much efficiency out of <a href='/display/containers/Docker+Containers'>Docker</a> as possible, we need to track Docker metrics. <a href='/display/containers/Container+Monitoring'>Monitoring</a> metrics is also important for troubleshooting problems. This page gathers resources on how to collect Docker metrics with tools like Prometheus, Grafana, InfluxDB and more." 
 
 type: "widget_page"
-url: "/display/containers/collecting+docker+metrics" 
+url: "/display/containers/Collecting+Docker+Metrics" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Docker Containers
-   url : "/display/containers/docker+containers"
+   url : "/display/containers/Docker+Containers"
  - text: Docker Administration
-   url: "/display/containers/docker+administration"
+   url: "/display/containers/Docker+Administration"
  - text: Collecting Docker Metrics
    url: ""
 promotion:

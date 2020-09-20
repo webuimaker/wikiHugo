@@ -2,21 +2,21 @@
 # Homepage
 title: "Kubernetes Debugging and Troubleshooting"
 description: "This page gathers resources about how to troubleshoot problems that arise when creating and managing Kubernetes Guide pods, replication controllers, services, and containers."
-titleDescription: "This page gathers resources about how to troubleshoot problems that arise when creating and managing <a href='/display/containers/kubernetes+guide'>Kubernetes Guide</a> pods, replication controllers, <a href='/display/containers/kubernetes+services+101'>services</a>, and containers." 
+titleDescription: "This page gathers resources about how to troubleshoot problems that arise when creating and managing <a href='/display/containers/Kubernetes+Guide'>Kubernetes Guide</a> pods, replication controllers, <a href='/display/containers/Kubernetes+Services+101'>services</a>, and containers." 
 
 type: "widget_page"
-url: "/display/containers/kubernetes+debugging+and+troubleshooting" 
+url: "/display/containers/Kubernetes+Debugging+and+Troubleshooting" 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url: "/display/containers/kubernetes+guide/"
+   url: "/display/containers/Kubernetes+Guide"
  - text: Kubernetes Operations
-   url: "/display/containers/kubernetes+operations"
+   url: "/display/containers/Kubernetes+Operations"
  - text: Kubernetes Debugging and Troubleshooting
    url: ""
 promotion:

@@ -5,19 +5,19 @@ description: "DevOps is a set of cultural practices that emphasize collaboration
 titleDescription: "DevOps is a set of cultural practices that emphasize collaboration between all parts of the IT organization and the “continuous delivery” of software. This page gathers resources about how containers fit into the DevOps ecosystem and how to implement DevOps with containerization." 
 
 type: "widget_page"
-url: "/display/containers/containers+and+devops/" 
+url: "/display/containers/Containers+and+DevOps/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Enterprise DevOps
-   url: "/display/containers/enterprise+devops/"
+   url: "/display/containers/Enterprise+DevOps/"
  - text: Containers and DevOps
    url: ""
 promotion:

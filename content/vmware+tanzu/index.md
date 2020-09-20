@@ -2,19 +2,16 @@
 # Homepage
 title: "VMware Tanzu"
 description: "
-VMware Tanzu is the suite or portfolio of products and solutions that allow its customers to Build, Run, and Manage Kubernetes controlled container-based applications. This page gather Resources about VMware Tanzu and how to deploy it.
-
-
-"
+VMware Tanzu is the suite or portfolio of products and solutions that allow its customers to Build, Run, and Manage Kubernetes controlled container-based applications. This page gather Resources about VMware Tanzu and how to deploy it."
 titleDescription: "
 VMware Tanzu is the suite or portfolio of products and solutions that allow its customers to Build, Run, and Manage Kubernetes controlled container-based applications. This page gather Resources about VMware Tanzu and how to deploy it.
 " 
 
 type: "widget_page"
-url: "/display/containers/vmware+tanzu/" 
+url: "/display/containers/VMware+Tanzu/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

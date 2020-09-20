@@ -8,10 +8,10 @@ titleDescription: "As containers becomimng more popular, the instances of malwar
 " 
 
 type: "widget_page"
-url: "/display/containers/open+source+security+tools+for+containers/" 
+url: "/display/containers/Open+Source+Security+Tools+for+Containers/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

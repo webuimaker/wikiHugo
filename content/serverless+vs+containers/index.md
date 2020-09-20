@@ -5,10 +5,10 @@ description: "Serverless and containers are often viewed as competing developmen
 titleDescription: "Serverless and containers are often viewed as competing development technologies. But when integrated, they can be a powerful combination.  This page gathers resources about all you need to know about serverless computing, how it compares to containers, and how it can figure into your IT strategy. " 
 
 type: "widget_page"
-url: "/display/containers/serverless+vs+containers" 
+url: "/display/containers/Serverless+vs+Containers" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

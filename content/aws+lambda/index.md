@@ -5,10 +5,10 @@ description: "AWS Lambda is a compute service that lets you run code without pro
 titleDescription: "AWS Lambda is a compute service that lets you run code without provisioning or managing servers. AWS Lambda executes your code only when needed and scales automatically, from a few requests per day to thousands per second. This page gathers resources on AWS Lambda costs, use cases and tutorials." 
 
 type: "widget_page"
-url: "/display/containers/aws+lambda/" 
+url: "/display/containers/AWS+Lambda/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

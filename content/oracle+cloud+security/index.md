@@ -2,19 +2,16 @@
 # Homepage
 title: "Oracle Cloud Security"
 description: "
-Oracle Cloud is a cloud computing service offered by Oracle Corporation providing servers, storage, network, applications and services through a global network of Oracle Corporation managed data centers. This page gather resources about Oracle Cloud security, best practices, and how to implement it.
-
-
-"
+Oracle Cloud is a cloud computing service offered by Oracle Corporation providing servers, storage, network, applications and services through a global network of Oracle Corporation managed data centers. This page gather resources about Oracle Cloud security, best practices, and how to implement it."
 titleDescription: "
 Oracle Cloud is a cloud computing service offered by Oracle Corporation providing servers, storage, network, applications and services through a global network of Oracle Corporation managed data centers. This page gather resources about Oracle Cloud security, best practices, and how to implement it.
 " 
 
 type: "widget_page"
-url: "/display/containers/oracle+cloud+security/" 
+url: "/display/containers/Oracle+Cloud+Security/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

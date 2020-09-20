@@ -5,10 +5,10 @@ description: "Serverless computing is a type of cloud service where the hosting 
 titleDescription: "Serverless computing is a type of cloud service where the hosting provider allocates adequate resources for you on the fly rather than making you pay for dedicated servers or capacity in advance. This page gathers resources about how serverless computing will change the future of container and database technology." 
 
 type: "widget_page"
-url: "/display/containers/serverless+computing/" 
+url: "/display/containers/Serverless+Computing/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

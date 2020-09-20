@@ -5,16 +5,16 @@ description: "Docker provides an API for interacting with the Docker daemon (cal
 titleDescription: "Docker provides an API for interacting with the Docker daemon (called the Docker Engine API), as well as SDKs for Go and Python. This page gathers resources about the Docker remote API, using the Docker API in different environments like Python, Node.js and Java." 
 
 type: "widget_page"
-url: "/display/containers/docker+api" 
+url: "/display/containers/Docker+API" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Docker Containers
-   url : "/display/containers/docker+containers"
+   url : "/display/containers/Docker+Containers"
  - text: Docker API
    url: ""
 promotion:

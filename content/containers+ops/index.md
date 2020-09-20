@@ -5,10 +5,10 @@ description: "Resources about the process of managing the capacity, security, pe
 titleDescription: "Resources about the process of managing the capacity, <a href='/display/containers/Container+Security'>security</a>, <a href='/display/containers/Container+Performance'>performance</a>, and availability of an organization’s container infrastructure across environments and multiple deployment targets like physical servers, <a href='/display/containers/Containers+vs+Virtual+Machines'>virtual machines</a>, and private or public clouds." 
 
 type: "widget_page"
-url: "/display/containers/containers+ops/" 
+url: "/display/containers/Containers+Ops/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

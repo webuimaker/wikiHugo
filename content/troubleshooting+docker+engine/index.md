@@ -5,18 +5,18 @@ description: "Docker makes everything easier. But even with the easiest platform
 titleDescription: "<a href='/display/containers/Docker+Containers'>Docker</a> makes everything easier. But even with the easiest platforms, sometimes you run into problems. This page gathers resources about  how to diagnose and troubleshoot problems, send logs, and communicate with the Docker Engine." 
 
 type: "widget_page"
-url: "/display/containers/troubleshooting+docker+engine" 
+url: "/display/containers/Troubleshooting+Docker+Engine" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Docker Containers
-   url : "/display/containers/docker+containers"
+   url : "/display/containers/Docker+Containers"
  - text: Docker Administration
-   url: "/display/containers/docker+administration"
+   url: "/display/containers/Docker+Administration"
  - text: Troubleshooting Docker Engine
    url: ""
 promotion:

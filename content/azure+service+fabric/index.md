@@ -5,19 +5,19 @@ description: "Azure Service Fabric is a distributed systems platform that makes 
 titleDescription: "Azure Service Fabric is a distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and containers. This page gathers resources about build a microservice with Service Fabric." 
 
 type: "widget_page"
-url: "/display/containers/azure+service+fabric/" 
+url: "/display/containers/Azure+Service+Fabric/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Container Architecture
-   url: "/display/containers/container+architecture/"
+   url: "/display/containers/Container+Architecture/"
  - text: Service Mesh
    url: "/display/containers/Service+Mesh/"
  - text: Azure Service Fabric

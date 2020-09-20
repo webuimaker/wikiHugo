@@ -5,10 +5,10 @@ description: "The wide adoption of containers and the ability to retrieve images
 titleDescription: "The wide adoption of containers and the ability to retrieve images from different sources impose strict security constraints. Containers leverage Linux kernel security facilities, such as namespaces, cgroups and Mandatory Access Control. This page gathers resources about container access control - deciding and enforcing who gets access to which container resources." 
 
 type: "widget_page"
-url: "/display/containers/container+access+control/" 
+url: "/display/containers/Container+Access+Control/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

@@ -2,13 +2,13 @@
 # Homepage
 title: "Container Security Best Practices"
 description: "When containerization is implemented with good security practices, containers can offer better application security rather than a VM only solution. This page gathers resources about basic tips, Docker security best practices and Kubernetes security best practices."
-titleDescription: "When containerization is implemented with good <a  href='#'>security</a> practices, containers can offer better application security rather than a <a href='/display/containers/containers+vs+virtual+machines'>VM</a> only solution. This page gathers resources about basic tips, <a href='https://blog.aquasec.com/docker-security-best-practices' target='_blank'>Docker security</a> best practices and Kubernetes security best practices." 
+titleDescription: "When containerization is implemented with good <a  href='/display/containers/Container+Security+Best+Practices'>security</a> practices, containers can offer better application security rather than a <a href='/display/containers/Containers+vs+Virtual+Machines'>VM</a> only solution. This page gathers resources about basic tips, <a href='https://blog.aquasec.com/docker-security-best-practices' target='_blank'>Docker security</a> best practices and Kubernetes security best practices." 
 
 type: "widget_page"
-url: "/display/containers/container+security+best+practices/" 
+url: "/display/containers/Container+Security+Best+Practices/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

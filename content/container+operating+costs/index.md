@@ -2,22 +2,22 @@
 # Homepage
 title: "Container Operating Costs"
 description: "Container's benefits are not just technical. Containers can also reduce costs - which is the big reason why companies are now adopting them. This page gathers resources about container operating costs and their influence on overall system costs."
-titleDescription: "<a href='/display/containers/advantages+of+containers'>Container's benefits</a> are not just technical. Containers can also reduce costs - which is the big reason why companies are now adopting them. This page gathers resources about container operating costs and their influence on overall system costs." 
+titleDescription: "<a href='/display/containers/Advantages+of+Containers'>Container's benefits</a> are not just technical. Containers can also reduce costs - which is the big reason why companies are now adopting them. This page gathers resources about container operating costs and their influence on overall system costs." 
 
 type: "widget_page"
-url: "/display/containers/container+operating+costs" 
+url: "/display/containers/Container+Operating+Costs" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Advantages of Containers
-   url: "/display/containers/advantages+of+containers"
+   url: "/display/containers/Advantages+of+Containers"
  - text: Container Operating Costs
    url: ""
 promotion:

@@ -11,10 +11,10 @@ Envoy Proxy is a modern, high performance, small footprint edge and service prox
 " 
 
 type: "widget_page"
-url: "/display/containers/envoy+proxy/" 
+url: "/display/containers/Envoy+Proxy/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

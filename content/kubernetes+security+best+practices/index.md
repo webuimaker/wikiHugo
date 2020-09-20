@@ -5,19 +5,19 @@ description: "Kubernetes deployments have opened up a new set of infrastructure 
 titleDescription: "Kubernetes deployments have opened up a new set of infrastructure <a href='https://blog.aquasec.com/managing-kubernetes-secrets' class='external-link' target='_blank'>security </a> concerns for development and operations teams. This page gathers resources about things you need to know about securing your Kubernetes infrastructure." 
 
 type: "widget_page"
-url: "/display/containers/kubernetes+security+best+practices" 
+url: "/display/containers/Kubernetes+Security+Best+Practices" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url: "/display/containers/kubernetes+guide/"
+   url: "/display/containers/Kubernetes+Guide/"
  - text: Kubernetes Operations
-   url: "/display/containers/kubernetes+operations"
+   url: "/display/containers/Kubernetes+Operations"
  - text: Kubernetes Security Best Practices
    url: ""
 promotion:

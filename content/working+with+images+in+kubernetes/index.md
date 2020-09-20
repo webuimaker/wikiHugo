@@ -5,18 +5,18 @@ description: "This page gathers resources about how to create and work with cont
 titleDescription: "This page gathers resources about how to create and work with container images (such as <a href='/display/containers/Docker+Containers'>Docker</a> images) in <a href='/display/containers/Kubernetes+Guide'>Kubernetes Guide</a> using different environments like <a href='/display/containers/Containers+on+Azure'>Azure</a>, <a href='/display/containers/OpenShift+vs.+Kubernetes'>OpenShift </a> and more." 
 
 type: "widget_page"
-url: "/display/containers/working+with+images+in+kubernetes" 
+url: "/display/containers/Working+with+Images+in+Kubernetes" 
 rightSide: true 
-# permalink: "/display/containers/container+runtime+interface"
+# permalink: "/display/containers/Container+Runtime+Interface"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url : "/display/containers/kubernetes+guide"
+   url : "/display/containers/Kubernetes+Guide"
  - text: Kubernetes Architecture
-   url: "/display/containers/kubernetes+architecture"
+   url: "/display/containers/Kubernetes+Architecture"
  - text: Working with Images in Kubernetes
    url: ""
 promotion:

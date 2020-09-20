@@ -11,10 +11,10 @@ Harbor is an open source container image registry that secures images with role-
 " 
 
 type: "widget_page"
-url: "/display/containers/harbor+kubernetes/" 
+url: "/display/containers/Harbor+Kubernetes/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

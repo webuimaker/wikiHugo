@@ -5,10 +5,10 @@ description: "While containers are driving evolution in the management of networ
 titleDescription: "While <a href='/display/containers/Container+Basics'>containers</a> are driving evolution in the management of network applications, which, although self-contained, are still vulnerable. This page gathers resources about container vulnerabilities like 'Dirty Cow' and 'Escape Vulnerability' including tips on how to secure containers from cyber threats." 
 
 type: "widget_page"
-url: "/display/containers/container+vulnerabilities+and+threats/" 
+url: "/display/containers/Container+Vulnerabilities+and+Threats/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

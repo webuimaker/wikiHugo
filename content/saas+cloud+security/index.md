@@ -11,10 +11,10 @@ Software-as-a-service (SaaS) is an on-demand, cloud-based software delivery mode
 " 
 
 type: "widget_page"
-url: "/display/containers/saas+cloud+security/" 
+url: "/display/containers/SaaS+Cloud+Security/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

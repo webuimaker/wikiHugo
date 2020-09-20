@@ -5,19 +5,19 @@ description: "Kubernetes uses a concept called namespaces to help address the co
 titleDescription: "Kubernetes uses a concept called namespaces to help address the complexity of organizing objects within a cluster. Namespaces allow you to group objects together so you can filter and control them as a unit. This page gather resources about Kubrenetes namespace and how to use namespaces to manage your Kubernetes objects." 
 
 type: "widget_page"
-url: "/display/containers/kubernetes+namespace/" 
+url: "/display/containers/Kubernetes+Namespace" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url: "/display/containers/kubernetes+guide/"
+   url: "/display/containers/Kubernetes+Guide/"
  - text: Kubernetes Operations
-   url: "/display/containers/kubernetes+operations"
+   url: "/display/containers/Kubernetes+Operations"
  - text: Kubernetes Namespace
    url: ""
 promotion:

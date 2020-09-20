@@ -5,10 +5,10 @@ description: "Software development groups realize that the only way they can mak
 titleDescription: "Software development groups realize that the only way they can make the development and tooling processes work at scale is by automating as much as possible to reduce the scope of manual process. This page gathers resources about how containers integrate in different aspects of automation like automated builds, automated tests and more." 
 
 type: "widget_page"
-url: "/display/containers/container+automation/" 
+url: "/display/containers/Container+Automation/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

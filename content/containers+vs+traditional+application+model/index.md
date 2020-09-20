@@ -5,19 +5,19 @@ description: "The traditional application model is a model in which applications
 titleDescription: "The traditional application model is a model in which applications are executed directly on <a href='/display/containers/Containers+vs+Virtual+Machines'> virtual machines</a> or on bare-metal servers. This page gathers resources about the difference between containerized infrastructure and the traditional application model." 
 
 type: "widget_page"
-url: "/display/containers/containers+vs+traditional+application+model/" 
+url: "/display/containers/Containers+vs+Traditional+Application+Model" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Container Architecture
-   url: "/display/containers/container+architecture/"
+   url: "/display/containers/Container+Architecture/"
  - text: Containers vs Traditional Application Model
    url: ""
 promotion:

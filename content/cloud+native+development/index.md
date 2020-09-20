@@ -11,10 +11,10 @@ Cloud-native applications are a collection of small, independent, and loosely co
 " 
 
 type: "widget_page"
-url: "/display/containers/cloud+native+development/" 
+url: "/display/containers/Cloud+Native+Development/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

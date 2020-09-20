@@ -5,16 +5,16 @@ description: "Resources about the Docker administrative procedures such as Docke
 titleDescription: "Resources about the <a href='/display/containers/docker+containers'>Docker</a> administrative procedures such as Docker configuration, collecting Docker metrics, Docker logging and more." 
 
 type: "widget_page"
-url: "display/containers/docker+administration" 
+url: "display/containers/Docker+Administration" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Docker Containers
-   url : "/display/containers/docker+containers"
+   url : "/display/containers/Docker+Containers"
  - text: Docker Administration
    url: ""
 TOC: 

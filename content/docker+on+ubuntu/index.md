@@ -5,18 +5,18 @@ description: "Ubuntu is a complete Linux operating system, freely available with
 titleDescription: "Ubuntu is a complete Linux operating system, freely available with both community and professional support. This Page gathers resources about the installation and basic usage of Docker on Ubuntu." 
 
 type: "widget_page"
-url: "display/containers/docker+on+ubuntu" 
+url: "display/containers/Docker+on+Ubuntu" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Docker Containers
-   url : "/display/containers/docker+containers"
+   url : "/display/containers/Docker+Containers"
  - text: Docker OS Interaction
-   url: "/display/containers/docker+os+interaction/"
+   url: "/display/containers/Docker+OS+Interaction/"
  - text: Docker on Ubuntu
    url: ""
 promotion:

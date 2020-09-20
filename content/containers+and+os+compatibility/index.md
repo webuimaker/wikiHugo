@@ -7,19 +7,19 @@ titleDescription: "Most major <a href='/display/containers/Container+Operating+S
 " 
 
 type: "widget_page"
-url: "/display/containers/containers+and+os+compatibility/" 
+url: "/display/containers/Containers+and+OS+Compatibility/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Container Challenges
-   url: "/display/containers/container+challenges"
+   url: "/display/containers/Container+Challenges"
  - text: Containers and OS Compatibility
    url: ""
 promotion:

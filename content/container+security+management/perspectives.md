@@ -22,7 +22,7 @@ item:
    linkUrl: "https://info.aquasec.com/securosis-assembling-container-security-program"
    openNewWindow: 
    image: "https://res.cloudinary.com/agile-seo/image/fetch/w_176,dpr_1.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Faquasec.com%3Fsize%3D250" 
- - title: "S5 Keys to Conquering Container Security"
+ - title: "5 Keys to Conquering Container Security"
    summary: "When it comes to enterprise application development, security is still an afterthought, coming in right before a release is deployed. The rapid adoption of software containers presents a rare opportunity for security to move upstream and become integrated early on and throughout the software delivery pipeline."
    linkText: "ead the article on infoworld.com »"
    linkUrl: "https://www.infoworld.com/article/3104030/security/5-keys-to-docker-container-security.html"

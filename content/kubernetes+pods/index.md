@@ -5,18 +5,18 @@ description: "A pod is a group of one or more containers (such as Docker contain
 titleDescription: "A pod is a group of one or more containers (such as <a href='/display/containers/Docker+Containers'>Docker</a> containers), with shared storage/network, and a specification for <a href='/display/containers/Running+Docker+Containers'>how to run the containers</a>. A pod’s contents are always co-located and co-scheduled, and run in a shared context. This page gathers resources on what Kubernetes Pods are and how to create and manage them." 
 
 type: "widget_page"
-url: "/display/containers/kubernetes+pods" 
+url: "/display/containers/Kubernetes+Pods" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url : "/display/containers/kubernetes+guide"
+   url : "/display/containers/Kubernetes+Guide"
  - text: Kubernetes Architecture
-   url: "/display/containers/kubernetes+architecture"
+   url: "/display/containers/Kubernetes+Architecture"
  - text: Kubernetes Pods
    url: ""
 promotion:

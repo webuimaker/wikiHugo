@@ -5,19 +5,19 @@ description: "Kubernetes offers a variety of authentication strategies including
 titleDescription: "Kubernetes offers a variety of authentication strategies including: client certificates, OpenID Connect Tokens, Webhook Token Authentication, Authentication Proxy, Service Account Tokens, and several more. This page gather resources  about Kubernetes authentication and how to configure it." 
 
 type: "widget_page"
-url: "/display/containers/kubernetes+authentication/" 
+url: "/display/containers/Kubernetes+Authentication/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url: "/display/containers/kubernetes+guide/"
+   url: "/display/containers/Kubernetes+Guide/"
  - text: Kubernetes Operations
-   url: "/display/containers/kubernetes+operations"
+   url: "/display/containers/Kubernetes+Operations"
  - text: Kubernetes Authentication
    url: ""
 promotion:

@@ -5,17 +5,17 @@ description: "When Kubernetes came on the scene in 2014, it made an impact and c
 titleDescription: "When Kubernetes came on the scene in 2014, it made an impact and continues to impact the way companies build software. Large companies have backed it, causing a ripple effect in the industry and impacting open source and commercial systems. This page gather resources about Kubernetes in the enterprise : features, considerations, and case studies." 
 
 type: "widget_page"
-url: "/display/containers/enterprise+kubernetes/" 
+url: "/display/containers/Enterprise+Kubernetes" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url: "/display/containers/kubernetes+guide/"
+   url: "/display/containers/Kubernetes+Guide/"
  - text: Enterprise Kubernetes
    url: ""
 promotion:

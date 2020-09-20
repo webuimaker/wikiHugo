@@ -5,10 +5,10 @@ description: "Serverless architecture is a software design pattern where applica
 titleDescription: "Serverless architecture is a software design pattern where applications are hosted by a third-party service, eliminating the need for server software and hardware management by the developer. This page gathers resources about the pros and cons of serverless architecture, it's advantages and drawbacks." 
 
 type: "widget_page"
-url: "/display/containers/serverless+architecture/" 
+url: "/display/containers/Serverless+Architecture/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

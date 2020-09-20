@@ -7,17 +7,17 @@ titleDescription: "Large enterprises have bigger teams, more inherent operationa
 " 
 
 type: "widget_page"
-url: "/display/containers/enterprise+devops/" 
+url: "/display/containers/Enterprise+DevOps/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Enterprise DevOps
    url: ""
 promotion:

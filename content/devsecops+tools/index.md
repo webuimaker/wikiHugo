@@ -5,7 +5,7 @@ description: "Adopting a DevSecOps approach requires a change of attitude across
 titleDescription: "Adopting a DevSecOps approach requires a change of attitude across the organization, and it applies to processes, people, and the tools that they use. This page gathers resources about DevSecOps tools, both open source and commercial." 
 
 type: "widget_page"
-url: "/display/containers/devsecops+tools/" 
+url: "/display/containers/Devsecops+Tools/" 
 
 rightSide: true 
 # permalink: "/display/containers/kubernetes+and+microservices"
@@ -15,9 +15,9 @@ breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Enterprise DevOps
-   url: "/display/containers/enterprise+devops/"
+   url: "/display/containers/Enterprise+DevOps/"
  - text: Devsecops Tools
    url: ""
 promotion:

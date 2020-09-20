@@ -5,19 +5,19 @@ description: "Container as a Service (CaaS) is a business model whereby cloud co
 titleDescription: "Container as a Service (CaaS) is a business model whereby cloud computing service providers offer container-based virtualization services as a scalable online service. This allows users to use container services without having the necessary infrastructure. This Page gathers resources about the popularity and the advantages of CaaS." 
 
 type: "widget_page"
-url: "/display/containers/containers+as+a+service" 
+url: "/display/containers/Containers+as+a+Service" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Advantages of Containers
-   url: "/display/containers/advantages+of+containers"
+   url: "/display/containers/Advantages+of+Containers"
  - text: Containers as a Service
    url: ""
 promotion:

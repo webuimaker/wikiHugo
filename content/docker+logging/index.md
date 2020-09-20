@@ -5,9 +5,9 @@ description: "Logs tell the full story of what is happening, or what happened at
 titleDescription: "Logs tell the full story of what is happening, or what happened at every layer of the stack. Whether it’s the application layer, the <a href='/display/containers/Docker+Networking+101'>networking</a> layer, the infrastructure layer, or storage, logs have all the answers. This page gathers resources about working with <a href='/display/containers/Docker+Containers'>Docker</a> logs, how to manage and implement Docker logs and more." 
 
 type: "widget_page"
-url: "/display/containers/docker+logging" 
+url: "/display/containers/Docker+Logging" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

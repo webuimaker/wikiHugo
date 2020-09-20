@@ -2,19 +2,19 @@
 # Homepage
 title: "Docker OS Interaction"
 description: "Resources about the interaction between Docker and legacy operating systems such as Windows, Linux, Mac and more."
-titleDescription: "Resources about the interaction between Docker and legacy operating systems such as Windows, Linux, <a href='/display/containers/docker+on+mac'>Mac</a> and more." 
+titleDescription: "Resources about the interaction between Docker and legacy operating systems such as Windows, Linux, <a href='/display/containers/Docker+on+Mac'>Mac</a> and more." 
 
 type: "widget_page"
-url: "/display/containers/docker+os+interaction" 
+url: "/display/containers/Docker+OS+Interaction" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Docker Containers
-   url : "/display/containers/docker+containers"
+   url : "/display/containers/Docker+Containers"
  - text: Docker OS Interaction
    url: ""
 TOC: 

@@ -36,6 +36,7 @@ smallItem:
    linkText: ""
    linkUrl: "https://www.veracode.com/blog/managing-appsec/security-needs-shift-left-%E2%80%93-and-right"
    openNewWindow:
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_1.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fveracode.com%3Fsize%3D250"
  - title: "Shifting Security Left: How to Bake Security into Your Software Delivery Process"
    summary: "xebialabs.com"
    linkText: ""

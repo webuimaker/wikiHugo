@@ -2,22 +2,22 @@
 # Homepage
 title: "Containers and Agile Development"
 description: "Agile software development and delivery via containerization are tightly related. This page includes resources about the benefits of using containers in the agile development cycle."
-titleDescription: "Agile software development and delivery via <a href='/display/containers/what+is+a+container'>containerization</a> are tightly related. This page includes resources about the benefits of using containers in the agile development cycle." 
+titleDescription: "Agile software development and delivery via <a href='/display/containers/What+is+a+Container'>containerization</a> are tightly related. This page includes resources about the benefits of using containers in the agile development cycle." 
 
 type: "widget_page"
-url: "/display/containers/containers+and+agile+development/" 
+url: "/display/containers/Containers+and+Agile+Development" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Container Architecture
-   url: "/display/containers/container+architecture/"
+   url: "/display/containers/Container+Architecture/"
  - text: Containers and Agile Development
    url: ""
 promotion:

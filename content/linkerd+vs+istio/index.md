@@ -5,19 +5,19 @@ description: "A service mesh is a dedicated infrastructure layer for managing se
 titleDescription: "A service mesh is a dedicated infrastructure layer for managing service-to-service communication to make it visible, manageable, and controlled. This page compares 2 service mesh products: Linkerd and Istio." 
 
 type: "widget_page"
-url: "/display/containers/linkerd+vs+istio/" 
+url: "/display/containers/Linkerd+vs+Istio/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Container Architecture
-   url: "/display/containers/container+architecture/"
+   url: "/display/containers/Container+Architecture/"
  - text: Service Mesh
    url: "/display/containers/Service+Mesh/"
  - text: Linkerd vs Istio

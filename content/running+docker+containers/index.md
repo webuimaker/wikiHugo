@@ -5,7 +5,7 @@ description: "All docker containers run one main process. After that process is 
 titleDescription: "All <a href='/display/containers/docker+containers'>docker</a> containers run one main process. After that process is complete the container stops running. This page gathers resources about how to run<a href='/display/containers/docker+containers'> docker containers</a> on different <a href='/display/containers/docker+on+mac'>operating systems</a>, including useful docker commands." 
 
 type: "widget_page"
-url: "/display/containers/running+docker+containers" 
+url: "/display/containers/Running+Docker+Containers" 
 rightSide: true 
 # permalink: "/display/containers/container-security-management/"
 # headless = true  # Homepage is headless, other widget pages are not.

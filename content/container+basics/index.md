@@ -2,12 +2,12 @@
 # Homepage
 title: "Container Basics"
 description: "Resources about the basic Docker operations such as running Docker containers, working with dockerfiles, Docker security, creating and sharing Docker images, storing data within containers and more."
-titleDescription: "Resources about the basic concepts of container technology - what are containers and their advantages, containers in the context of agile software development and <a href='/display/containers/containers+and+devops'>DevOps</a>, <a href='/display/containers/container+challenges'>container challenges</a>, and how containers interact with IT infrastructure like public and <a href='/display/containers/containers+and+private+clouds'>private clouds</a>." 
+titleDescription: "Resources about the basic concepts of container technology - what are containers and their advantages, containers in the context of agile software development and <a href='/display/containers/Containers+and+DevOps'>DevOps</a>, <a href='/display/containers/Container+Challenges'>container challenges</a>, and how containers interact with IT infrastructure like public and <a href='/display/containers/Containers+and+Private+Clouds'>private clouds</a>." 
 
 type: "widget_page"
-url: "/display/containers/container+basics" 
+url: "/display/containers/Container+Basics" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

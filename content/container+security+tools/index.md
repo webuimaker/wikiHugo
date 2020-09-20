@@ -9,10 +9,10 @@ titleDescription: "Containers have been one of the hottest trends in the softwar
 " 
 
 type: "widget_page"
-url: "/display/containers/container+security+tools/" 
+url: "/display/containers/Container+Security+Tools/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

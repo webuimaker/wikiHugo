@@ -11,10 +11,10 @@ Cloud computing presents many unique security issues and challenges. In the clou
 " 
 
 type: "widget_page"
-url: "/display/containers/security+issues+in+cloud+computing" 
+url: "/display/containers/Security+Issues+in+Cloud+Computing" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

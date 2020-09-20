@@ -5,19 +5,19 @@ description: "Container scalability is the trait where a container application c
 titleDescription: "<a href='/display/containers/what+is+a+container'>Container</a> scalability is the trait where a container application can handle increased loads of work. This can be achieved by reconfiguring the existing architecture of a single machine to increase available resources or by provisioning additional containers within a cluster of distributed machines. This page gathers resources about how to orchestrate container applications for high scalability." 
 
 type: "widget_page"
-url: "/display/containers/container+scalability/" 
+url: "/display/containers/Container+Scalability/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Advantages of Containers
-   url: "/display/containers/advantages+of+containers"
+   url: "/display/containers/Advantages+of+Containers"
  - text: Container Scalability
    url: ""
 promotion:

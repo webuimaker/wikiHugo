@@ -5,7 +5,7 @@ description: "Docker Hub is a cloud-based repository in which Docker users and p
 titleDescription: "Docker Hub is a <a href='/display/containers/docker+in+the+cloud> cloud-based</a> repository in which <a href='/display/containers/docker+containers'>Docker</a> users and partners create, test, store and distribute <a href='/display/containers/what+is+a+container+image'>container images</a>. Through Docker Hub, a user can access public, open source <a href='/display/containers/what+is+a+container+image+repository'>image repositories</a>, as well as use a space to create their own private repositories, automated build functions, and work groups. his page gathers resources about Docker Hub and how to push and pull container images to and from Docker Hub." 
 
 type: "widget_page"
-url: "/display/containers/working+with+docker+hub" 
+url: "/display/containers/Working+With+Docker+Hub" 
 rightSide: true 
 # permalink: "/display/containers/container-security-management/"
 # headless = true  # Homepage is headless, other widget pages are not.

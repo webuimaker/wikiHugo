@@ -5,19 +5,19 @@ description: "A virtual machine (VM) is an operating system or application envir
 titleDescription: "A virtual machine (VM) is an operating system or application environment installed on software, which imitates dedicated hardware. This page gathers resources about the VM vs. containers comparison, including a comparison of strengths and weaknesses, application portability, security and isolation, and more." 
 
 type: "widget_page"
-url: "/display/containers/containers+vs+virtual+machines/" 
+url: "/display/containers/Containers+vs+Virtual+Machines" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Container Architecture
-   url: "/display/containers/container+architecture/"
+   url: "/display/containers/Container+Architecture/"
  - text: CContainers vs Virtual Machines
    url: ""
 promotion:

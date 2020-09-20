@@ -5,10 +5,10 @@ description: "Google Cloud Functions is a lightweight, event-based, asynchronous
 titleDescription: "Google Cloud Functions is a lightweight, event-based, asynchronous compute solution that allows you to create small, single-purpose functions that respond to cloud events without the need to manage a server or a runtime environment. This page gathers resources about Cloud Functions pricing, tutorials, comparison to AWS Lambda and more." 
 
 type: "widget_page"
-url: "/display/containers/google+cloud+functions/" 
+url: "/display/containers/Google+Cloud+Functions/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

@@ -5,19 +5,19 @@ description: "Container portability means the ability to move an application, in
 titleDescription: "Container portability means the ability to move an application, in other words, port it from one host environment to another. The new host environment <a href='/display/containers/Containers+and+Cloud+Computing'>could</a> be a different kind of <a href='/display/containers/Container+Operating+Systems'>operating system</a>, different version of the same operating system or a different type of hardware platform. This page gathers resources about the benefits of container portability." 
 
 type: "widget_page"
-url: "/display/containers/container+portability/" 
+url: "/display/containers/Container+Portability/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Advantages of Containers
-   url: "/display/containers/advantages+of+containers"
+   url: "/display/containers/Advantages+of+Containers"
  - text: Container Portability
    url: ""
 promotion:

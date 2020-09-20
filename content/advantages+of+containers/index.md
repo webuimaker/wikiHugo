@@ -2,10 +2,10 @@
 # Homepage
 title: "Advantages of Containers"
 description: "Resources about the advantages of containers for developers and ops, including immutability, utilization, portability, performance and scalability."
-titleDescription: "Resources about the advantages of containers for developers and ops, including <a href='/display/containers/container+immutability'>immutability</a>, <a href='/display/containers/container+resource+utilization'>utilization</a>, <a href='/display/containers/Container+Portability'>portability</a>, <a href='/display/containers/Container+Performance'>performance</a> and scalability." 
+titleDescription: "Resources about the advantages of containers for developers and ops, including <a href='/display/containers/Container+Immutability'>immutability</a>, <a href='/display/containers/Container+Resource+Utilization'>utilization</a>, <a href='/display/containers/Container+Portability'>portability</a>, <a href='/display/containers/Container+Performance'>performance</a> and scalability." 
 
 type: "widget_page"
-url: "/display/containers/advantages+of+containers/" 
+url: "/display/containers/Advantages+of+Containers/" 
 
 rightSide: true 
 # permalink: "/display/containers/kubernetes+and+microservices"
@@ -15,7 +15,7 @@ breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Advantages of Containers
    url: ""
 promotion:

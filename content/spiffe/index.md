@@ -11,10 +11,10 @@ The Secure Production Identity Framework For Everyone (SPIFFE) Project defines a
 " 
 
 type: "widget_page"
-url: "/display/containers/spiffe/" 
+url: "/display/containers/SPIFFE/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

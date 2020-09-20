@@ -5,7 +5,7 @@ description: "It is possible to store data within the writable layer of a contai
 titleDescription: "It is possible to store data within the writable layer of a container. <a href='/display/containers/Docker+Containers'>Docker</a> offers three different ways to mount data into a container from the Docker host: volumes, bind mounts, or tmpfs volumes. This page gathers resources about various to store data with containers, the downsides like the persistent storage and information on how to manage data in Docker." 
 
 type: "widget_page"
-url: "/display/containers/storing+data+within+containers" 
+url: "/display/containers/Storing+Data+Within+Containers" 
 rightSide: true 
 # permalink: "/display/containers/container-security-management/"
 # headless = true  # Homepage is headless, other widget pages are not.

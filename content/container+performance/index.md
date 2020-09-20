@@ -5,19 +5,19 @@ description: "Container performance refers to speed-related factors such as cont
 titleDescription: "<a href='/display/containers/Containers+vs+Virtual+Machines'>Container</a>performance refers to speed-related factors such as container startup time, resource distribution, and redundancy (duplication of components), and how these affect the software delivery pipeline. This page gathers resources about container performance, including best practices, performance analysis, and academic papers." 
 
 type: "widget_page"
-url: "/display/containers/container+performance/" 
+url: "/display/containers/Container+Performance/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Advantages of Containers
-   url: "/display/containers/advantages+of+containers"
+   url: "/display/containers/Advantages+of+Containers"
  - text: Container Performance
    url: ""
 promotion:

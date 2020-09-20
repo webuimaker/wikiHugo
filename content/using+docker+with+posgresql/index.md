@@ -5,18 +5,18 @@ description: "Postgres, is an object-relational database management system with 
 titleDescription: "Postgres, is an object-relational database management system with an emphasis on extensibility and standards compliance. This page gathers resources on some basic performance metrics for PostgreSQL when they are run as containers." 
 
 type: "widget_page"
-url: "/display/containers/using+docker+with+posgresql" 
+url: "/display/containers/Using+Docker+with+PosgreSQL" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Docker Containers
-   url : "/display/containers/docker+containers"
+   url : "/display/containers/Docker+Containers"
  - text: Docker With Other Tools
-   url: "/display/containers/docker+with+other+tools/"
+   url: "/display/containers/Docker+With+Other+Tools"
  - text: Using Docker with PosgreSQL
    url: ""
 promotion:

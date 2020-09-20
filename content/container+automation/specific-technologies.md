@@ -29,7 +29,7 @@ smallItem:
    linkUrl: "https://technologyconversations.com/2017/06/16/automating-jenkins-docker-setup/"
    openNewWindow: 
    image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_1.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Ftechnologyconversations.com%3Fsize%3D250" 
- - title: "Labelling Automated Builds on Docker Hubp"
+ - title: "Labelling Automated Builds on Docker Hub"
    summary: "medium.com"
    linkText: ""
    linkUrl: "https://medium.com/microscaling-systems/labelling-automated-builds-on-docker-hub-f3d073fb8e1"

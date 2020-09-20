@@ -5,10 +5,10 @@ description: "Azure Functions is a solution for easily running small pieces of c
 titleDescription: "Azure Functions is a solution for easily running small pieces of code, or 'functions,' in the cloud. You can write just the code you need for the problem at hand, without worrying about a whole application or the infrastructure to run it. This page gathers resources about Azure Functions basics, comparison to AWS Lambda and more." 
 
 type: "widget_page"
-url: "/display/containers/azure+functions/" 
+url: "/display/containers/Azure+Functions/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

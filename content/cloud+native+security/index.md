@@ -2,19 +2,16 @@
 # Homepage
 title: "Cloud Native Security"
 description: "
-Businesses are increasingly reliant on cloud-native applications despite the strong, broad perception that use of the cloud will drive security risks. This page gathers resources about the security gaps of cloud-native applications •and which issues are top of mind.
-
-
-"
+Businesses are increasingly reliant on cloud-native applications despite the strong, broad perception that use of the cloud will drive security risks. This page gathers resources about the security gaps of cloud-native applications •and which issues are top of mind."
 titleDescription: "
 Businesses are increasingly reliant on cloud-native applications despite the strong, broad perception that use of the cloud will drive security risks. This page gathers resources about the security gaps of cloud-native applications •and which issues are top of mind.
 " 
 
 type: "widget_page"
-url: "/display/containers/cloud+native+security/" 
+url: "/display/containers/Cloud+Native+Security/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

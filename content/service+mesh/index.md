@@ -5,19 +5,19 @@ description: "A service mesh is a configurable infrastructure layer for a micros
 titleDescription: "A service mesh is a configurable infrastructure layer for a <a href='/display/containers/Containers+and+Microservices'>microservices</a> application. It makes communication between service instances flexible, reliable, and fast. This page gathers resources on service mesh architecture, examples an the <a href='/display/containers/Istio'>Istio</a> project." 
 
 type: "widget_page"
-url: "/display/containers/service+mesh/" 
+url: "/display/containers/Service+Mesh/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Container Architecture
-   url: "/display/containers/container+architecture/"
+   url: "/display/containers/Container+Architecture/"
  - text: Service Mesh
    url: ""
 promotion:

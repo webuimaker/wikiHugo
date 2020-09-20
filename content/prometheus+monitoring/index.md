@@ -5,10 +5,10 @@ description: "Prometheus is a systems and service monitoring system. It collects
 titleDescription: "Prometheus is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts if some condition is observed to be true. This Page gathers resources about Prometheus’ architecture, pros and cons, Installing Prometheus and more." 
 
 type: "widget_page"
-url: "/display/containers/prometheus+monitoring/" 
+url: "/display/containers/Prometheus+Monitoring/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

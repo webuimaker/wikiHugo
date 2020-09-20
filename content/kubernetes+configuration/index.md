@@ -5,18 +5,18 @@ description: "Kubernetes Guide reads YAML files to configure services, pods and 
 titleDescription: "<a href='/display/containers/Kubernetes+Guide'>Kubernetes Guide</a> reads YAML files to configure <a href='/display/containers/Kubernetes+Services'>services</a>, <a href='/display/containers/Kubernetes+Pods'>pods</a> and replication controllers.This page gathers resources about working with the <a href='/display/containers/Working+with+Kubernetes+Dashboard'>Kubernetes </a> configuration to deploy containers." 
 
 type: "widget_page"
-url: "/display/containers/kubernetes+configuration" 
+url: "/display/containers/Kubernetes+Configuration" 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url: "/display/containers/kubernetes+guide"
+   url: "/display/containers/Kubernetes+Guide"
  - text: Kubernetes Operations
-   url: "/display/containers/kubernetes+operations"
+   url: "/display/containers/Kubernetes+Operations"
  - text: Kubernetes Configuration
    url: ""
 promotion:

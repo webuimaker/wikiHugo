@@ -5,7 +5,7 @@ description: "While Docker Containers have fundamentally accelerated application
 titleDescription: "While Docker Containers have fundamentally accelerated application development, organizations using them still must adhere to the same set of external regulations, including NIST, PCI and HIPAA.  They also must meet their internal policies for best practices and configurations. This page gathers resources about Docker compliance, policies, and its challenges." 
 
 type: "widget_page"
-url: "display/containers/docker+compliance" 
+url: "display/containers/Docker+Compliance" 
 rightSide: true 
 # permalink: "/display/containers/container-security-management/"
 # headless = true  # Homepage is headless, other widget pages are not.

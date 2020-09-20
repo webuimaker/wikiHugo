@@ -5,18 +5,18 @@ description: "Docker is heavily using Alpine as a base image for official Docker
 titleDescription: "Docker is heavily using Alpine as a base image for official Docker images, every official Docker image has a tag for Alpine. This page gathers resources about the benefits of using Alpine over Ubuntu, tutorials on installing and running Docker in Alpine and more." 
 
 type: "widget_page"
-url: "/display/containers/docker+on+alpine" 
+url: "/display/containers/Docker+on+Alpine" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Docker Containers
-   url : "/display/containers/docker+containers"
+   url : "/display/containers/Docker+Containers"
  - text: Docker OS Interaction
-   url: "/display/containers/docker+os+interaction/"
+   url: "/display/containers/Docker+OS+Interaction/"
  - text: Docker on Alpine
    url: ""
 promotion:

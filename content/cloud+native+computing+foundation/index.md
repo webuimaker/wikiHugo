@@ -1,22 +1,20 @@
 ---
 # Homepage
-title: "Cloud Native Computing Foundation
-
-"
+title: "Cloud Native Computing Foundation"
 description: "
 The Cloud Native Computing Foundation builds sustainable ecosystems and fosters a community around a constellation of high-quality projects that orchestrate containers as part of a microservices architecture.
 
 
 "
 titleDescription: "
-The <a href='/display/containers/cloud+native+security'>Cloud Native Computing Foundation</a> builds sustainable ecosystems and fosters a community around a constellation of high-quality projects that orchestrate containers as part of a microservices architecture.
+The <a href='/display/containers/Cloud+Native+Security'>Cloud Native Computing Foundation</a> builds sustainable ecosystems and fosters a community around a constellation of high-quality projects that orchestrate containers as part of a microservices architecture.
 " 
 
 type: "widget_page"
-url: "/display/containers/cloud+native+computing+foundation/" 
+url: "/display/containers/Cloud+Native+Computing+Foundation/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

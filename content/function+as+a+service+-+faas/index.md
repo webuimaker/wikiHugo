@@ -5,10 +5,10 @@ description: "FaaS is the concept of serverless computing via serverless archite
 titleDescription: "FaaS is the concept of serverless computing via serverless architectures. Software developers can leverage this to deploy an individual “function”, action, or piece of business logic. This page gathers resources about. This page gathers resources about main providers of serverless platforms: AWS Lambda, Azure Functions and Google Cloud Functions." 
 
 type: "widget_page"
-url: "/display/containers/function+as+a+service+-+faas/" 
+url: "/display/containers/Function+as+a+Service+-+FaaS/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

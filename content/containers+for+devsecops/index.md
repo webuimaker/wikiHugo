@@ -5,10 +5,10 @@ description: "DevSecOps is an extension of the DevOps concept that emphasizes th
 titleDescription: "DevSecOps is an extension of the <a href='/display/containers/Containers+and+DevOps'>DevOps</a> concept that emphasizes the integration of security teams into <a href='/display/containers/Containers+and+Agile+Development'>continuous delivery</a> workflows. This page gathers resources about how DevSecOps makes for a more efficient and secure containers. " 
 
 type: "widget_page"
-url: "/display/containers/containers+for+devsecops/" 
+url: "/display/containers/Containers+for+DevSecOps/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

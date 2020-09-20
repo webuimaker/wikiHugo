@@ -5,7 +5,7 @@ description: "Container monitoring is the activity of monitoring the performance
 titleDescription: "<a href='/display/containers/What+is+a+Container'>Container</a> is the activity of monitoring the <a href='/display/containers/Container+Performance'>performance</a> of microservice containers in different environments. Monitoring is the first step towards optimizing and improving performance. This page gathers resources about the container monitoring process, tools and important metrics to watch during the process." 
 
 type: "widget_page"
-url: "/display/containers/container+monitoring/" 
+url: "/display/containers/Container+Monitoring/" 
 
 rightSide: true 
 # permalink: "/display/containers/kubernetes+and+microservices"

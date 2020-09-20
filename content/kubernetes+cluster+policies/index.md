@@ -2,22 +2,22 @@
 # Homepage
 title: "Kubernetes Cluster Policies"
 description: "For enterprise production deployments of Kubernetes clusters, enforcing cluster-wide policies to restrict what a container is allowed to do is an extremely important requirement. This page gathers resources about Kubernetes Cluster Policies such as Pod Security Policies, Network Policies and Resource Quotas."
-titleDescription: "For enterprise production deployments of <a href='/display/containers/kubernetes+cluster'>Kubernetes clusters</a>, enforcing cluster-wide policies to restrict what a container is allowed to do is an extremely important requirement. This page gathers resources about Kubernetes Cluster Policies such as<a href='/display/containers/kubernetes+pods'>Pod</a>Security Policies, Network Policies and Resource Quotas." 
+titleDescription: "For enterprise production deployments of <a href='/display/containers/Kubernetes+Cluster'>Kubernetes clusters</a>, enforcing cluster-wide policies to restrict what a container is allowed to do is an extremely important requirement. This page gathers resources about Kubernetes Cluster Policies such as<a href='/display/containers/Kubernetes+Pods'>Pod</a>Security Policies, Network Policies and Resource Quotas." 
 
 type: "widget_page"
-url: "/display/containers/kubernetes+cluster+policies/" 
+url: "/display/containers/Kubernetes+Cluster+Policies" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url: "/display/containers/kubernetes+guide/"
+   url: "/display/containers/Kubernetes+Guide"
  - text: Kubernetes Cluster
-   url: "/display/containers/kubernetes+cluster/"
+   url: "/display/containers/Kubernetes+Cluster/"
  - text: Kubernetes Cluster Policies
    url: ""
 promotion:

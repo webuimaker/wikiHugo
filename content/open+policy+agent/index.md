@@ -2,19 +2,16 @@
 # Homepage
 title: "Open Policy Agent"
 description: "
-Open Policy Agent (OPA) is a general-purpose policy engine with uses ranging from authorization and admission control to data filtering. OPA provides greater flexibility and expressiveness than hard-coded service logic or ad-hoc domain-specific languages. This page gathers resources about the basic of open policy agent and tutorials.
-
-
-"
+Open Policy Agent (OPA) is a general-purpose policy engine with uses ranging from authorization and admission control to data filtering. OPA provides greater flexibility and expressiveness than hard-coded service logic or ad-hoc domain-specific languages. This page gathers resources about the basic of open policy agent and tutorials."
 titleDescription: "
 Open Policy Agent (OPA) is a general-purpose policy engine with uses ranging from authorization and admission control to data filtering. OPA provides greater flexibility and expressiveness than hard-coded service logic or ad-hoc domain-specific languages. This page gathers resources about the basic of open policy agent and tutorials.
 " 
 
 type: "widget_page"
-url: "/display/containers/open+policy+agent/" 
+url: "/display/containers/Open+Policy+Agent/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

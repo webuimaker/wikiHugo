@@ -5,9 +5,9 @@ description: "The Kubernetes cluster architecture provides a flexible, loosely-c
 titleDescription: "The <a href='display/containers/Kubernetes+Cluster'>Kubernetes cluster</a> cluster architecture provides a flexible, loosely-coupled mechanism for service discovery. Like most distributed computing platforms, a Kubernetes cluster consists of at least one master and multiple compute nodes. This page gathers resources about the <a href='/display/containers/Kubernetes+Architecture+101'>Kubernetes architecture</a> components like <a href='/display/containers/Kubernetes+Nodes'>Kubernetes Nodes</a>, <a href='/display/containers/Kubernetes+Pods'>Kubernetes Pods</a>, Kubernetes Registry and more." 
 
 type: "widget_page"
-url: "/display/containers/kubernetes+architecture" 
+url: "/display/containers/Kubernetes+Architecture" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

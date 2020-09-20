@@ -2,12 +2,12 @@
 # Homepage
 title: "Controlling Docker With systemd"
 description: "Systemd provides a standard process for controlling programs and processes on Linux hosts. One of the nice things about systemd is that it is a single command that can be used to manage almost all aspects of a process. This page gathers resources about how to use systemd with Docker daemon service."
-titleDescription: "Systemd provides a standard process for controlling programs and processes on Linux hosts. One of the nice things about systemd is that it is a single <a href='/display/containers/docker+CLI+commands'>command</a> that can be used to manage almost all aspects of a process. This page gathers resources about how to use systemd with <a href='/display/containers/Docker+Containers'>Docker</a> daemon service." 
+titleDescription: "Systemd provides a standard process for controlling programs and processes on Linux hosts. One of the nice things about systemd is that it is a single <a href='/display/containers/Docker+CLI+Commands'>command</a> that can be used to manage almost all aspects of a process. This page gathers resources about how to use systemd with <a href='/display/containers/Docker+Containers'>Docker</a> daemon service." 
 
 type: "widget_page"
-url: "/display/containers/controlling+docker+with+systemd" 
+url: "/display/containers/Controlling+Docker+With+Systemd" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

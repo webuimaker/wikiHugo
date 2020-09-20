@@ -2,21 +2,21 @@
 # Homepage
 title: "Using Docker with ElasticSearch"
 description: "Elasticsearch is a powerful open source search and analytics engine that makes data easy to explore. This page gathers resources about how to use Docker with ElasticSearch, Kibana and Logstash for monitoring, log analysis and how to deploy elasticsearch docker containers."
-titleDescription: "Elasticsearch is a powerful open source search and analytics engine that makes data easy to explore. This page gathers resources about how to use <a href='/display/containers/docker+architecture'>Docker</a> with ElasticSearch, Kibana and Logstash for <a href='/display/containers/container+monitoring'>monitoring</a>, log analysis and how to deploy elasticsearch docker containers." 
+titleDescription: "Elasticsearch is a powerful open source search and analytics engine that makes data easy to explore. This page gathers resources about how to use <a href='/display/containers/Docker+Architecture'>Docker</a> with ElasticSearch, Kibana and Logstash for <a href='/display/containers/Container+Monitoring'>monitoring</a>, log analysis and how to deploy elasticsearch docker containers." 
 
 type: "widget_page"
-url: "/display/containers/using+docker+with+elasticsearch" 
+url: "/display/containers/Using+Docker+with+ElasticSearch" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Docker Containers
-   url : "/display/containers/docker+containers"
+   url : "/display/containers/Docker+Containers"
  - text: Docker With Other Tools
-   url: "/display/containers/docker+with+other+tools/"
+   url: "/display/containers/Docker+With+Other+Tools"
  - text: Using Docker with ElasticSearch
    url: ""
 promotion:

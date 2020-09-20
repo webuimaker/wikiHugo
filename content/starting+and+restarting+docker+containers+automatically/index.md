@@ -2,21 +2,21 @@
 # Homepage
 title: "Starting and Restarting Docker Containers Automatically"
 description: "Docker provides restart policies to control whether your containers start automatically when they exit, or when Docker restarts. Restart policies ensure that linked containers are started in the correct order. This page gathers resources about how to automatically start Docker container on boot or after server crash."
-titleDescription: "Docker provides restart policies to control whether your containers start automatically when they exit, or when Docker restarts. Restart policies ensure that linked containers are started in the correct order. This page gathers resources about how to automatically start <a href='/display/containers/docker+containers'>Docker container</a> on boot or after server crash." 
+titleDescription: "Docker provides restart policies to control whether your containers start automatically when they exit, or when Docker restarts. Restart policies ensure that linked containers are started in the correct order. This page gathers resources about how to automatically start <a href='/display/containers/Docker+Containers'>Docker container</a> on boot or after server crash." 
 
 type: "widget_page"
-url: "/display/containers/starting+and+restarting+docker+containers+automatically" 
+url: "/display/containers/Starting+and+restarting+docker+containers+automatically" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Docker Containers
-   url : "/display/containers/docker+containers"
+   url : "/display/containers/Docker+Containers"
  - text: Docker Administration
-   url: "/display/containers/docker+administration"
+   url: "/display/containers/Docker+Administration"
  - text: Starting and Restarting Docker Containers Automatically
    url: ""
 promotion:

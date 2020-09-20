@@ -22,7 +22,7 @@ smallItem:
    linkText: ""
    linkUrl: "https://blog.atomicinc.com/2017/05/03/did-docker-declare-war-on-redhat-and-coreos/"
    openNewWindow: 
-   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_1.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fblog.atomicinc.com%3Fsize%3D250" 
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_1.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fblog.sixeyed.com%3Fsize%3D250" 
  - title: "Did Docker Declare War on RedHat and CoreOS?"
    summary: "blog.atomicinc.com"
    linkText: ""

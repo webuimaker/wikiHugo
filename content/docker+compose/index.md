@@ -2,12 +2,12 @@
 # Homepage
 title: "Docker Compose"
 description: "Docker Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration."
-titleDescription: "Docker Compose is a <a href='/display/containers/docker+tools'>tool</a> for defining and running multi-container <a href='/display/containers/docker-containers'>Docker applications</a>. With Compose, you use a YAML file to configure your application’s services. Then, with a single <a href='/display/containers/docker+CLI+commands'>command</a>, you create and start all the services from your configuration." 
+titleDescription: "Docker Compose is a <a href='/display/containers/Docker+Tools'>tool</a> for defining and running multi-container <a href='/display/containers/Docker-Containers'>Docker applications</a>. With Compose, you use a YAML file to configure your application’s services. Then, with a single <a href='/display/containers/Docker+CLI+Commands'>command</a>, you create and start all the services from your configuration." 
 
 type: "widget_page"
-url: "display/containers/docker+compose" 
+url: "display/containers/Docker+Compose" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

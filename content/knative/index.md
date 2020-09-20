@@ -5,10 +5,10 @@ description: "Knative (pronounced kay-nay-tiv) extends Kubernetes to provide a s
 titleDescription: "Knative (pronounced kay-nay-tiv) extends <a href='/display/containers/Kubernetes+Helm+101'>Kubernetes </a> to provide a set of middleware components that are essential to build modern, source-centric, and container-based applications that can run anywhere: on premises, in the cloud, or even in a third-party data center. This page gathers resources about the basics of Knative, including tutorials and official documentation." 
 
 type: "widget_page"
-url: "/display/containers/knative/" 
+url: "/display/containers/Knative/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

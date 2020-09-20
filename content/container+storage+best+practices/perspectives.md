@@ -70,7 +70,7 @@ smallItem:
    linkText: ""
    linkUrl: "https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/"
    openNewWindow: 
-   image: "https://blog.codedellemc.com/2017/06/27/container-storage-architectures-kubernetes-docker-mesos-compare/" 
+   image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_1.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fblog.codedellemc.com%3Fsize%3D250" 
  - title: "Demystifying Persistent Storage: As Containers Die, Data Lives On"
    summary: "appdevelopermagazine.com"
    linkText: ""

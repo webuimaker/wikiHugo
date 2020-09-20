@@ -5,16 +5,16 @@ description: "Resources about using Docker containers with tools, services and e
 titleDescription: "Resources about using Docker containers with tools, services and environments like NGINX, Jenkins, PosgreSQL,  <a href='/display/containers/Using+Docker+with+ElasticSearch'>ElasticSearch</a> and more." 
 
 type: "widget_page"
-url: "/display/containers/docker+with+other+tools" 
+url: "/display/containers/Docker+With+Other+Tools" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Docker Containers
-   url : "/display/containers/docker+containers"
+   url : "/display/containers/Docker+Containers"
  - text: Docker With Other Tools
    url: ""
 TOC: 

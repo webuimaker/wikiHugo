@@ -5,18 +5,18 @@ description: "Load balancing is a relatively straightforward task in many non-co
 titleDescription: "Load balancing is a relatively straightforward task in many non-container environments, but it involves a bit of special handling when it comes to containers. There are two different types of load balancing in Kubernetes - Internal load balancing across containers of the same type using a label, and external load balancing. This page gathers resources about how to configure and use the Kubernetes load balancer feature." 
 
 type: "widget_page"
-url: "/display/containers/kubernetes+load+balancing" 
+url: "/display/containers/Kubernetes+Load+Balancing" 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url: "/display/containers/kubernetes+guide/"
+   url: "/display/containers/Kubernetes+Guide"
  - text: Kubernetes Operations
-   url: "/display/containers/kubernetes+operations"
+   url: "/display/containers/Kubernetes+Operations"
  - text: Kubernetes Load Balancing
    url: ""
 promotion:

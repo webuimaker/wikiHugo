@@ -5,10 +5,10 @@ description: "Containers are like any other data source that needs to be protect
 titleDescription: "<a href='/display/containers/Container+Basics'>Containers</a> are like any other data source that needs to be protected. As your organization comes to rely on <a href='/display/containers/Docker+Containers'>Docker</a> containerization technology for critical IT functions, you need to ensure appropriate safeguards are in place to minimize disruptions to your business <a href='/display/containers/Containers+Ops'>operations</a>. This page gathers resources about container backup and disaster recovery methods, tools and guides on how to set it up." 
 
 type: "widget_page"
-url: "/display/containers/container+backup+and+disaster+recovery/" 
+url: "/display/containers/Container+Backup+and+Disaster+Recovery/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

@@ -124,7 +124,7 @@ smallItem:
    openNewWindow: 
    image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_1.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fmicrosoft.com%3Fsize%3D250" 
  - title: "Secure SDLC and DevOps - Micro Focus"
-   summary: ">microfocus.com"
+   summary: "microfocus.com"
    linkText: ""
    linkUrl: "https://www.microfocus.com/en-us/marketing/secure-sdlc-and-devops"
    openNewWindow: 

@@ -5,18 +5,18 @@ description: "Jenkins is one of the most popular, if not the most popular, conti
 titleDescription: "Jenkins is one of the most popular, if not the most popular, continuous integration and continuous <a  href='/display/containers/Docker+Deployment'>deployment</a> tool available. This process could become even more efficient using Docker and containers. This page gathers resources on why <a href='/display/containers/Docker+Containers'>Docker</a> is a good option when it comes to continuous deployment with Jenkins." 
 
 type: "widget_page"
-url: "/display/containers/using+docker+with+jenkins" 
+url: "/display/containers/Using+Docker+with+Jenkins" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Docker Containers
-   url : "/display/containers/docker+containers"
+   url : "/display/containers/Docker+Containers"
  - text: Docker With Other Tools
-   url: "/display/containers/docker+with+other+tools/"
+   url: "/display/containers/Docker+With+Other+Tools"
  - text: Using Docker with Jenkins
    url: ""
 promotion:

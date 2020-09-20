@@ -29,7 +29,7 @@ smallItem:
    linkUrl: "https://www.scalyr.com/blog/prometheus-tutorial-detailed-guide-to-getting-started/"
    openNewWindow: 
    image: "https://res.cloudinary.com/agile-seo/image/fetch/w_62,dpr_1.0,d_blank_am8gzx.png/https%3A%2F%2Flogo.clearbit.com%2Fscalyr.com%3Fsize%3D250" 
- - title: "ow to Setup Prometheus Monitoring On Kubernetes Cluster"
+ - title: "How to Setup Prometheus Monitoring On Kubernetes Cluster"
    summary: "devopscube.com"
    linkText: ""
    linkUrl: "https://devopscube.com/setup-prometheus-monitoring-on-kubernetes/"

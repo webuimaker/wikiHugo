@@ -5,19 +5,19 @@ description: "Today’s requirements on modern web applications demand high avai
 titleDescription: "Today’s requirements on modern web applications demand high availability and scalability for which a microservice architecture has shown to be a promising solution. However, building a microservice architecture from scratch is sometimes not possible when monolithic web applications are already in place and cannot be replaced. Instead, it is required to break up this monolith step-by-step into microservices." 
 
 type: "widget_page"
-url: "/display/containers/refactoring+a+monolith+to+microservices/" 
+url: "/display/containers/Refactoring+a+Monolith+to+Microservices/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Container Architecture
-   url: "/display/containers/container+architecture/"
+   url: "/display/containers/Container+Architecture/"
  - text: Refactoring a Monolith to Microservices
    url: ""
 promotion:

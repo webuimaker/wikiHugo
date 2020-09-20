@@ -5,18 +5,18 @@ description: "This section will map out the key players in the Kubernetes ecosys
 titleDescription: "This section will map out the key players in the <a href='https://blog.aquasec.com/managing-kubernetes-secrets' target='_blank'>Kubernetes </a> ecosystem, from the well-known industry leaders to innovative start-ups solutions. " 
 
 type: "widget_page"
-url: "/display/containers/kubernetes+ecosystem" 
+url: "/display/containers/Kubernetes+Ecosystem" 
 rightSide: true 
-# permalink: "/display/containers/container+runtime+interface"
+# permalink: "/display/containers/Container+Runtime+Interface"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url : "/display/containers/kubernetes+guide"
+   url : "/display/containers/Kubernetes+Guide"
  - text: Kubernetes Architecture
-   url: "/display/containers/kubernetes+architecture"
+   url: "/display/containers/Kubernetes+Architecture"
  - text: Kubernetes Ecosystem
    url: ""
 promotion:

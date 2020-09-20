@@ -5,10 +5,10 @@ description: "Adopting and integrating serverless architecture into a product el
 titleDescription: "Adopting and integrating serverless architecture into a product eliminates many of the costs surrounding <a href='/display/containers/Container+Deployment'>deployment</a>, but – it doesn’t eliminate security concerns, or the need for application security throughout the DevOps lifecycle. This page gathers resources about serverless security concerns and best practices." 
 
 type: "widget_page"
-url: "/display/containers/serverless+security/" 
+url: "/display/containers/Serverless+Security/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

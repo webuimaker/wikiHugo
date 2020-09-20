@@ -1,14 +1,13 @@
 ---
 # Homepage
-title: "Containers in The Data Center
-"
+title: "Containers in The Data Center"
 description: "Containers are being adopted in the data center in a rapid pace. Infrastructure managers must embrace this change to address the demands of bimodal IT, but in a controlled and tactical manner. This page gathers resources about the role of containers in data centers and the implications that container adoption will have for data center operators.
 "
 titleDescription: "<a href='/display/containers/what+is+a+container'>Containers</a> are being adopted in the data center in a rapid pace. Infrastructure managers must embrace this change to address the demands of bimodal IT, but in a controlled and tactical manner. This page gathers resources about the role of containers in data centers and the implications that container adoption will have for data center operators.
 " 
 
 type: "widget_page"
-url: "/display/containers/Containers+in+The+Data+Center/" 
+url: "/display/containers/containers+in+the+data+center/" 
 
 rightSide: true 
 # permalink: "/display/containers/kubernetes+and+microservices"

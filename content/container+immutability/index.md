@@ -5,7 +5,7 @@ description: "The principle of container immutability regards an image unchangea
 titleDescription: "The principle of <a href='/display/containers/What+is+a+Container'>container </a> immutability regards an image unchangeable once it is built, and requires creating a new <a href='/display/containers/What+is+a+Container+Image'>image</a> if changes need to be made. This page gathers resources about the container immutability principle, its benefits and implications." 
 
 type: "widget_page"
-url: "/display/containers/container+immutability//" 
+url: "/display/containers/Container+Immutability/" 
 
 rightSide: true 
 # permalink: "/display/containers/kubernetes+and+microservices"
@@ -15,9 +15,9 @@ breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Advantages of Containers
-   url: "/display/containers/advantages+of+containers"
+   url: "/display/containers/Advantages+of+Containers"
  - text: Container Immutability
    url: ""
 promotion:

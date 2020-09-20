@@ -4,76 +4,76 @@ sidebar:
     icon: "yesIcon"
     childrenContent: 
     - name: Docker 101    
-      url: "/display/containers/docker+101"
+      url: "/display/containers/Docker+101"
       icon: "yesIcon"
       sectionList:
       - name: Basic Docker Operations 
         url: "/display/containers/Basic+Docker+Operations"
         child:
         - name: Docker Image Repositories
-          url: "/display/containers/docker+image+repositories" 
+          url: "/display/containers/Docker+Image+Repositories" 
         - name: Working With Dockerfiles
-          url: "/display/containers/working+with+dockerfiles"
+          url: "/display/containers/Working+With+Dockerfiles"
         - name: Running Docker Containers
-          url: "/display/containers/running+docker+containers"
+          url: "/display/containers/Running+Docker+Containers"
         - name: Working With Docker Hub
-          url: "/display/containers/working+with+docker+hub"
+          url: "/display/containers/Working+With+Docker+Hub"
         - name: Docker Container Management
-          url: "/display/containers/docker+container+management"
+          url: "/display/containers/Docker+Container+Management"
         - name: Storing Data Within Containers
-          url: "/display/containers/storing+data+within+containers"
+          url: "/display/containers/Storing+Data+Within+Containers"
         - name: Docker Compliance
-          url: "/display/containers/docker+compliance"
+          url: "/display/containers/Docker+Compliance"
 
       - name: Docker Administration 
-        url: "/display/containers/docker+administration"
+        url: "/display/containers/Docker+Administration"
         child:
         - name: Docker Configuration
-          url: "/display/containers/docker+configuration" 
+          url: "/display/containers/Docker+Configuration" 
         - name: Collecting Docker Metrics
-          url: "/display/containers/collecting+docker+metrics"
+          url: "/display/containers/Collecting+Docker+Metrics"
         - name: Starting and Restarting Docker Containers Automatically
-          url: "/display/containers/starting+and+restarting+docker+containers+automatically"
+          url: "/display/containers/Starting+and+restarting+docker+containers+automatically"
         - name: Managing Container Resources
-          url: "/display/containers/managing+container+resources"
+          url: "/display/containers/Managing+Container+Resources"
         - name: Controlling Docker With systemd
-          url: "/display/containers/controlling+docker+with+systemd"
+          url: "/display/containers/Controlling+Docker+With+Systemd"
         - name: Docker CLI Commands
-          url: "/display/containers/docker+cli+commands"
+          url: "/display/containers/Docker+CLI+Commands"
         - name: Docker Logging
-          url: "/display/containers/docker+logging"
+          url: "/display/containers/Docker+Logging"
         - name: Troubleshooting Docker Engine
-          url: "/display/containers/troubleshooting+docker+engine"
+          url: "/display/containers/Troubleshooting+Docker+Engine"
         - name: Docker Orchestration - Tools and Options
-          url: "/display/containers/docker+orchestration+-+tools+and+options"
+          url: "/display/containers/Docker+Orchestration+-+Tools+and+Options"
 
       - name: Docker Security Resources 
-        url: "/display/containers/docker+security+resources"
+        url: "/display/containers/Docker+Security+Resources"
         child:
         - name: Docker Repository Security and Certificates
-          url: "/display/containers/docker+repository+security+and+certificates" 
+          url: "/display/containers/Docker+Repository+Security+and+Certificates" 
         - name: Docker Trusted Image Registry  
-          url: "/display/containers/docker+trusted+image+registry"
+          url: "/display/containers/Docker+Trusted+Image+Registry"
         - name: Docker AppArmor Security Profiles
-          url: "/display/containers/docker+apparmor+security+profiles"
+          url: "/display/containers/Docker+AppArmor+Security+Profiles"
         - name: Isolating Docker Containers
-          url:  "/display/containers/iosolating+docker+containers"
+          url:  "/display/containers/Isolating+Docker+Containers"
         - name: Docker CIS Benchmark
-          url: "/display/containers/docker+cis+benchmark"
+          url: "/display/containers/Docker+CIS+Benchmark"
           
       - name: Docker OS Interaction 
-        url: "/display/containers/docker+os+interaction"
+        url: "/display/containers/Docker+OS+Interaction"
         child:
         - name: Docker on Windows
-          url: "/display/containers/docker+on+windows"
+          url: "/display/containers/Docker+on+Windows"
         - name: Docker on Ubuntu
-          url: "/display/containers/docker+on+ubuntu"
+          url: "/display/containers/Docker+on+Ubuntu"
         - name: Docker on Mac
-          url: "/display/containers/docker+on+mac"
+          url: "/display/containers/Docker+on+Mac"
         - name: Docker on Alpine
-          url: "/display/containers/docker+on+alpine"
+          url: "/display/containers/Docker+on+Alpine"
         - name: Docker on Debian
-          url: "/display/containers/docker+on+debian"
+          url: "/display/containers/Docker+on+Debian"
           
       - name: Docker With Other Tools
         url: "/display/containers/Docker+With+Other+Tools"
@@ -178,7 +178,7 @@ sidebar:
         - name: Kubernetes Security 
           url:   "https://www.aquasec.com/solutions/kubernetes-container-security/"
         - name: Kubernetes Networking 
-          url:   "/display/containers/kubernetes+networking+101"
+          url:   "/display/containers/Kubernetes+Networking+101"
         - name: Kubernetes Storage Management
           url:   "/display/containers/Kubernetes+Storage+Management" 
         - name: Kubernetes in Production 
@@ -249,12 +249,12 @@ sidebar:
       - name: Containers and Agile Development 
         url:  "/display/containers/Containers+and+Agile+Development"   
       - name: Containers vs Virtual Machines 
-        url: "/display/containers/containers+vs+virtual+machines"
+        url: "/display/containers/Containers+vs+Virtual+Machines"
         subChild:
         - name: Containers vs Unikernels
           url:  "/display/containers/Containers+vs+Unikernels" 
       - name: Containers vs Traditional Application Model
-        url: "/display/containers/Containers+vs+traditional+tpplication+todel" 
+        url: "/display/containers/Containers+vs+Traditional+Application+Model" 
       - name: Containers and Microservices 
         url: "/display/containers/Containers+and+Microservices"  
       - name: Service Mesh 
@@ -410,7 +410,7 @@ sidebar:
     - name: Cloud-Native Applications 
       url: "/display/containers/Cloud-Native+Applications"
     - name: Cloud-Native Architecture 
-      url: "/display/containers/Cloud-Native+Architecture "
+      url: "/display/containers/Cloud-Native+Architecture"
     - name: Cloud Native AWS   
       url: "/display/containers/Cloud+Native+AWS"
     - name: Cloud Native Development 
@@ -428,7 +428,7 @@ sidebar:
     - name: Oracle Cloud Security  
       url: "/display/containers/Oracle+Cloud+Security"
     - name: SaaS Cloud Security  
-      url: "/display/containers/SaaS+Cloud+Security "
+      url: "/display/containers/SaaS+Cloud+Security"
     - name: Security Issues in Cloud Computing 
       url: "/display/containers/Security+Issues+in+Cloud+Computing"
     - name: SPIFFE 
@@ -545,15 +545,15 @@ sidebar:
       url: "/display/containers/CWPP" 
 
   - sectionMain: Other Container Engines
-    url:   "/display/containers/Container+Platforms" 
+    url:   "/display/containers/Other+Container+Engines" 
     icon: ""
     sectionList:
     - name: Containerd
-      url: "/display/containers/Containers+and+Cloud+Computing"  
+      url: "/display/containers/Containerd"  
     - name: CRI-O
-      url: "/display/containers/Containers+and+Cloud+Computing"
+      url: "/display/containers/CRI-O"
     - name: RunC
-      url: "/display/containers/Containers+and+Cloud+Computing"  
+      url: "/display/containers/RunC"  
   - sectionMain: Kubernetes Alternatives
     url:  "/display/containers/Kubernetes+Alternatives"
     icon: ""
@@ -565,6 +565,6 @@ sidebar:
     icon: ""
     sectionList:
     - name: Wiki Site Map
-      url:  "/display/containers/Container+Technology+Wiki+Site+Map"  
+      url:  "/display/containers/container+technology+wiki+site+map"  
      
 

@@ -7,10 +7,10 @@ titleDescription: "Container isolation aim to protect the underlying host OS tha
 " 
 
 type: "widget_page"
-url: "/display/containers/container+isolation/" 
+url: "/display/containers/Container+Isolation/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

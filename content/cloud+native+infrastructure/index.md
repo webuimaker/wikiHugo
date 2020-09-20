@@ -2,19 +2,16 @@
 # Homepage
 title: "Cloud Native Infrastructure"
 description: "
-Cloud-native is an approach to building and running applications that exploits the advantages of the cloud computing delivery model. Cloud-native infrastructure is the hardware and software that runs and supports the applications. This page gather resources about cloud native infrastructure and how to build it.
-
-
-"
+Cloud-native is an approach to building and running applications that exploits the advantages of the cloud computing delivery model. Cloud-native infrastructure is the hardware and software that runs and supports the applications. This page gather resources about cloud native infrastructure and how to build it."
 titleDescription: "
 Cloud-native is an approach to building and running applications that exploits the advantages of the cloud computing delivery model. Cloud-native infrastructure is the hardware and software that runs and supports the applications. This page gather resources about cloud native infrastructure and how to build it.
 " 
 
 type: "widget_page"
-url: "/display/containers/cloud+native+infrastructure/" 
+url: "/display/containers/Cloud+Native+Infrastructure/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

@@ -4,9 +4,9 @@ title: "Kubernetes Guide"
 description: "The raw deal on Docker - architecture, concepts, basics, opinions, to ninja topics like Docker Swarm and Docker Networking."
 titleDescription: "Learning Kubernetes? This page will introduce you to the architecture, comparison with other container orchestrators, basic operations, clustering, Kubernetes services, deployment on-prem and on the cloud, Kubernetes networking, and more."
 type: "widget_page"
-url: "/display/containers/kubernetes+guide"  
+url: "/display/containers/Kubernetes+Guide"  
 rightSide: true # true or false for right side bar
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

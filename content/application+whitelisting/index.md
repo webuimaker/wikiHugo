@@ -1,18 +1,15 @@
 ---
 # Homepage
 title: "Application Whitelisting"
-description: "Whitelisting is the practice of specifying an index of approved applications that are permitted to be present and active. There are several characteristics of containers that lend themselves to intent-based security, which, in effect, is whitelisting. This page gathers resources about whitelisting in Kubertenes and other platforms.
-
-
-"
+description: "Whitelisting is the practice of specifying an index of approved applications that are permitted to be present and active. There are several characteristics of containers that lend themselves to intent-based security, which, in effect, is whitelisting. This page gathers resources about whitelisting in Kubertenes and other platforms."
 titleDescription: "SWhitelisting is the practice of specifying an index of approved applications that are permitted to be present and active. There are several characteristics of containers that lend themselves to intent-based security, which, in effect, is whitelisting. This page gathers resources about whitelisting in Kubertenes and other platforms.
 " 
 
 type: "widget_page"
-url: "/display/containers/application+whitelisting/" 
+url: "/display/containers/Application+Whitelisting/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:

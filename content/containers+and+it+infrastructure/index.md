@@ -5,17 +5,17 @@ description: "Information technology infrastructure is composed of physical and 
 titleDescription: "Information technology infrastructure is composed of physical and virtual resources that support the flow, storage, processing and analysis of data. This page gathers resources about the combination of containers and IT Infrastructure like hybrid clouds, private clouds, data center and more." 
 
 type: "widget_page"
-url: "/display/containers/containers+and+it+infrastructure/" 
+url: "/display/containers/Containers+and+IT+Infrastructure/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/container+Basics"
  - text: Containers and IT Infrastructure
    url: ""
 

@@ -2,22 +2,22 @@
 # Homepage
 title: "What is a Container Image Repository"
 description: "A container iimage repository is a collection of related container images, usually providing different versions of the same application or service. This page gathers resources about image repositories, including tutorials and specific environments in which image repositories are used."
-titleDescription: "A <a href='/display/containers/what+is+a+container'>container </a> image repository is a collection of related container images, usually providing different versions of the same application or service. This page gathers resources about image repositories, including tutorials and specific environments in which image repositories are used." 
+titleDescription: "A <a href='/display/containers/Container+Basics'>container </a> image repository is a collection of related container images, usually providing different versions of the same application or service. This page gathers resources about image repositories, including tutorials and specific environments in which image repositories are used." 
 
 type: "widget_page"
-url: "/display/containers/what+is+a+container+image+repository/" 
+url: "/display/containers/What+is+a+Container+Image+Repository" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Container Architecture
-   url: "/display/containers/container+architecture/"
+   url: "/display/containers/Container+Architecture/"
  - text: What is a Container Image Repository
    url: ""
 promotion:

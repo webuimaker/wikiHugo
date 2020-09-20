@@ -7,17 +7,17 @@ titleDescription: "Containers are quickly becoming popular as a way to speed and
 " 
 
 type: "widget_page"
-url: "/display/containers/container+challenges/" 
+url: "/display/containers/Container+Challenges/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Container Basics
-   url: "/display/containers/container+basics"
+   url: "/display/containers/Container+Basics"
  - text: Container Challenges
    url: ""
 promotion:

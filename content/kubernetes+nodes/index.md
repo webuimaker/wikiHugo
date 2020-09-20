@@ -5,18 +5,18 @@ description: "A node is a worker machine in Kubernetes, previously known as a mi
 titleDescription: "A node is a worker machine in <a href='https://blog.aquasec.com/managing-kubernetes-secrets' class='external-link' target='_blank'>Kubernetes</a>, previously known as a minion. A node may be a VM or physical machine, depending on the <a href='/display/containers/Kubernetes+Cluster'>cluster</a>. Each node in Kubernetes has the services necessary to run pods and is managed by the master components. The services on a node include <a href='/display/containers/Docker+Containers'>Docker</a>, kubelet and kube-proxy. This page gathers resources about how to create and manage <a href='/display/containers/Kubernetes+Guide'>Kubernetes</a> Nodes." 
 
 type: "widget_page"
-url: "/display/containers/kubernetes+nodes" 
+url: "/display/containers/Kubernetes+Nodes" 
 rightSide: true 
-# permalink: "/display/containers/container-security-management/"
+# permalink: "/display/containers/Container-Security-Management/"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
  - text: Container Technology Wiki
    url: "/"
  - text: Kubernetes Guide
-   url : "/display/containers/kubernetes+guide"
+   url : "/display/containers/Kubernetes+Guide"
  - text: Kubernetes Architecture
-   url: "/display/containers/kubernetes+architecture"
+   url: "/display/containers/Kubernetes+Architecture"
  - text: Kubernetes Nodes
    url: ""
 promotion:

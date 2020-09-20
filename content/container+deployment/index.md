@@ -5,10 +5,10 @@ description: "Container-based deployments have become the preferred approach for
 titleDescription: "Container-based deployments have become the preferred approach for managing the build and release of complex applications. Popular container technologies such as <a href='/display/containers/Docker+Containers'>Docker</a> enable developer velocity by providing a robust environment closely resembling production that can be constructed in minutes. This page gathers resources about container-based deployments, including overviews, tutorials and more." 
 
 type: "widget_page"
-url: "/display/containers/container+deployment/" 
+url: "/display/containers/Container+Deployment/" 
 
 rightSide: true 
-# permalink: "/display/containers/kubernetes+and+microservices"
+# permalink: "/display/containers/Kubernetes+and+Microservices"
 # headless = true  # Homepage is headless, other widget pages are not.
 active: true
 breadcrumbs:
